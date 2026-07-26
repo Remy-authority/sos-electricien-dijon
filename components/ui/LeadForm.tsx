@@ -133,7 +133,7 @@ export function LeadForm() {
               exit="exit"
               transition={{ duration: 0.3, ease: EASE }}
             >
-              <h2 className="mt-6 text-2xl text-sand-50 md:text-3xl">Qu&apos;est-ce qui est bouché ?</h2>
+              <h2 className="mt-6 text-2xl text-sand-50 md:text-3xl">Que se passe-t-il chez vous ?</h2>
               <p className="mt-2 text-sm text-sand-400">
                 Choisissez la situation la plus proche de la vôtre.
               </p>

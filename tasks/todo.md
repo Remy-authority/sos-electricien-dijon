@@ -39,10 +39,35 @@ référence unique du contenu.** Conséquences :
       geo.api.gouv.fr : 15/15 exactes, codes Insee compris ; zéro tiret cadratin dans le
       contenu ; pas de chiffres inventés)
 - [x] Détecter et arbitrer la divergence Builder / plan SEO (voir encadré ci-dessus)
-- [ ] Superviser les prochains comptes-rendus (Builder réaligné, Autoblog)
-- [ ] Contrôle visuel CEO : comparer côte à côte avec Metz (refuser un simple
-      recoloriage), vérifier 1 image UNIQUE par page commune
-- [ ] Mettre à jour docs/ETAT.md en fin de session
+- [x] Superviser le compte-rendu Builder (livraison du 27/07, réalignée sur le plan SEO)
+- [x] Contrôle visuel CEO fait (desktop + mobile + comparaison Metz) : VERDICT POSITIF,
+      identité distincte confirmée, images communes toutes différenciées (hash vérifiés).
+      DEUX corrections demandées au Builder (vestiges plomberie, voir ci-dessous)
+- [ ] Re-contrôle CEO des 2 corrections Builder, puis validation Rémy
+- [ ] Message Autoblog (drafts T1) après la passe corrective
+- [x] Mettre à jour docs/ETAT.md en fin de session
+
+## PASSE CORRECTIVE BUILDER demandée par le CEO (27/07/2026) — 2 points, rien d'autre
+
+1. `app/contact/page.tsx:36` : le titre dit « Dites-nous ce qui ne s'écoule plus »,
+   vocabulaire de plomberie hérité de Metz. Reformuler pour l'électricité (par exemple
+   « Dites-nous ce qui ne répond plus », au choix du Builder, cohérent avec la charte).
+2. `components/ui/LeadForm.tsx:136` : la question de l'étape 1 du formulaire est
+   « Qu'est-ce qui est bouché ? ». Reformuler pour l'électricité (par exemple
+   « Qu'est-ce qui vous arrive ? » ou « Que se passe-t-il chez vous ? »), les cartes de
+   symptômes au-dessous sont déjà correctes.
+   Interdits inchangés : tiret cadratin, chiffres inventés. Ne toucher à rien d'autre.
+
+**Fait par le Builder le 27/07/2026 :**
+
+- [x] 1. `app/contact/page.tsx` : « ne s'écoule plus » remplacé par « ne répond plus »
+      (le span en dégradé accent est conservé, la charte du PageHeader ne bouge pas).
+- [x] 2. `components/ui/LeadForm.tsx` : « Qu'est-ce qui est bouché ? » remplacé par
+      « Que se passe-t-il chez vous ? ». Les huit cartes de symptômes sont inchangées.
+- [x] Vérifié : plus aucun terme de plomberie dans `app/` et `components/`
+      (`écoule`, `bouché`, `refoulement`, `siphon`, `canalisation` : zéro occurrence),
+      `tsc` propre, `npm run build` vert (40 pages), contrôle visuel des deux écrans.
+      Aucun autre fichier de code touché.
 
 ## Session du 27/07/2026 (Builder, Opus), identité Dijon — TERMINÉE
 

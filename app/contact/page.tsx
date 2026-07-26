@@ -33,7 +33,7 @@ export default function ContactPage() {
         title={
           <>
             Dites-nous ce qui
-            <span className="text-gradient-accent"> ne s&apos;écoule plus</span>
+            <span className="text-gradient-accent"> ne répond plus</span>
           </>
         }
         subtitle="Par téléphone pour une urgence, par le formulaire si ça peut attendre quelques heures."

@@ -121,3 +121,16 @@ un numéro par site).
   liste de pages avant que le plan SEO existe, réalignement complet sur arbitrage CEO (2 pages
   jetées, 6 communes ajoutées, 4 slugs renommés) ; leçon consignée dans `tasks/lessons.md`.
   Vérifié : `tsc` propre, `npm run build` vert (40 pages), captures Playwright desktop et mobile.
+- **27/07/2026 (CEO, contrôle visuel)** : contrôle complet de la preview de la branche
+  `builder/identite-dijon` (accueil, 2 prestations, hub zones, 5 pages communes, contact,
+  conseils, mobile avec menu ouvert) plus comparaison côte à côte avec Metz en ligne.
+  VERDICT : identité Dijon réussie et nettement distincte de Metz (palette prune/carmin vs
+  teal/vermillon, hero panneau photo vs photo pleine largeur, bandeau symptômes inédit, carte
+  vedette, galerie asymétrique, pages communes en bandeau pleine largeur vs photo encadrée),
+  pas un recoloriage. Images communes réellement différenciées (empreintes toutes distinctes,
+  décors locaux crédibles : plateau de Talant, vignes de Marsannay, tram de Quetigny, canal à
+  Plombières). Les deux défauts de menu mobile de Metz sont absents. DEUX VESTIGES METZ à
+  corriger avant validation Rémy (vocabulaire plomberie) : titre de la page contact « ne
+  s'écoule plus » (`app/contact/page.tsx:36`) et question du formulaire « Qu'est-ce qui est
+  bouché ? » (`components/ui/LeadForm.tsx:136`). Message correctif transmis au Builder via
+  Rémy. Domaine : acheté par Rémy le 27/07/2026, en attente de validation AFNIC.
