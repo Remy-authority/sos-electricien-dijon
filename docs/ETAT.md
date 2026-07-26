@@ -64,8 +64,10 @@ un numéro par site).
 - [ ] Builder : injecter les vraies valeurs de Rémy (domaine, 09 dédié, email, identité artisan, assurance) quand elles arrivent
 - [ ] Autoblog : drafts T1 (préfixes 001-…)
 - [x] Contrôle visuel CEO (identité distincte de Metz confirmée) → GO Rémy le 27/07/2026 → MERGE sur `main` fait (ff jusqu'à `7880377`), production vérifiée : www.sos-electricien-dijon.fr sert le site Dijon, apex en 308, sitemap 28 URLs, noindex toujours actif
-- [ ] Rémy : créer la propriété Google Search Console (type Domaine, TXT DNS chez OVH, instructions fournies par le CEO le 27/07/2026)
-- [ ] Étape 6 (le jour du go réel) : retirer `SEO_NOINDEX` sur Vercel + redéployer + vérifier robots/sitemap + soumettre le sitemap dans GSC
+- [x] Rémy : propriété GSC créée, TXT `google-site-verification` posé en DNS (propagation vérifiée par le CEO le 27/07/2026)
+- [x] ÉTAPE 6 FAITE le 27/07/2026 sur go explicite de Rémy : `SEO_NOINDEX` retiré de Vercel, production redéployée, vérifié : robots.txt en `Allow` (crawlers IA explicitement autorisés), `Sitemap:` référencé, sitemap 200 avec 28 URLs, meta robots `index, follow`. LE SITE EST EN LIGNE : https://www.sos-electricien-dijon.fr
+- [ ] Rémy : soumettre `sitemap.xml` dans Search Console (Sitemaps)
+- [ ] Numéro : le site affiche ENCORE le numéro fiction ARCEP (03 53 01 21 21, phoneIsDemo) ; surveillance d'achat automatique d'un 09 Twilio en cours (recherche CEO du 27/07 : les 09 ne sont PAS retirés du catalogue Twilio, stock intermittent). Dès achat : Builder injecte → re-déploiement.
 
 ## 2bis. POINTS OUVERTS POUR RÉMY (relevés par le Builder)
 
