@@ -43,8 +43,11 @@ référence unique du contenu.** Conséquences :
 - [x] Contrôle visuel CEO fait (desktop + mobile + comparaison Metz) : VERDICT POSITIF,
       identité distincte confirmée, images communes toutes différenciées (hash vérifiés).
       DEUX corrections demandées au Builder (vestiges plomberie, voir ci-dessous)
-- [ ] Re-contrôle CEO des 2 corrections Builder, puis validation Rémy
-- [ ] Message Autoblog (drafts T1) après la passe corrective
+- [x] Re-contrôle CEO des 2 corrections Builder (commit a1993e1 : diff limité à 2 lignes de
+      code vérifié dans git, captures des 2 écrans conformes : « ne répond plus » et
+      « Que se passe-t-il chez vous ? », cartes/étapes/bouton intacts) → prêt pour
+      VALIDATION RÉMY
+- [x] Message Autoblog (drafts T1) préparé et transmis à Rémy
 - [x] Mettre à jour docs/ETAT.md en fin de session
 
 ## PASSE CORRECTIVE BUILDER demandée par le CEO (27/07/2026) — 2 points, rien d'autre
@@ -94,6 +97,41 @@ la liste improvisée au démarrage est caduque).
 - [x] Corrections issues du contrôle visuel : vide asymétrique du bloc process (colonne collante),
       carte 02 des prestations trop vide (3 puces), textes citant des prestations abandonnées
 - [ ] Commit sur branche `builder/identite-dijon` + push (preview Vercel)
+
+## Session du 27/07/2026 (Autoblog), TRANCHE 1 des drafts blog conseils — TERMINÉE
+
+6 articles écrits dans `content/drafts/` (préfixes `001-` à `006-`), sujets piochés dans
+`docs/CALENDRIER-EDITORIAL.md` en commençant par la saison en cours (juillet, orages d'été)
+puis août, plutôt que par janvier :
+
+- [x] `001-coupure-courant-orage-ete-dijon.mdx` → `panne-de-courant-coupure-electricite`
+      (Juillet #1)
+- [x] `002-une-seule-piece-sans-courant-causes.mdx` → `panne-de-courant-coupure-electricite`
+      (Juillet #2)
+- [x] `003-odeur-brule-prise-electrique-reflexe.mdx` → `recherche-de-panne-electrique`
+      (Juillet #3)
+- [x] `004-difference-coupure-edf-panne-interne.mdx` → `panne-de-courant-coupure-electricite`
+      (Juillet #4)
+- [x] `005-couper-tableau-electrique-vacances.mdx` → `renovation-tableau-electrique`
+      (Août #1)
+- [x] `006-verifier-electricite-logement-vide-retour.mdx` → `recherche-de-panne-electrique`
+      (Août #2)
+
+Vérifications faites : zéro tiret cadratin (`grep` sur les 6 fichiers, aucune occurrence),
+zéro chiffre d'activité/certification inventés, `relatedServices` de chaque draft contrôlés
+contre les 8 slugs réels de `content/services/`, frontmatter YAML validé par script Node
+(`gray-matter`, champs requis présents, 3 FAQ par article, aucune ne redite les FAQ des
+pages service liées). Ancrage local Dijon utilisé quand pertinent (bâti ancien centre-ville
+pour le tableau mal étiqueté et l'humidité de cave, climat bourguignon pour le chauffage
+d'appoint), jamais plaqué sur les sujets qui ne s'y prêtaient pas (odeur de brûlé, EDF vs
+Enedis). Pas d'image inline dans le corps (convention déjà utilisée par certains drafts
+Metz non illustrés) : seul `cover` est renseigné, avec dégradation propre déjà gérée par
+`lib/content.ts` (`coverIfExists`) tant que le visuel n'existe pas.
+
+- [ ] Audit CEO du contenu (doctrine + qualité) avant que l'Action `publish-article.yml`
+      ne commence à les publier (lun/mer/ven, le plus ancien numéro en premier)
+- [ ] Réapprovisionner le calendrier avant épuisement de la file (reste 42 sujets pour
+      l'année 1 après cette tranche)
 
 ## En attente de Rémy
 

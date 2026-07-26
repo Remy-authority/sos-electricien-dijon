@@ -134,3 +134,20 @@ un numéro par site).
   s'écoule plus » (`app/contact/page.tsx:36`) et question du formulaire « Qu'est-ce qui est
   bouché ? » (`components/ui/LeadForm.tsx:136`). Message correctif transmis au Builder via
   Rémy. Domaine : acheté par Rémy le 27/07/2026, en attente de validation AFNIC.
+- **27/07/2026 (CEO, re-contrôle)** : passe corrective du Builder vérifiée (commit `a1993e1`,
+  diff de code limité aux 2 lignes attendues, contrôlé dans git ET en captures sur la preview :
+  titre contact « Dites-nous ce qui ne répond plus », formulaire « Que se passe-t-il chez
+  vous ? », cartes de symptômes, barre d'étapes et bouton intacts). Plus aucun vocabulaire
+  plomberie dans `app/` et `components/`. Le site sur `builder/identite-dijon` est PRÊT POUR
+  LA VALIDATION RÉMY (avec valeurs DEMO : téléphone fiction ARCEP, persona, email). Message
+  Autoblog T1 préparé. Prochaines étapes : drafts Autoblog, validation Rémy, injection des
+  vraies valeurs (domaine validé AFNIC, 09, email, artisan), merge `main`, Étape 6.
+- **27/07/2026 (Autoblog)** : Tranche 1 des drafts blog conseils écrite, 6 articles dans
+  `content/drafts/` (`001-` à `006-`), sujets pris dans `docs/CALENDRIER-EDITORIAL.md` en
+  commençant par juillet (orages d'été, 4 sujets) puis août (2 sujets), pas par janvier.
+  Liens vers pages service aux slugs exacts du plan SEO (`panne-de-courant-coupure-electricite`
+  ×3, `recherche-de-panne-electrique` ×2, `renovation-tableau-electrique` ×1). Zéro tiret
+  cadratin, zéro chiffre inventé, FAQ de 3 questions par article vérifiées non redondantes
+  avec la FAQ des pages service liées, frontmatter YAML validé par script. Pas d'image inline
+  dans le corps, `cover` seul renseigné (dégradation propre déjà gérée par le code tant que
+  le visuel n'existe pas). En attente : audit CEO du contenu avant mise en file de publication.
