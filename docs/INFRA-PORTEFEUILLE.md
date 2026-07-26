@@ -78,6 +78,15 @@ jamais une donnée non confirmée ; l'artisan locataire affichera la sienne s'il
   production par vagues de 15 articles auditées par le CEO entre chaque.
 - File d'attente : alterner 1 sujet saisonnier / 2 sujets intemporels pour que la
   saisonnalité tienne à ce rythme (un calendrier « 4 sujets/mois » se consomme 3x trop vite).
+- **Doctrine images du blog (arbitrages CEO du 27/07/2026)** :
+  - Marquages NORMALISÉS du matériel (ON/OFF, graduations, pictogrammes) : tolérés,
+    ils sont illisibles à la taille d'affichage. Marques COMMERCIALES (Linky, Schneider,
+    Legrand, électroménager...), texte lisible, visages : interdits, contrôle image par
+    image obligatoire (les modèles réintroduisent marques, collages multi-images et
+    visages malgré les consignes ; en vague 1 comme en vague 2, ~20 % des visuels ont
+    dû être repris).
+  - Décor régional : exigé seulement quand l'article l'évoque naturellement (comme le
+    texte) ; un décor français crédible suffit ailleurs, ne pas sur-« dijoniser ».
 
 ## 5. Étape 6 (mise en ligne réelle), déroulé CEO
 
