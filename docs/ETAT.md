@@ -207,3 +207,16 @@ un numéro par site).
   avec la FAQ des pages service liées, frontmatter YAML validé par script. Pas d'image inline
   dans le corps, `cover` seul renseigné (dégradation propre déjà gérée par le code tant que
   le visuel n'existe pas). En attente : audit CEO du contenu avant mise en file de publication.
+- **27/07/2026 (SEO, mise à niveau calendrier vague 2)** : décision Rémy transmise par le CEO,
+  3 articles/semaine pendant 6 mois, 78 au total (15 déjà publiés/en draft, 63 à planifier).
+  `docs/CALENDRIER-EDITORIAL.md` réécrit intégralement : 30 nouveaux sujets ajoutés (surtout
+  pour combler `urgence-depannage-electricien` et `electricien-syndic-copropriete-professionnels`,
+  quasi absents de l'ancien calendrier à 12 thèmes génériques), 5 titres retouchés pour ne plus
+  recouper une FAQ de page service ou un autre sujet, 3 titres désaisonnalisés (mention « été »
+  retirée, plus de bonne place dans la fenêtre réelle). File 16 à 78 réordonnée sur le calendrier
+  réel de publication (calculé à partir du lundi 27/07/2026, 3x/semaine) : août (fin), septembre,
+  octobre, novembre, décembre, janvier 2027. Les 4 sujets de fêtes de fin d'année (guirlandes,
+  décorations extérieures, multiprises et coupure pendant un repas) tombent bien en décembre.
+  Répartition finale équilibrée : 10 articles par page service, sauf le syndic/copro à 8.
+  Vérifié par script : 78 positions sans trou ni doublon, zéro titre dupliqué. En attente :
+  audit CEO avant que l'Autoblog convertisse la section 3 en drafts `016-` à `078-`.
