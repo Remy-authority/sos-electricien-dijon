@@ -64,6 +64,21 @@ Décision Rémy (27/07/2026, définitive pour le portefeuille) : **pas d'assuran
 (pas de RC pro / décennale dans `content/legal.json`). Doctrine inchangée : on n'affiche
 jamais une donnée non confirmée ; l'artisan locataire affichera la sienne s'il le veut.
 
+## 4bis. Blog / autoblog, règles de production (décisions du 27/07/2026)
+
+- **Circuit des rôles, strict** : texte des articles = agent Autoblog (Sonnet) ; images
+  (covers + corps) = Builder ; sujets et ordre de la file = agent SEO ; audit avant toute
+  publication = CEO. Une demande hors rôle se remonte au CEO, elle ne s'exécute pas.
+- Chaque article : 1 cover + au moins 2 images légendées en corps
+  (`/conseils/<slug>.jpg`, `/conseils/<slug>-N.jpg`). Contrôle :
+  `grep -c '![' content/conseils/*.mdx content/drafts/*.mdx` ne doit renvoyer aucun 0.
+- **Poids des images (à partir de la vague 2 et pour tout site N+1)** : 1200 px de large,
+  JPEG qualité 75. Les images déjà produites ne sont pas retraitées.
+- Cadence type validée sur Dijon : 3 publications/semaine (lun/mer/ven, cron GitHub),
+  production par vagues de 15 articles auditées par le CEO entre chaque.
+- File d'attente : alterner 1 sujet saisonnier / 2 sujets intemporels pour que la
+  saisonnalité tienne à ce rythme (un calendrier « 4 sujets/mois » se consomme 3x trop vite).
+
 ## 5. Étape 6 (mise en ligne réelle), déroulé CEO
 
 1. Prérequis : numéro réel injecté, validation finale Rémy, DNS propagé.
