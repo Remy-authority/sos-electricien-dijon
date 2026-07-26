@@ -220,9 +220,56 @@ Auto-contrôles faits (scripts, pas seulement visuel) :
 
 Commit **local sur `main`, SANS push** (le CEO audite puis pousse lui-même).
 
+- [x] Audit CEO du contenu (doctrine + qualité + diff réel du commit)
+- [x] Transmis au Builder pour production des visuels (30 images : 15 cover + 2×15 corps)
+
+## Session du 27/07/2026 (Autoblog), VAGUE 3 du blog conseils, TEXTE UNIQUEMENT — TERMINÉE
+
+Décision Rémy : produire d'avance la totalité des 78 articles, vagues enchaînées sans
+attendre. 15 drafts écrits dans `content/drafts/` (`031-` à `045-`), sujets n°31 à n°45 de
+la section 3 du calendrier, ordre exact respecté :
+
+- [x] `031-fils-electriques-anciens-signes-alerte-avant-travaux.mdx` → `recherche-de-panne-electrique` (I)
+- [x] `032-renover-electricite-avant-apres-travaux-ordre.mdx` → `mise-aux-normes-nfc15100` (I)
+- [x] `033-box-internet-tv-ne-fonctionnent-plus-coupure.mdx` → `recherche-de-panne-electrique` (S)
+- [x] `034-tableau-electrique-place-nouveau-circuit.mdx` → `renovation-tableau-electrique` (I)
+- [x] `035-eclairage-exterieur-terrasse-regles-securite.mdx` → `remplacement-prises-interrupteurs-eclairage` (I)
+- [x] `036-protection-foudre-maison-ce-qui-existe.mdx` → `mise-aux-normes-nfc15100` (S)
+- [x] `037-diagnostic-electrique-obligatoire-vendre-bien-dijon.mdx` → `mise-aux-normes-nfc15100` (I)
+- [x] `038-defaut-isolement-diagnostic-grave-mineur.mdx` → `mise-aux-normes-nfc15100` (I)
+- [x] `039-couper-courant-soi-meme-avant-arrivee-electricien.mdx` → `urgence-depannage-electricien` (I)
+- [x] `040-panne-electrique-enfant-bas-age-precautions.mdx` → `urgence-depannage-electricien` (I)
+- [x] `041-compteurs-individuels-copropriete-responsabilite-panne.mdx` → `electricien-syndic-copropriete-professionnels` (I)
+- [x] `042-rallonge-electrique-jardin-risques-brancher.mdx` → `remplacement-prises-interrupteurs-eclairage` (I)
+- [x] `043-chauffage-appoint-puissance-sans-disjoncteur.mdx` → `disjoncteur-qui-saute` (S)
+- [x] `044-mise-aux-normes-avant-location-loi-impose.mdx` → `mise-aux-normes-nfc15100` (I)
+- [x] `045-tableau-electrique-diagnostic-vente-points-bloquent.mdx` → `renovation-tableau-electrique` (I)
+
+Texte uniquement (aucune image générée), même format que les vagues précédentes.
+
+Auto-contrôles scriptés :
+- `grep "—"` sur les 15 fichiers : zéro tiret cadratin.
+- `grep -c '!\['` : exactement 2 images en corps partout.
+- Frontmatter YAML validé par script (`gray-matter`) : 8 champs requis présents, `slug`
+  cohérent avec le nom de fichier, `relatedServices` vérifiés contre les 8 slugs réels de
+  `content/services/`.
+- Ordre et service lié recoupés un par un avec la section 3 du calendrier : conformes.
+- FAQ : script de comparaison des 45 nouvelles questions contre les 122 questions
+  existantes (30 drafts/articles déjà écrits + 8 pages service) : aucun doublon exact.
+  Vérification sémantique manuelle en plus sur les sujets les plus proches entre eux
+  (037 diagnostic général de vente / 038 défaut d'isolement précis / 045 tableau
+  spécifiquement, trois angles volontairement distincts sur un même thème).
+- Sujets sensibles (parafoudre/paratonnerre §36, diagnostic de vente §37, mise aux normes
+  avant location §44, lien assurance déjà traité en vague 2) rédigés en restant
+  génériques/conditionnels, aucun texte réglementaire précis cité sans certitude qu'il est
+  à jour.
+
+Commit **local sur `main`, SANS push** (le CEO audite puis pousse lui-même).
+
 - [ ] Audit CEO du contenu (doctrine + qualité + diff réel du commit)
 - [ ] Transmettre au Builder pour production des visuels (30 images : 15 cover + 2×15 corps)
-- [ ] Vague 3 à prévoir avant épuisement de la file (reste 48 sujets, positions 31-78)
+- [ ] Vague 4 à enchaîner (reste 33 sujets, positions 46-78) selon la décision Rémy de
+      produire les 78 articles d'avance sans attendre
 
 ## En attente de Rémy
 

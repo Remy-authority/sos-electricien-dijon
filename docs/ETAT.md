@@ -239,3 +239,19 @@ un numéro par site).
   les 8 pages service et les 15 articles déjà écrits (45 nouvelles questions comparées à 77
   existantes). Commit LOCAL sur `main`, PAS de push (le CEO audite puis pousse). En attente :
   audit CEO du contenu, puis transmission au Builder pour les 30 visuels correspondants.
+- **27/07/2026 (Autoblog)** : Vague 3 du blog écrite, 15 drafts (`031-` à `045-`, sujets 31 à
+  45 de la section 3 du calendrier, ordre exact). Décision Rémy transmise par le CEO : produire
+  d'avance la totalité des 78 articles, vagues enchaînées sans attendre l'épuisement de la
+  réserve. Texte uniquement (règle de circuit Autoblog=texte / Builder=images inchangée).
+  Sujets sensibles traités : parafoudre/paratonnerre (distinction claire des deux dispositifs,
+  aucune obligation légale affirmée), diagnostic de vente et mise aux normes avant location
+  (générique et conditionnel, aucun texte réglementaire précis cité). Trois articles proches
+  sur le même thème diagnostic de vente (037 procédure générale, 038 défaut d'isolement
+  spécifique, 045 tableau électrique spécifique) rédigés avec des angles volontairement
+  distincts pour éviter toute redite. Auto-contrôles scriptés : zéro tiret cadratin, 2 images
+  en corps partout, frontmatter YAML complet, `relatedServices` vérifiés contre les 8 slugs
+  réels, ordre et service recoupés un par un avec le calendrier, aucun doublon exact de
+  question FAQ sur 45 nouvelles questions comparées à 122 existantes (30 articles + 8 pages
+  service). Commit LOCAL sur `main`, PAS de push. En attente : audit CEO, puis Builder pour
+  les 30 visuels correspondants. Réserve restante après cette vague : 33 sujets (positions
+  46 à 78).
