@@ -31,49 +31,30 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
 }
 
 /**
- * Pool d'images partagé (logique template N+1) : chaque commune reçoit un visuel
- * d'en-tête et un visuel de corps, assignés de façon déterministe par sa position
- * dans la liste triée. Ajouter un JSON de commune suffit, aucun visuel à produire.
+ * ⚠️ RÈGLE PERMANENTE (décision Rémy 27/07/2026) : chaque commune a SA propre image
+ * de tête, `public/zones/<slug>.jpg`, au décor réellement différencié. Aucun pool
+ * d'images partagé entre communes. Ajouter une commune = ajouter son JSON ET son
+ * image portant exactement le même slug.
  */
-const HERO_POOL = ['/zones/zone-rue.jpg', '/zones/zone-pavillon.jpg', '/zones/zone-collectif.jpg']
-const BODY_POOL = [
-  {
-    src: '/zones/zone-regard.jpg',
-    alt: 'Regard de visite ouvert dans une allée, flexible de curage engagé',
-    caption: "Le regard de visite, premier point d'accès au réseau enterré.",
-  },
-  {
-    src: '/zones/zone-siphon.jpg',
-    alt: 'Siphon de lavabo démonté au-dessus d’un seau',
-    caption: 'Sur un bouchon proche, le démontage du siphon suffit souvent.',
-  },
-  {
-    src: '/zones/zone-camera.jpg',
-    alt: "Écran d'inspection caméra montrant l'intérieur d'une canalisation",
-    caption: "La caméra tranche entre bouchon d'usage et défaut de canalisation.",
-  },
-]
+function zoneImage(slug: string) {
+  return `/zones/${slug}.jpg`
+}
 
 export default function ZonePage({ params }: { params: { slug: string } }) {
   const zone = getZone(params.slug)
   if (!zone) notFound()
 
   const zones = getZones()
-  const idx = Math.max(
-    0,
-    zones.findIndex((z) => z.slug === zone.slug),
-  )
-  const hero = HERO_POOL[idx % HERO_POOL.length]
-  const body = BODY_POOL[(idx + 1) % BODY_POOL.length]
+  const hero = zoneImage(zone.slug)
 
   // Maillage : les prestations les plus probables sur une commune résidentielle.
   const mainServices = getServices()
     .filter((s) =>
       [
-        'urgence-debouchage-canalisation',
-        'debouchage-wc-toilettes-bouchees',
-        'debouchage-evier-lavabo-douche',
-        'debouchage-canalisation-enterree-regard',
+        'urgence-depannage-electricien',
+        'panne-de-courant-coupure-electricite',
+        'disjoncteur-qui-saute',
+        'renovation-tableau-electrique',
       ].includes(s.slug),
     )
     .slice(0, 4)
@@ -93,36 +74,50 @@ export default function ZonePage({ params }: { params: { slug: string } }) {
         ]}
       />
 
-      <section className="noise-overlay relative overflow-hidden bg-gradient-to-b from-ink-950 via-ink-900 to-ink-950 py-16 lg:py-20">
-        <div aria-hidden="true" className="bg-grid absolute inset-0" />
-        <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-12 lg:px-10">
-          <div className="lg:col-span-7">
+      {/* En-tête de commune : bandeau photo pleine largeur, propre à la commune. */}
+      <section className="noise-overlay relative isolate overflow-hidden bg-ink-950">
+        <div className="absolute inset-0 -z-10">
+          <Image
+            src={hero}
+            alt={`Rue et bâti de ${zone.name}, commune desservie par nos électriciens`}
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 bg-gradient-to-r from-ink-950 via-ink-950/85 to-ink-950/45"
+          />
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 bg-gradient-to-t from-ink-950 via-transparent to-ink-950/70"
+          />
+        </div>
+
+        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24">
+          <div className="max-w-3xl">
             <p className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.18em] text-accent-400">
               <MapPin size={16} />
               {zone.name} · {zone.postalCode}
             </p>
             <h1 className="mt-5 text-4xl leading-[1.1] text-sand-50 md:text-5xl">{zone.h1}</h1>
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-sand-200">{zone.intro}</p>
-            <div className="mt-8">
+            <p className="mt-6 text-lg leading-relaxed text-sand-200">{zone.intro}</p>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Button href={`tel:${siteConfig.phone}`} variant="accent" size="lg">
                 <Phone size={18} strokeWidth={2.5} />
                 {siteConfig.phoneDisplay}
               </Button>
+              <Button href="/contact#formulaire" variant="ghost" size="lg">
+                Décrire ma panne
+              </Button>
             </div>
           </div>
+        </div>
 
-          <div className="lg:col-span-5">
-            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-panel border border-brand-400/20 shadow-card">
-              <Image
-                src={hero}
-                alt={`${siteConfig.trade} à ${zone.name}`}
-                fill
-                priority
-                sizes="(min-width: 1024px) 460px, 100vw"
-                className="object-cover"
-              />
-            </div>
-          </div>
+        {/* Rail conducteur : rappel de la signature du site en bas du bandeau. */}
+        <div aria-hidden="true" className="wire-rail absolute inset-x-0 bottom-0">
+          <span className="absolute inset-y-0 left-0 w-24 animate-current-run bg-gradient-to-r from-transparent via-accent-400 to-transparent" />
         </div>
       </section>
 
@@ -133,19 +128,21 @@ export default function ZonePage({ params }: { params: { slug: string } }) {
               <div key={b.heading}>
                 <ServiceBlock block={b} />
                 {i === 0 && (
-                  <figure className="mt-8">
-                    <div className="relative aspect-[3/2] w-full overflow-hidden rounded-card border border-sand-200 shadow-card">
-                      <Image
-                        src={body.src}
-                        alt={body.alt}
-                        fill
-                        sizes="(min-width: 768px) 768px, 100vw"
-                        className="object-cover"
-                        loading="lazy"
-                      />
-                    </div>
-                    <figcaption className="mt-3 text-sm text-sand-500">{body.caption}</figcaption>
-                  </figure>
+                  <dl className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-card border border-sand-200 bg-sand-200 sm:grid-cols-4">
+                    {[
+                      { k: 'Commune', v: zone.name },
+                      { k: 'Code postal', v: zone.postalCode },
+                      { k: 'Département', v: `${siteConfig.departmentName} (${siteConfig.department})` },
+                      { k: 'Ligne urgence', v: siteConfig.availability },
+                    ].map((item) => (
+                      <div key={item.k} className="bg-white px-5 py-4">
+                        <dt className="text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-sand-500">
+                          {item.k}
+                        </dt>
+                        <dd className="mt-1.5 font-medium text-ink-950">{item.v}</dd>
+                      </div>
+                    ))}
+                  </dl>
                 )}
               </div>
             ))}
@@ -204,8 +201,8 @@ export default function ZonePage({ params }: { params: { slug: string } }) {
       <Faq items={zone.faq} eyebrow={zone.name} />
 
       <CtaBanner
-        title={`Canalisation bouchée à ${zone.name} ?`}
-        subtitle={`Nous intervenons à ${zone.name} et dans les communes voisines. Appelez, nous vous donnons le tarif et un créneau réaliste.`}
+        title={`Panne électrique à ${zone.name} ?`}
+        subtitle={`Nous intervenons à ${zone.name} et dans les communes voisines. Appelez, nous qualifions le risque, nous vous donnons le tarif et un créneau réaliste.`}
       />
     </>
   )

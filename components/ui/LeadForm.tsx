@@ -6,13 +6,13 @@ import {
   ArrowLeft,
   ArrowRight,
   Building2,
-  CircleAlert,
-  Droplets,
-  Shovel,
-  ShowerHead,
-  Toilet,
-  TriangleAlert,
-  UtensilsCrossed,
+  ClipboardCheck,
+  Flame,
+  LayoutPanelTop,
+  Lightbulb,
+  Plug,
+  ToggleRight,
+  ZapOff,
   type LucideIcon,
 } from 'lucide-react'
 import { EASE } from '@/lib/motion'
@@ -30,16 +30,16 @@ interface Fields {
   message: string
 }
 
-/** Les huit situations qui couvrent la quasi-totalité des appels débouchage. */
+/** Les huit situations qui couvrent la quasi-totalité des appels en électricité. */
 const TYPES: { id: string; label: string; Icon: LucideIcon }[] = [
-  { id: 'WC ou toilettes bouchés', label: 'WC, toilettes', Icon: Toilet },
-  { id: 'Évier ou lavabo bouché', label: 'Évier, lavabo', Icon: Droplets },
-  { id: 'Douche ou baignoire bouchée', label: 'Douche, baignoire', Icon: ShowerHead },
-  { id: 'Odeurs ou refoulement', label: 'Odeurs, refoulement', Icon: TriangleAlert },
-  { id: 'Canalisation enterrée ou regard', label: 'Regard, enterré', Icon: Shovel },
-  { id: "Colonne d'immeuble ou copropriété", label: "Colonne d'immeuble", Icon: Building2 },
-  { id: 'Bac à graisse (professionnel)', label: 'Bac à graisse', Icon: UtensilsCrossed },
-  { id: 'Autre', label: 'Autre situation', Icon: CircleAlert },
+  { id: 'Plus de courant du tout', label: 'Coupure totale', Icon: ZapOff },
+  { id: 'Disjoncteur ou différentiel qui saute', label: 'Disjoncteur qui saute', Icon: ToggleRight },
+  { id: 'Odeur de brûlé, prise ou interrupteur noirci', label: 'Odeur de brûlé', Icon: Flame },
+  { id: 'Une pièce ou une zone sans électricité', label: 'Pièce sans courant', Icon: Lightbulb },
+  { id: 'Prise, interrupteur ou éclairage à remplacer', label: 'Prise, éclairage', Icon: Plug },
+  { id: 'Tableau électrique à reprendre', label: 'Tableau électrique', Icon: LayoutPanelTop },
+  { id: 'Mise aux normes, diagnostic ou location', label: 'Mise aux normes', Icon: ClipboardCheck },
+  { id: 'Copropriété ou local professionnel', label: 'Copro, professionnel', Icon: Building2 },
 ]
 
 function ProgressBar({ step }: { step: Step }) {
@@ -206,7 +206,7 @@ export function LeadForm() {
                     name="ville"
                     type="text"
                     autoComplete="postal-code"
-                    placeholder="Metz, Montigny-lès-Metz, 57000…"
+                    placeholder="Dijon, Chenôve, Talant, 21000…"
                     value={fields.ville}
                     onChange={(e) => set('ville', e.target.value)}
                     className={inputClass}

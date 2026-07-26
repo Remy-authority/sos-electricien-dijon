@@ -1,0 +1,55 @@
+{
+  "slug": "electricien-syndic-copropriete-professionnels",
+  "order": 8,
+  "icon": "pro",
+  "navTitle": "Copropriétés et professionnels",
+  "h1": "Électricien pour copropriétés et professionnels à Dijon",
+  "metaTitle": "Électricien copropriété et professionnels à Dijon (21)",
+  "metaDescription": "Électricien pour syndics, bailleurs et locaux professionnels à Dijon : parties communes, tableau général, éclairage, dépannage. Devis avant travaux.",
+  "intro": "Parties communes d'un immeuble, local commercial, bureaux, atelier : la logique change. Il y a un donneur d'ordre qui n'est pas l'occupant, des contraintes d'accès, une continuité d'activité à préserver et un compte rendu à produire. Nous intervenons pour les syndics, les bailleurs et les professionnels de Dijon et de la métropole, avec devis et rapport écrits.",
+  "bullets": [
+    "Parties communes et tableau général",
+    "Intervention planifiée avec l'occupant",
+    "Compte rendu écrit après intervention"
+  ],
+  "blocks": [
+    {
+      "heading": "Parties communes : ce sur quoi nous intervenons",
+      "body": "Dans un immeuble, notre périmètre couvre l'éclairage des circulations, des caves et des parkings, avec les minuteries et les détecteurs qui vont avec, le tableau général des communs, la reprise ou le remplacement des protections, l'éclairage de sécurité et son entretien, ainsi que les alimentations des équipements collectifs comme un portail, une porte de garage, une VMC ou une pompe. S'ajoutent le repérage et la remise en état de colonnes montantes anciennes, fréquentes dans les immeubles du centre de Dijon. Nous distinguons systématiquement, dans le devis, ce qui relève des communs et ce qui relève d'un lot privatif : cette séparation évite les litiges au moment de la répartition des charges."
+    },
+    {
+      "heading": "Locaux professionnels : intervenir sans arrêter l'activité",
+      "body": "Pour un commerce, un cabinet ou un atelier, l'enjeu n'est pas seulement technique : une coupure en pleine journée coûte souvent plus cher que les travaux eux-mêmes. Nous planifions donc les interventions lourdes en dehors des heures d'ouverture quand c'est possible, et nous procédons par zones dans le cas contraire. Les demandes courantes sont la reprise d'un éclairage devenu insuffisant ou coûteux, la création de circuits pour de nouveaux équipements, la pose d'un sous-tableau lors d'un réaménagement, la remise en état après un changement d'occupant, et le dépannage lorsqu'un défaut immobilise l'activité. Nous fournissons un devis avant travaux et un compte rendu après, deux documents qui servent aussi bien à l'assurance qu'au bailleur.",
+      "image": "/services/electricien-syndic-copropriete-professionnels-communs.jpg",
+      "imageAlt": "Tableau électrique général dans un local technique d'immeuble, circuits repérés par étiquettes",
+      "imageCaption": "Un tableau de communs correctement repéré fait gagner du temps à chaque intervention."
+    },
+    {
+      "heading": "Le compte rendu, pièce centrale de la relation avec un syndic",
+      "body": "Un gestionnaire ne peut pas se contenter d'une facture : il doit rendre compte au conseil syndical, arbitrer entre entretien et travaux votés, et parfois justifier une dépense en assemblée. Nos comptes rendus décrivent donc ce qui a été trouvé, ce qui a été fait, ce qui reste à surveiller et ce qui appellera une décision. Quand un point relève d'un contrôle réglementaire par un organisme agréé, nous le disons plutôt que de l'inclure dans nos prestations, et quand une anomalie relève d'un lot privatif, nous le signalons pour que le gestionnaire puisse informer le copropriétaire concerné. Cette clarté est ce qui fait qu'une intervention ponctuelle devient une relation de travail durable."
+    }
+  ],
+  "relatedServices": [
+    "renovation-tableau-electrique",
+    "mise-aux-normes-nfc15100"
+  ],
+  "faq": [
+    {
+      "q": "Intervenez-vous pour un syndic ou un bailleur, pas seulement pour un particulier ?",
+      "a": "Oui. Nous travaillons aussi bien avec des syndics et des bailleurs qu'avec des occupants. La prise en charge se fait sur devis, et l'intervention donne lieu à un compte rendu écrit décrivant ce qui a été trouvé et ce qui a été fait. Nous distinguons dans nos documents ce qui relève des parties communes et ce qui relève d'un lot privatif, afin que la répartition des charges ne prête pas à discussion."
+    },
+    {
+      "q": "Une panne dans les communs, qui décide de l'intervention ?",
+      "a": "Le syndic, en tant que représentant du syndicat des copropriétaires, ou la personne à qui il a délégué cette compétence pour les urgences. En pratique, un gardien ou un conseil syndical peut nous alerter, mais l'ordre d'intervention et l'engagement de la dépense viennent du gestionnaire. Pour une situation dangereuse, nous mettons en sécurité sans attendre et nous rendons compte immédiatement : la sécurité passe avant la procédure."
+    },
+    {
+      "q": "Faites-vous les vérifications réglementaires des installations professionnelles ?",
+      "a": "Les vérifications périodiques réglementaires relèvent d'un organisme agréé indépendant, pas de l'entreprise qui réalise les travaux : c'est le principe même du contrôle. Notre rôle est complémentaire : nous levons les observations relevées dans le rapport, nous remettons l'installation en état et nous documentons ce qui a été fait. Nous vous disons clairement, dès le premier échange, ce qui relève de nous et ce qui relève du contrôleur."
+    },
+    {
+      "q": "Pouvez-vous intervenir en dehors des heures d'ouverture de mon commerce ?",
+      "a": "Oui pour les travaux qui imposent une coupure, en soirée ou tôt le matin selon votre activité, et sur créneau convenu à l'avance. Pour les interventions qui n'exigent pas de couper l'ensemble, nous procédons par zones pendant les heures d'ouverture. Le devis précise le créneau retenu, parce que c'est un élément du prix autant que la nature des travaux."
+    }
+  ],
+  "image": "/services/electricien-syndic-copropriete-professionnels.jpg"
+}

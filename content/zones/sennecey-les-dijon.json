@@ -1,0 +1,43 @@
+{
+  "slug": "sennecey-les-dijon",
+  "name": "Sennecey-lès-Dijon",
+  "postalCode": "21800",
+  "context": "Commune résidentielle de l'est de la métropole, entre le canal, la vallée de l'Ouche et les lotissements pavillonnaires.",
+  "metaTitle": "Électricien à Sennecey-lès-Dijon (21)",
+  "metaDescription": "Électricien à Sennecey-lès-Dijon : dépannage 7j/7, recherche de panne, tableau électrique, circuits extérieurs. Devis annoncé avant intervention.",
+  "h1": "Électricien à Sennecey-lès-Dijon",
+  "intro": "Nous intervenons à Sennecey-lès-Dijon (21800) pour le dépannage électrique, la recherche de panne, la reprise de tableau et les circuits extérieurs. Commune résidentielle de l'est dijonnais posée entre la vallée de l'Ouche et le canal, Sennecey associe un village ancien et des lotissements pavillonnaires, avec des terrains souvent généreux qui déportent une partie de l'installation hors de la maison.",
+  "blocks": [
+    {
+      "heading": "Ce qui sort de la maison demande un traitement à part",
+      "body": "Sur des parcelles de cette taille, l'électricité ne s'arrête pas aux murs : éclairage d'allée et de terrasse, portail motorisé, prise extérieure, abri de jardin, arrosage automatique, parfois un local technique de piscine. Ces circuits partagent trois exigences que l'installation d'origine ne prévoyait presque jamais. Il leur faut du matériel réellement étanche aux points de connexion, un câble prévu pour l'enterré posé sous grillage avertisseur dès qu'il traverse le terrain, et surtout une protection différentielle à haute sensibilité qui leur soit propre. Sans ce dernier point, un boîtier qui prend l'eau au fond du jardin coupe le logement entier, et le défaut est d'autant plus long à trouver qu'il est intermittent et lié à la météo."
+    },
+    {
+      "heading": "Proximité de l'eau et sous-sols",
+      "body": "La position de la commune, entre l'Ouche et le canal, se retrouve dans les installations : beaucoup de maisons disposent d'un sous-sol, d'une cave ou d'un garage semi-enterré qui reste humide une bonne partie de l'année. Ce n'est pas l'humidité qui fait disjoncter, mais son travail lent sur les points de connexion et sur l'isolant des conducteurs au contact des murs. Le symptôme apparaît des années après : un différentiel qui coupe après une période de pluie, sans cause apparente à l'étage. La bonne pratique est la même que pour les extérieurs, séparer ces volumes au tableau, utiliser du matériel prévu pour les locaux humides, et, quand une pompe de relevage est installée, lui donner un circuit indépendant pour qu'elle continue de fonctionner même si le reste du sous-sol déclenche."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, de différentiel qui retombe après la pluie ou de panne dans un sous-sol à Sennecey-lès-Dijon, isolez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Sennecey-lès-Dijon, nous couvrons aussi Neuilly-Crimolois, Chevigny-Saint-Sauveur, Quetigny, Longvic et Dijon, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Neuilly-Crimolois",
+    "Chevigny-Saint-Sauveur",
+    "Quetigny"
+  ],
+  "faq": [
+    {
+      "q": "Mon éclairage de jardin fait sauter toute la maison, pourquoi ?",
+      "a": "Parce que le circuit extérieur partage sa protection différentielle avec des circuits intérieurs, ou parce que le logement entier est protégé par un différentiel unique. Un boîtier qui a pris l'eau ou une gaine abîmée suffit alors à tout couper. La correction est simple et durable : un départ dédié pour les extérieurs, avec sa propre protection à haute sensibilité, et la reprise des points de connexion avec du matériel étanche."
+    },
+    {
+      "q": "Quelle profondeur pour un câble qui traverse le jardin ?",
+      "a": "Un câble enterré doit être posé à une profondeur suffisante, dans un fourreau adapté et surmonté d'un grillage avertisseur qui protège des coups d'outil lors de futurs travaux. La règle est autant pratique que réglementaire : un câble posé trop haut finit toujours par être touché par une bêche ou un motoculteur. Nous vérifions aussi la section, car sur une longue distance, un conducteur trop fin provoque une chute de tension gênante."
+    },
+    {
+      "q": "Faut-il un circuit séparé pour une pompe de relevage ?",
+      "a": "Oui, et c'est même essentiel : la pompe sert précisément au moment où le sous-sol prend l'eau, c'est-à-dire au moment où un autre circuit du sous-sol risque de déclencher. Un circuit dédié avec sa propre protection garantit qu'un défaut sur l'éclairage ou sur une prise de cave ne l'arrête pas. Nous en profitons pour contrôler l'état de son câble d'alimentation, souvent posé au plus court à l'installation."
+    }
+  ]
+}

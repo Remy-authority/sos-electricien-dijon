@@ -1,4 +1,4 @@
-# Template « Site Local » — SOS Débouchage Metz
+# Template « Site Local » : SOS Électricien Dijon
 
 Site **Next.js (App Router, 100 % SSG)** + **Tailwind** + **Framer Motion**, déployé
 sur **Vercel**. Conçu comme un **template de site local paramétrable** : un site N+1
@@ -6,7 +6,7 @@ sur **Vercel**. Conçu comme un **template de site local paramétrable** : un si
 jour** en changeant la **config**, le **contenu** et les **visuels**, sans toucher au
 code ni au SEO.
 
-Instance actuelle : **SOS Débouchage Metz** (débouchage de canalisations à Metz, 57).
+Instance actuelle : **SOS Électricien Dijon** (dépannage et travaux électriques à Dijon, 21).
 Site n°3 du portefeuille, dupliqué du pilote `sos-fuite-angers.fr`.
 
 ---
@@ -82,7 +82,7 @@ lib/
   motion.ts                # variants Framer Motion partagés
 components/
   layout/                  # Header, Footer, StickyCTA, PageHeader, LegalPage
-  sections/                # Hero, TrustBar, About, Services, Process, Stats, WhyUs, Gallery, ServiceArea
+  sections/                # Hero, Symptoms, About, Services, Process, Stats, WhyUs, Gallery, ServiceArea
   ui/                      # Button, Card, SectionHeader, AnimatedSection, GradientBlob, Faq, LeadForm…
 app/
   page.tsx                 # accueil (page pilier)
@@ -99,7 +99,7 @@ app/
 ## 5. SEO et GEO
 
 - **Metadata API** sur toutes les pages : title, description, canonical absolu, OpenGraph, robots.
-- **JSON-LD** : `Plumber` (global, avec `additionalType` Wikidata « débouchage »,
+- **JSON-LD** : `Electrician` (global, sous-type natif schema.org,
   `areaServed` et `hasOfferCatalog` généré depuis `content/services`, **sans `address`**
   par défaut, **sans avis**), `Service`, `FAQPage`, `BreadcrumbList`, `Article`.
 - **`/llms.txt`** régénéré au build depuis la config et le contenu (levier GEO).
@@ -117,16 +117,17 @@ app/
 | Chemin | Usage |
 |---|---|
 | `logo.svg`, `app/icon.svg` | marque et favicon |
-| `hero.jpg` | fond d'ambiance du hero d'accueil |
-| `og.png` | image OpenGraph par défaut |
+| `hero.jpg` | panneau photo du hero d'accueil |
+| `og.jpg` | image OpenGraph par défaut |
 | `persona.jpg` | portrait de l'intervenant (bloc « qui sommes-nous ») |
 | `gallery/01…06-*.jpg` | section « sur le terrain » de l'accueil |
 | `services/<slug>.jpg` | en-tête de chaque page prestation |
-| `zones/zone-*.jpg` | pool partagé des pages communes (assignation déterministe) |
+| `zones/<slug>.jpg` | image de tête UNIQUE par commune (aucun pool partagé, règle permanente) |
 | `conseils/*.jpg` | couvertures d'articles (`cover:` du front-matter) |
 
 Règles de production : **aucun texte, logo ou filigrane dans l'image**, aucun visage
-flou, décors réalistes et cohérents avec la région.
+flou, décors réalistes et cohérents avec la région. **Une commune = une image qui lui
+est propre**, au décor réellement différencié des autres communes.
 
 ---
 

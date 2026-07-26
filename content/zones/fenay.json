@@ -1,0 +1,43 @@
+{
+  "slug": "fenay",
+  "name": "Fénay",
+  "postalCode": "21600",
+  "context": "Commune résidentielle du sud de la métropole, composée de plusieurs hameaux et de quartiers pavillonnaires.",
+  "metaTitle": "Électricien à Fénay (21), dépannage et travaux",
+  "metaDescription": "Électricien à Fénay : dépannage électrique 7j/7, recherche de panne, tableau, dépendances et extérieurs. Devis annoncé avant intervention.",
+  "h1": "Électricien à Fénay",
+  "intro": "Nous intervenons à Fénay (21600) pour le dépannage électrique, la recherche de panne, la reprise de tableau et l'alimentation des dépendances. Commune du sud de la métropole formée de plusieurs hameaux et de quartiers pavillonnaires, Fénay présente un habitat dispersé, avec des maisons souvent accompagnées de garages, d'ateliers et de terrains à équiper.",
+  "blocks": [
+    {
+      "heading": "Habitat dispersé : des distances qui changent les règles",
+      "body": "Quand une dépendance se trouve à trente ou quarante mètres du tableau, la question n'est plus seulement de tirer un câble mais de le dimensionner. Sur ces longueurs, un conducteur trop fin provoque une chute de tension : l'éclairage faiblit, un moteur peine à démarrer, un chargeur ou un outil fonctionne mal, et pourtant rien ne déclenche jamais, ce qui rend le défaut difficile à comprendre pour l'occupant. Nous calculons donc la section à partir de la distance et de la puissance réellement prévue, plutôt que de reprendre par défaut celle d'un circuit ordinaire. S'y ajoutent les règles de pose : câble prévu pour l'enterré, profondeur suffisante, grillage avertisseur, et un tableau divisionnaire dans la dépendance dès qu'elle comporte plusieurs points, pour pouvoir couper sur place."
+    },
+    {
+      "heading": "Ateliers et garages : des usages plus lourds que la maison",
+      "body": "Dans les hameaux de Fénay, beaucoup de garages servent aussi d'atelier, avec des outils qui appellent une puissance sans commune mesure avec celle des prises domestiques : compresseur, poste à souder, scie, aspirateur d'atelier. Les alimenter sur une ligne prise en dérivation depuis la maison conduit invariablement aux mêmes symptômes, un disjoncteur qui coupe au démarrage d'une machine et un éclairage qui faiblit en même temps. La réponse durable consiste à créer un circuit dédié, dimensionné pour les appels de courant au démarrage, avec des prises adaptées et un point de coupure sur place. C'est aussi l'occasion de séparer l'éclairage des prises de l'atelier, pour ne pas se retrouver dans le noir précisément quand une machine fait déclencher."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, de déclenchement répété ou de panne dans un atelier à Fénay, isolez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Fénay, nous couvrons aussi Longvic, Ouges, Neuilly-Crimolois, Perrigny-lès-Dijon, Saulon-la-Rue et Dijon, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Longvic",
+    "Neuilly-Crimolois",
+    "Perrigny-lès-Dijon"
+  ],
+  "faq": [
+    {
+      "q": "Mon éclairage faiblit quand une machine démarre, est-ce grave ?",
+      "a": "Ce n'est pas dangereux en soi, mais c'est le signe d'une chute de tension : le circuit n'a pas la section nécessaire pour l'appel de courant au démarrage, souvent parce que la distance est importante ou parce que l'atelier est alimenté en dérivation depuis la maison. La solution est un circuit dédié correctement dimensionné. Augmenter la protection ne changerait rien au phénomène, puisque ce n'est pas elle qui limite."
+    },
+    {
+      "q": "Quel type de prise pour un atelier ?",
+      "a": "Cela dépend des machines. Les outils portatifs courants se contentent de prises classiques sur un circuit dédié, mais un compresseur, un poste à souder ou une machine fixe demandent une alimentation calculée pour leur puissance, parfois en triphasé si vous en disposez. Le point à ne pas négliger est la répartition : séparer l'éclairage des prises de l'atelier évite de se retrouver dans le noir quand une machine fait déclencher son circuit."
+    },
+    {
+      "q": "Intervenez-vous dans les hameaux de la commune ?",
+      "a": "Oui, sur l'ensemble du territoire communal, hameaux compris. Donnez-nous simplement le nom du hameau et de la rue au moment de l'appel, cela nous permet d'annoncer un créneau réaliste. Pour une urgence avérée, odeur de brûlé, appareillage qui a chauffé, coupure totale, appelez sans attendre : nous vous indiquons les gestes de sécurité immédiatement, avant même le déplacement."
+    }
+  ]
+}

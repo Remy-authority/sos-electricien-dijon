@@ -1,0 +1,55 @@
+{
+  "slug": "remplacement-prises-interrupteurs-eclairage",
+  "order": 7,
+  "icon": "prises",
+  "navTitle": "Prises, interrupteurs et éclairage",
+  "h1": "Remplacement de prises, interrupteurs et éclairage à Dijon",
+  "metaTitle": "Remplacement de prises et interrupteurs à Dijon (21)",
+  "metaDescription": "Pose et remplacement de prises, interrupteurs, points lumineux à Dijon : ajout de circuits, va-et-vient, éclairage extérieur. Devis avant intervention.",
+  "intro": "Ajouter une prise là où la rallonge traîne depuis des années, remplacer un appareillage fendu, créer un va-et-vient dans un couloir, poser un éclairage extérieur avec détection : ce sont les travaux qui changent le quotidien pour un budget mesuré. Nous les réalisons à Dijon et dans les communes voisines, avec un tarif annoncé avant l'intervention.",
+  "bullets": [
+    "Ajout de prises et de points lumineux",
+    "Va-et-vient et commandes",
+    "Éclairage intérieur et extérieur"
+  ],
+  "blocks": [
+    {
+      "heading": "Ajouter une prise plutôt que multiplier les rallonges",
+      "body": "Une multiprise branchée sur une autre multiprise derrière un meuble est l'une des causes les plus banales d'échauffement domestique : les contacts se dégradent, la puissance s'accumule sur un point de connexion prévu pour beaucoup moins, et la chaleur monte sans rien déclencher. Ajouter une prise revient à répartir la charge sur le circuit, voire à créer un circuit dédié quand l'usage le justifie, ce qui est le cas d'un bureau bien équipé, d'un coin télévision moderne ou d'une buanderie. Techniquement, la reprise se fait depuis une prise existante quand le circuit le permet et que la section suit, ou depuis le tableau lorsqu'un nouveau départ est nécessaire. Nous vérifions systématiquement ce que supporte le circuit avant d'y raccorder un point supplémentaire : ajouter une prise sur une ligne déjà à sa limite déplace le problème sans le régler.",
+      "image": "/services/remplacement-prises-interrupteurs-eclairage-pose.jpg",
+      "imageAlt": "Pose d'une prise murale neuve dans une boîte d'encastrement, conducteurs préparés",
+      "imageCaption": "Une prise ajoutée proprement vaut mieux que trois multiprises empilées derrière un meuble."
+    },
+    {
+      "heading": "Commandes d'éclairage : ce qui se fait sans tout casser",
+      "body": "Beaucoup de demandes portent sur le confort de commande : allumer le couloir des deux extrémités, piloter le luminaire du séjour depuis l'entrée, ajouter un variateur, commander une prise depuis un interrupteur. Selon l'installation, plusieurs chemins existent. Le va-et-vient classique demande un conducteur supplémentaire entre les deux points, ce qui suppose une gaine exploitable. Quand elle n'existe pas, une commande sans fil associée à un micromodule placé dans le boîtier du luminaire évite la saignée et rend le même service. Le variateur, lui, exige de vérifier la compatibilité avec les sources en place, faute de quoi les lampes clignotent ou bourdonnent. Nous regardons ce qui est déjà en place avant de proposer : dans un logement ancien, la solution la moins invasive est souvent la meilleure."
+    },
+    {
+      "heading": "Éclairage extérieur et pièces d'eau, les deux zones à traiter sérieusement",
+      "body": "Dehors, tout se joue sur l'étanchéité et la protection : boîtier et appareillage adaptés à l'exposition, presse-étoupe correctement serré, câble prévu pour l'enterré quand il traverse un jardin, et circuit protégé par un différentiel à haute sensibilité. Un éclairage extérieur mal étanché est la première cause de différentiel qui saute les jours de pluie, et la réparation coûte plus cher que la pose faite correctement. En salle de bain, la règle est géographique : l'emplacement autorisé pour un point lumineux, une prise ou un interrupteur dépend de sa distance à la baignoire ou au receveur de douche, et la liaison équipotentielle doit relier les éléments métalliques du volume. Ce sont deux endroits où un appareillage posé au mauvais endroit crée un risque réel, et où nous ne transigeons pas, même pour une demande simple."
+    }
+  ],
+  "relatedServices": [
+    "recherche-de-panne-electrique",
+    "renovation-tableau-electrique"
+  ],
+  "faq": [
+    {
+      "q": "Peut-on ajouter une prise sans refaire le circuit ?",
+      "a": "Souvent oui, quand le circuit existant dispose de la réserve nécessaire et que la section du conducteur le permet. On reprend alors l'alimentation depuis une prise voisine, dans le respect du nombre de points admis sur la ligne. Quand le circuit est déjà chargé, ou quand l'usage prévu est un appareil de forte puissance, il faut créer un départ dédié depuis le tableau : c'est plus de travail, mais c'est la seule réponse honnête, sinon la protection coupera régulièrement."
+    },
+    {
+      "q": "Mes prises sont anciennes et sans terre, faut-il les changer ?",
+      "a": "Le remplacement du bloc seul n'apporte rien si le conducteur de terre n'arrive pas jusqu'à la boîte : on obtient une prise moderne qui reste une prise sans terre. La vraie question est donc celle du circuit, et la réponse dépend de ce qui est présent dans la gaine. Nous ouvrons une boîte pour vérifier avant de vous proposer quoi que ce soit : selon le cas, il s'agit d'un simple remplacement, du tirage d'un conducteur supplémentaire, ou de la reprise du circuit."
+    },
+    {
+      "q": "Un interrupteur qui chauffe ou qui grésille, est-ce urgent ?",
+      "a": "Oui. Un grésillement ou une chaleur perceptible signale un contact dégradé, donc un point de connexion qui s'échauffe à chaque passage de courant. Coupez le circuit concerné et ne le remettez pas en service en attendant. Le remplacement de l'appareillage est en général rapide, mais il faut aussi contrôler l'état des conducteurs à l'arrivée : ce qui a chauffé une fois a souvent abîmé l'isolant autour."
+    },
+    {
+      "q": "Posez-vous des luminaires fournis par le client ?",
+      "a": "Oui, sans problème, y compris des suspensions lourdes qui demandent une fixation adaptée au support. Nous vérifions avant la pose la compatibilité de la source avec la commande existante, en particulier si un variateur est en place, ainsi que la tenue du point de fixation au plafond. Sur les plafonds anciens en plâtre sur lattis, fréquents dans le centre de Dijon, ce dernier point mérite un vrai coup d'oeil avant de percer."
+    }
+  ],
+  "image": "/services/remplacement-prises-interrupteurs-eclairage.jpg"
+}

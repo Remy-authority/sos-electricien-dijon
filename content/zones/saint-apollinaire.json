@@ -1,0 +1,43 @@
+{
+  "slug": "saint-apollinaire",
+  "name": "Saint-Apollinaire",
+  "postalCode": "21850",
+  "context": "Commune de l'est de l'agglomération, en forte croissance résidentielle, dominée par les lotissements récents.",
+  "metaTitle": "Électricien à Saint-Apollinaire (21)",
+  "metaDescription": "Électricien à Saint-Apollinaire : dépannage 7j/7, recherche de panne, ajout de circuits, tableau électrique. Prix annoncé avant intervention.",
+  "h1": "Électricien à Saint-Apollinaire",
+  "intro": "Nous intervenons à Saint-Apollinaire (21850) pour le dépannage électrique, la recherche de panne, la reprise de tableau et l'ajout de circuits. Commune de l'est dijonnais qui s'est fortement développée depuis les années quatre-vingt, elle présente un parc de maisons récentes où les installations sont saines mais où la demande porte surtout sur l'évolution des usages.",
+  "blocks": [
+    {
+      "heading": "Des installations récentes, mais des usages qui débordent",
+      "body": "Sur une maison de lotissement construite dans les vingt ou trente dernières années, la structure est là : terre partout, tableau organisé, circuits séparés. Ce qui manque, c'est la marge. Le tableau d'origine a été posé sans réserve, les circuits de prises ont été calculés au plus juste, et chaque nouvel usage vient s'ajouter sur des lignes déjà occupées. Les demandes que nous traitons ici sont donc rarement des pannes : ce sont des ajouts. Un bureau devenu poste de travail permanent, une cuisine réaménagée avec plaque à induction et four indépendant, une buanderie où lave-linge et sèche-linge tournent ensemble, un jardin à éclairer, un garage à équiper. La bonne méthode consiste à créer les départs manquants au tableau, et à remplacer le coffret quand il n'a plus de place, plutôt qu'à empiler les dérivations."
+    },
+    {
+      "heading": "Quand un circuit dédié devient nécessaire",
+      "body": "La règle est simple : dès qu'un appareil appelle une puissance importante ou fonctionne longtemps à charge constante, il lui faut son propre départ depuis le tableau. C'est le cas de la buanderie quand lave-linge et sèche-linge tournent ensemble, de la cuisine équipée avec plaque à induction et four indépendant, et du garage lorsqu'on y utilise des outils électroportatifs. Le raccordement en dérivation sur un circuit existant fonctionne quelques mois, puis la protection se met à couper aux moments de pointe, en général en soirée d'hiver. Deux vérifications précèdent toujours le devis : la place réellement libre dans le tableau et la puissance souscrite au compteur au regard de ce qui fonctionnera en même temps. Ajouter un usage lourd sans regarder ces deux points revient à programmer des déclenchements."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, de déclenchement répété ou de prise qui chauffe à Saint-Apollinaire, isolez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Saint-Apollinaire, nous couvrons aussi Dijon et ses quartiers nord-est, Quetigny, Ruffey-lès-Echirey, Varois-et-Chaignot, Bressey-sur-Tille et Fontaine-lès-Dijon, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Dijon",
+    "Quetigny",
+    "Fontaine-lès-Dijon"
+  ],
+  "faq": [
+    {
+      "q": "Mon tableau est plein, faut-il tout remplacer pour ajouter un circuit ?",
+      "a": "Pas toujours. Quand le coffret dispose d'une rangée partiellement libre et que les protections existantes sont en bon état, un départ supplémentaire s'ajoute sans tout reprendre. Quand il est réellement saturé, deux options se présentent : remplacer le coffret par un modèle offrant de la réserve, ou ajouter un tableau divisionnaire dédié à une zone, par exemple le garage ou une extension. Nous regardons la place réelle et l'état des protections avant de vous orienter vers l'une ou l'autre."
+    },
+    {
+      "q": "Combien de temps prend la création d'un circuit dédié ?",
+      "a": "Quelques heures dans la configuration la plus courante, quand le tableau dispose de place et que la pièce à alimenter est proche. Le temps augmente avec la distance à parcourir et la nature du cheminement, en particulier lorsqu'il faut traverser un vide sanitaire, des combles ou un terrain. Nous faisons le relevé avant de chiffrer, ce qui permet d'annoncer une durée et un prix fermes plutôt qu'une fourchette."
+    },
+    {
+      "q": "Faut-il un contrôle après l'ajout d'un circuit ?",
+      "a": "Un contrôle par un organisme extérieur n'est exigé que pour une mise en service après des travaux importants sur l'installation. Pour un ajout de circuit, ce sont nos propres tests qui font foi : contrôle de la protection, mesure de la continuité de la terre, essai de déclenchement du différentiel et vérification du circuit sous tension. Nous les faisons systématiquement devant vous avant de partir."
+    }
+  ]
+}

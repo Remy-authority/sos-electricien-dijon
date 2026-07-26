@@ -1,0 +1,55 @@
+{
+  "slug": "renovation-tableau-electrique",
+  "order": 5,
+  "icon": "tableau",
+  "navTitle": "Rénovation de tableau électrique",
+  "h1": "Rénovation et remplacement de tableau électrique à Dijon",
+  "metaTitle": "Rénovation de tableau électrique à Dijon (21)",
+  "metaDescription": "Remplacement de tableau électrique à Dijon : différentiels, disjoncteurs, repérage des circuits, mise à la terre. Devis annoncé avant intervention.",
+  "intro": "Le tableau est l'organe de sécurité du logement : c'est lui qui coupe avant que le conducteur ne chauffe et avant que le courant ne passe par une personne. Nous remplaçons les tableaux vétustes, nous ajoutons des différentiels, nous réorganisons les circuits et nous repérons chaque départ, à Dijon et dans les communes voisines. Le devis est annoncé avant l'intervention.",
+  "bullets": [
+    "Différentiels et disjoncteurs",
+    "Circuits repérés un par un",
+    "Devis avant intervention"
+  ],
+  "blocks": [
+    {
+      "heading": "Les signes qu'un tableau a fait son temps",
+      "body": "Le premier est la présence de porte-fusibles à broche ou à cartouche : un fusible ne protège que le conducteur, jamais la personne, et il se remplace souvent par du matériel inadapté au fil des années. Le deuxième est l'absence d'interrupteur différentiel, ou la présence d'un seul pour toute l'installation, ce qui laisse un logement entier dans le noir au moindre défaut. Le troisième est un tableau saturé, dans lequel on a ajouté des départs au fil des travaux jusqu'à ne plus pouvoir refermer la porte, avec des conducteurs qui se croisent et des bornes reprises plusieurs fois. Viennent ensuite les marqueurs d'échauffement : plastique jauni ou déformé autour d'une borne, odeur discrète et persistante quand la maison consomme, disjoncteur tiède au toucher. Enfin, l'absence de repérage : quand personne ne sait quel disjoncteur commande quoi, la moindre intervention devient une prise de risque.",
+      "image": "/services/renovation-tableau-electrique-ancien.jpg",
+      "imageAlt": "Ancien tableau électrique à porte-fusibles, câblage désordonné dans un coffret ouvert",
+      "imageCaption": "Porte-fusibles, absence de différentiel et câblage repris plusieurs fois : trois signaux clairs."
+    },
+    {
+      "heading": "Ce que contient un tableau conforme aujourd'hui",
+      "body": "La norme NF C 15-100 structure le tableau en rangées, chacune protégée par un interrupteur différentiel de type et de calibre adaptés aux circuits qu'elle alimente, et sous lequel se répartissent les disjoncteurs divisionnaires. Le principe : les circuits spécialisés qui reçoivent des appareils de lavage ou de chauffe se retrouvent sous une protection différentielle capable de les supporter, et les circuits sont séparés de manière à ce qu'un défaut dans la buanderie n'éteigne ni la cuisine ni les chambres. Chaque départ est calibré selon la section du conducteur qu'il protège, et non l'inverse : un disjoncteur trop généreux sur un fil trop fin est une erreur classique et dangereuse. S'ajoutent le raccordement à la terre, le parafoudre là où il est requis, et un repérage lisible de chaque circuit. À l'usage, ce qui change surtout pour vous, c'est qu'une coupure devient localisée au lieu de plonger tout le logement dans le noir."
+    },
+    {
+      "heading": "Comment se passe un remplacement de tableau",
+      "body": "Nous commençons par relever l'existant : nombre de circuits réels, sections des conducteurs, état de la liaison à la terre, puissance souscrite et place disponible dans le coffret. Ce relevé donne le devis, qui vous est remis avant tout démontage. Le jour de l'intervention, l'alimentation est coupée le temps du chantier, généralement une demi-journée à une journée selon le nombre de départs. Nous déposons l'ancien coffret, nous reprenons les arrivées, nous répartissons les circuits sur les nouvelles rangées, nous serrons chaque borne au couple, puis nous testons : déclenchement de chaque différentiel, continuité de la terre, contrôle de chaque circuit remis en service. Nous laissons le tableau repéré, avec une étiquette par départ, et nous vous montrons quoi faire la prochaine fois qu'un organe tombera. Si l'installation en aval présente des défauts qui dépassent le tableau, nous vous le disons à ce moment, sans le mélanger au devis initial."
+    }
+  ],
+  "relatedServices": [
+    "mise-aux-normes-nfc15100",
+    "disjoncteur-qui-saute"
+  ],
+  "faq": [
+    {
+      "q": "Suis-je obligé de remplacer un tableau ancien qui fonctionne ?",
+      "a": "Aucune obligation générale n'impose de mettre à niveau une installation existante qui fonctionne. Le remplacement devient nécessaire dans trois cas : quand des travaux importants sont menés et déclenchent l'application de la norme en vigueur, quand un diagnostic ou un rapport de contrôle relève des anomalies de sécurité, et quand le logement est mis en location, la décence exigeant une installation qui ne présente pas de risque pour l'occupant. En dehors de cela, c'est un arbitrage entre le coût et le risque, et nous vous donnons notre lecture de l'état réel du vôtre."
+    },
+    {
+      "q": "Combien de temps mon logement reste-t-il sans courant ?",
+      "a": "Le temps du chantier, en général une demi-journée pour un tableau résidentiel courant, une journée quand les circuits doivent être repris et repérés en profondeur. Nous convenons du créneau avec vous, et nous pouvons remettre en service certains départs prioritaires en fin de journée si l'intervention se prolonge sur deux jours. Prévoyez de quoi limiter l'ouverture du réfrigérateur et du congélateur pendant la coupure."
+    },
+    {
+      "q": "À quoi sert un interrupteur différentiel, concrètement ?",
+      "a": "Il compare le courant qui part et celui qui revient. Quand une partie s'échappe, par exemple à travers une personne qui touche un appareil défectueux ou par une carcasse métallique humide, l'écart est détecté et l'alimentation est coupée en quelques dizaines de millisecondes. Le disjoncteur divisionnaire, lui, protège le fil contre la surcharge et le court-circuit, pas la personne. Les deux sont complémentaires : c'est pour cela qu'un tableau qui n'a que des protections de circuit reste insuffisant."
+    },
+    {
+      "q": "Mes fusibles peuvent-ils simplement être remplacés par des disjoncteurs ?",
+      "a": "Remplacer les porte-fusibles sans toucher au reste ne suffit pas, et donne une fausse impression de sécurité. Le sujet n'est pas la forme de la protection mais l'ensemble : présence de différentiels adaptés, cohérence entre le calibre des protections et la section réelle des conducteurs, qualité de la liaison à la terre, séparation des circuits. Un tableau se reprend comme un tout ; c'est aussi ce qui rend l'installation lisible pour les interventions futures."
+    }
+  ],
+  "image": "/services/renovation-tableau-electrique.jpg"
+}

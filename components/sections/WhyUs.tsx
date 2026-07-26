@@ -12,14 +12,15 @@ export function WhyUs() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <SectionHeader
           id="whyus-title"
-          eyebrow="Pourquoi nous"
+          eyebrow="Notre façon de travailler"
           title={
             <>
-              Quatre engagements,
+              Quatre principes,
               <br />
-              <span className="text-gradient-ink italic">tenus à chaque appel</span>
+              <span className="text-gradient-ink italic">appliqués à chaque appel</span>
             </>
           }
+          subtitle="Ce ne sont pas des promesses commerciales : ce sont les quatre décisions que nous prenons sur chaque intervention, et vous pouvez nous les rappeler."
         />
 
         <div className="mt-16 grid gap-6 md:grid-cols-2">

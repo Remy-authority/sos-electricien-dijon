@@ -11,8 +11,8 @@ import { AnimatedSection } from '@/components/ui/AnimatedSection'
 import { CtaBanner } from '@/components/ui/CtaBanner'
 
 export const metadata: Metadata = buildMetadata({
-  title: `Conseils canalisations, ${siteConfig.city} et Moselle`,
-  description: `Guides pratiques sur les canalisations bouchées : gestes à faire, causes, entretien préventif, curage et inspection caméra à ${siteConfig.city}.`,
+  title: `Conseils électricité, ${siteConfig.city} et ${siteConfig.departmentName}`,
+  description: `Guides pratiques sur les pannes électriques : gestes à faire, causes d'un disjoncteur qui saute, tableau électrique et mise aux normes à ${siteConfig.city}.`,
   path: '/conseils',
 })
 
@@ -38,10 +38,10 @@ export default function ConseilsListing() {
         title={
           <>
             Comprendre
-            <span className="text-gradient-accent"> ses canalisations</span>
+            <span className="text-gradient-accent"> son installation</span>
           </>
         }
-        subtitle="Ce qu'il faut faire, ce qu'il ne faut surtout pas faire, et comment éviter que le bouchon revienne."
+        subtitle="Ce qu'il faut faire, ce qu'il ne faut surtout pas faire, et comment éviter que la panne revienne."
       />
 
       <section className="bg-gradient-to-b from-sand-50 to-sand-100 py-16 lg:py-24">
@@ -52,7 +52,7 @@ export default function ConseilsListing() {
                 Les premiers articles arrivent bientôt
               </p>
               <p className="mt-4 leading-relaxed text-sand-600">
-                En attendant, une question sur une canalisation qui s&apos;écoule mal&nbsp;? Appelez,
+                En attendant, une question sur une installation qui déclenche&nbsp;? Appelez,
                 on vous répond directement.
               </p>
               <a

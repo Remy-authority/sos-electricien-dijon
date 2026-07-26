@@ -1,0 +1,43 @@
+{
+  "slug": "marsannay-la-cote",
+  "name": "Marsannay-la-Côte",
+  "postalCode": "21160",
+  "context": "Première commune viticole de la Côte, au sud de l'agglomération, entre domaines, caves et quartiers résidentiels.",
+  "metaTitle": "Électricien à Marsannay-la-Côte (21)",
+  "metaDescription": "Électricien à Marsannay-la-Côte : dépannage 7j/7, recherche de panne, tableau, circuits de caves et dépendances. Devis annoncé avant.",
+  "h1": "Électricien à Marsannay-la-Côte",
+  "intro": "Nous intervenons à Marsannay-la-Côte (21160) pour le dépannage électrique, la recherche de panne, la reprise de tableau et l'alimentation des caves et dépendances. Première commune viticole de la Côte au sud de Dijon, Marsannay associe des maisons de vigneron anciennes avec leurs caves et leurs bâtiments annexes, et des quartiers résidentiels plus récents adossés au coteau.",
+  "blocks": [
+    {
+      "heading": "Maisons de vigneron : le bâti principal et ses annexes",
+      "body": "La configuration typique du village associe un corps de logis ancien, une cave voûtée en dessous et une ou plusieurs dépendances autour d'une cour : ancienne cuverie, remise, garage, atelier. Électriquement, cela veut dire une installation qui s'est étendue par ajouts successifs, souvent depuis un seul point d'alimentation, avec des câbles traversant la cour au plus court et des circuits d'annexes accrochés au tableau du logement. Les conséquences sont classiques : une protection unique pour des usages très différents, des chutes de tension sur les longueurs, et un défaut dans une remise qui prive la maison de courant. Nous reprenons ces ensembles en donnant à chaque bâtiment son départ dédié et son tableau divisionnaire, ce qui rend chaque volume indépendant et permet enfin de couper une annexe sans plonger le logis dans le noir."
+    },
+    {
+      "heading": "Caves et locaux frais : ce qui vieillit le plus vite",
+      "body": "Une cave enterrée ou semi-enterrée est un local humide et frais toute l'année, et c'est l'environnement le plus dur pour une installation électrique. L'isolant des conducteurs y vieillit plus vite, les boîtiers non étanches laissent entrer la condensation, et les points de connexion s'oxydent lentement. La conséquence se manifeste par un interrupteur différentiel qui coupe par temps humide, parfois plusieurs mois après l'apparition réelle du problème. Le traitement est le même que pour tout local exposé : circuit séparé et protégé pour la cave, matériel adapté aux locaux humides, éclairage fixe correctement raccordé plutôt que baladeuses et rallonges. Sur un bâtiment viticole où du matériel fonctionne, pompe, groupe froid, éclairage de travail, la séparation des circuits devient une question d'exploitation autant que de sécurité."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, de déclenchement répété ou de panne dans une cave à Marsannay-la-Côte, isolez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Marsannay-la-Côte, nous couvrons aussi Chenôve, Perrigny-lès-Dijon, Couchey, Fixin, Longvic et Dijon, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Chenôve",
+    "Perrigny-lès-Dijon",
+    "Dijon"
+  ],
+  "faq": [
+    {
+      "q": "Comment alimenter une dépendance située de l'autre côté de la cour ?",
+      "a": "Par un départ dédié depuis le tableau principal, avec un câble prévu pour l'enterré posé sous grillage avertisseur, et un tableau divisionnaire dans la dépendance. La section se calcule en fonction de la distance et de la puissance à installer, car sur une longueur importante, un câble trop fin provoque une chute de tension qui fait mal fonctionner les appareils sans rien déclencher. C'est ce calcul, et non la seule longueur, qui détermine le coût."
+    },
+    {
+      "q": "Intervenez-vous sur des bâtiments d'exploitation viticole ?",
+      "a": "Oui, sur la partie électrique : alimentation d'un local, éclairage de travail, prises de forte puissance, sous-tableau, raccordement et protection de matériel comme une pompe ou un groupe froid, et dépannage en cas de coupure. Nous vous indiquons ce qui relève de notre intervention et ce qui, selon la nature du bâtiment et son usage, appelle un contrôle par un organisme agréé."
+    },
+    {
+      "q": "L'électricité d'une cave doit-elle être différente de celle de la maison ?",
+      "a": "Oui, sur deux points. Le matériel doit être prévu pour les locaux humides, avec des boîtiers étanches et des entrées de câble correctement serrées. Et le circuit doit être séparé de ceux du logement, sous sa propre protection différentielle : un défaut en cave, qui reste probable dans le temps même avec du bon matériel, ne doit pas priver la maison de courant."
+    }
+  ]
+}

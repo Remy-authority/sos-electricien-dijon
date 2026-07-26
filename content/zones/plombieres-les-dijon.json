@@ -1,0 +1,43 @@
+{
+  "slug": "plombieres-les-dijon",
+  "name": "Plombières-lès-Dijon",
+  "postalCode": "21370",
+  "context": "Commune de la vallée de l'Ouche, à l'ouest de Dijon, entre canal de Bourgogne, coteaux boisés et habitat de vallée.",
+  "metaTitle": "Électricien à Plombières-lès-Dijon (21)",
+  "metaDescription": "Électricien à Plombières-lès-Dijon : dépannage 7j/7, recherche de panne, humidité et différentiel, tableau. Prix annoncé avant intervention.",
+  "h1": "Électricien à Plombières-lès-Dijon",
+  "intro": "Nous intervenons à Plombières-lès-Dijon (21370) pour le dépannage électrique, la recherche de panne, la reprise de tableau et les circuits exposés à l'humidité. Installée dans la vallée de l'Ouche, entre le canal de Bourgogne et les coteaux boisés, la commune présente une particularité que nous retrouvons intervention après intervention : la proximité de l'eau et le relief pèsent directement sur la durée de vie des installations.",
+  "blocks": [
+    {
+      "heading": "Fond de vallée, sous-sols et fuites à la terre",
+      "body": "Les maisons de fond de vallée ont presque toutes un sous-sol, une cave ou un garage semi-enterré, et ces volumes restent humides une bonne partie de l'année. L'humidité ne fait pas disjoncter en elle-même : elle dégrade lentement les points de connexion, l'isolant des conducteurs au contact des murs, et les boîtiers qui n'étaient pas prévus pour un local humide. Le résultat est une fuite de courant vers la terre qui grandit avec les saisons, jusqu'à ce que l'interrupteur différentiel finisse par couper, souvent après une période de pluie. Nous traitons ces installations en séparant les volumes exposés du reste au tableau, en reprenant les points de connexion avec du matériel adapté et en remplaçant les portions de câble dont l'isolant a souffert. Un logement dont la cave est isolée électriquement du reste ne se retrouve plus dans le noir à cause d'elle."
+    },
+    {
+      "heading": "Extérieurs, canal et éclairage de terrain",
+      "body": "L'autre motif d'appel régulier dans la vallée concerne les extérieurs : éclairage d'allée, portail motorisé, prise de terrasse, abri ou atelier au fond du terrain, pompe de relevage dans une cave sujette aux remontées. Ces équipements ont trois exigences que l'on peut résumer simplement : du matériel réellement étanche, un câble prévu pour l'enterré posé sous grillage avertisseur quand il traverse le terrain, et une protection différentielle à haute sensibilité qui leur soit propre. Sans ce dernier point, un défaut extérieur, un boîtier qui a pris l'eau ou une gaine abîmée, coupe l'ensemble du logement. Quand une pompe de relevage est en jeu, le circuit doit en outre rester alimenté indépendamment du reste : c'est précisément quand tout déclenche que l'on a besoin qu'elle continue de fonctionner."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, de différentiel qui retombe après la pluie ou de panne dans un sous-sol à Plombières-lès-Dijon, isolez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Plombières-lès-Dijon, nous couvrons aussi Dijon et ses quartiers ouest dont Fontaine d'Ouche, Talant, Velars-sur-Ouche, Corcelles-lès-Monts et Daix, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Dijon",
+    "Talant",
+    "Daix"
+  ],
+  "faq": [
+    {
+      "q": "Comment protéger une installation dans une cave humide ?",
+      "a": "En trois gestes. D'abord, séparer le circuit de la cave des circuits de vie au tableau, sous sa propre protection différentielle : un défaut au sous-sol ne doit pas éteindre les chambres. Ensuite, remplacer l'appareillage par du matériel prévu pour les locaux humides, avec des entrées de câble correctement serrées. Enfin, écarter les conducteurs du contact direct avec les murs et remplacer les portions dont l'isolant a durci. C'est un travail rapide qui supprime des déclenchements installés parfois depuis des années."
+    },
+    {
+      "q": "Ma pompe de relevage s'arrête quand le différentiel saute, que faire ?",
+      "a": "C'est exactement la situation à éviter, car la pompe devient inutile au moment où elle sert. La réponse consiste à lui donner un circuit dédié, avec sa protection propre, indépendante de celle des autres circuits du sous-sol. Ainsi, un défaut sur l'éclairage ou sur une prise de cave ne l'arrête pas. Nous vérifions au passage l'état du câble d'alimentation, souvent posé au plus court lors de l'installation d'origine."
+    },
+    {
+      "q": "Un éclairage extérieur peut-il faire sauter toute la maison ?",
+      "a": "Oui, si tout le logement est protégé par un différentiel unique, ou si le circuit extérieur partage sa protection avec des circuits intérieurs. Un boîtier qui prend l'eau ou une gaine abîmée par un coup de bêche suffit alors à tout couper. La correction est simple : un départ dédié pour les extérieurs, protégé par son propre différentiel à haute sensibilité, et du matériel étanche aux points de connexion."
+    }
+  ]
+}

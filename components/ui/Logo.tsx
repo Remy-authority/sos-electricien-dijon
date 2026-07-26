@@ -1,10 +1,10 @@
 import { siteConfig } from '@/config/site.config'
 
 /**
- * Identité visuelle du site : un pictogramme de siphon (le coude en U sous chaque
- * évier) traversé par un filet de vermillon qui figure l'écoulement retrouvé.
- * Le bloc-marque teal reste lisible aussi bien sur le crème clair que sur le
- * pétrole sombre : un seul jeu de couleurs pour tous les fonds.
+ * Identité visuelle du site : un tracé de circuit imprimé, une piste qui descend
+ * puis repart en angle droit, ponctuée d'un noeud de connexion carmin. Le bloc
+ * cuivre reste lisible sur le crème clair comme sur le prune sombre : un seul jeu
+ * de couleurs pour tous les fonds.
  *
  * Le pictogramme est en SVG, le nom en HTML : la typographie Fraunces du site
  * s'applique donc réellement au mot-symbole (pas de police système figée).
@@ -13,24 +13,17 @@ export function LogoMark({ className = 'h-11 w-11' }: { className?: string }) {
   return (
     <svg viewBox="0 0 48 48" className={className} aria-hidden="true" focusable="false">
       <rect width="48" height="48" rx="14" className="fill-brand-600" />
-      {/* Siphon : descente, coude en U, remontée. */}
+      {/* Piste principale : entrée à gauche, coude, sortie en haut à droite. */}
       <path
-        d="M14 12 V25 a10 10 0 0 0 20 0 V16"
+        d="M11 15 H21 a4 4 0 0 1 4 4 V29 a4 4 0 0 0 4 4 H37"
         fill="none"
-        strokeWidth="5"
+        strokeWidth="4.2"
         strokeLinecap="round"
         className="stroke-sand-50"
       />
-      {/* Filet d'écoulement qui entre dans le siphon. */}
-      <path
-        d="M14 11 V18"
-        fill="none"
-        strokeWidth="5"
-        strokeLinecap="round"
-        className="stroke-accent-400"
-      />
-      {/* Sortie côté évacuation. */}
-      <circle cx="34" cy="16" r="2.6" className="fill-accent-400" />
+      {/* Noeuds de connexion : le départ et l'arrivée du courant. */}
+      <circle cx="11" cy="15" r="3.2" className="fill-accent-400" />
+      <circle cx="37" cy="33" r="3.2" className="fill-accent-400" />
     </svg>
   )
 }
@@ -53,7 +46,7 @@ export function Logo({
             light ? 'text-sand-50' : 'text-ink-950'
           }`}
         >
-          SOS Débouchage
+          SOS Électricien
         </span>
         <span
           className={`mt-1 text-[10px] font-semibold uppercase tracking-[0.22em] ${

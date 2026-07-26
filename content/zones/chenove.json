@@ -1,0 +1,43 @@
+{
+  "slug": "chenove",
+  "name": "Chenôve",
+  "postalCode": "21300",
+  "context": "Commune du sud de l'agglomération, ancien village vigneron devenu ville, entre grands ensembles rénovés et zones d'activités.",
+  "metaTitle": "Électricien à Chenôve (21), dépannage et mise aux normes",
+  "metaDescription": "Électricien à Chenôve : dépannage électrique 7j/7, recherche de panne, tableau, mise en conformité. Devis annoncé avant intervention.",
+  "h1": "Électricien à Chenôve",
+  "intro": "Nous intervenons à Chenôve (21300) pour le dépannage électrique, la recherche de panne, la reprise de tableau et la mise en conformité. Ancien village vigneron devenu la deuxième ville de la métropole, Chenôve superpose un vieux bourg aux caves voûtées, de grands ensembles largement réhabilités et des zones d'activités : autant de configurations électriques différentes sur quelques kilomètres carrés.",
+  "blocks": [
+    {
+      "heading": "Le vieux bourg et ses caves : l'humidité comme facteur principal",
+      "body": "Dans le bourg ancien de Chenôve, les maisons vigneronnes possèdent presque toutes une cave voûtée, parfois une ancienne cuverie, et c'est là que se concentrent les pannes récurrentes. Une cave enterrée reste humide toute l'année, et l'humidité s'attaque en priorité aux points de connexion : boîtiers non étanches, appareillage d'un autre âge, conducteurs dont l'isolant s'est fatigué au contact du mur. Le symptôme classique est le différentiel qui coupe par temps humide ou après un orage, sans raison apparente à l'étage. La réponse tient en trois points : un circuit d'éclairage de cave séparé, du matériel prévu pour les locaux humides, et une protection différentielle qui ne mélange pas la cave avec les circuits de vie. C'est un travail modeste qui supprime une gêne installée parfois depuis des années."
+    },
+    {
+      "heading": "Logements collectifs et locaux professionnels",
+      "body": "Dans les ensembles collectifs, souvent réhabilités depuis, la partie visible a été reprise mais l'installation intérieure des logements suit le rythme de chaque propriétaire. Nous y traitons surtout des tableaux d'origine saturés, des circuits de cuisine chargés au-delà de leur capacité et des salles de bain dont l'appareillage se trouve à un emplacement qui ne serait plus admis aujourd'hui. Du côté des zones d'activités, les demandes portent sur des locaux commerciaux et artisanaux : éclairage à reprendre, prises de forte puissance, sous-tableau à créer pour une nouvelle activité, remise en état après un changement d'occupant. Dans les deux cas, le point de départ est le même : lire le tableau, comprendre comment les circuits ont été répartis, puis n'ajouter que ce que l'ensemble supporte."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, d'odeur de brûlé ou de déclenchement répété à Chenôve, coupez le circuit en cause et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Chenôve, nous couvrons aussi Dijon et ses quartiers sud, Marsannay-la-Côte, Longvic, Perrigny-lès-Dijon et Fénay, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Dijon",
+    "Marsannay-la-Côte",
+    "Longvic"
+  ],
+  "faq": [
+    {
+      "q": "Mon différentiel saute quand il pleut, est-ce lié à la cave ?",
+      "a": "Très souvent, oui, dans le bourg ancien de Chenôve. Une cave voûtée reste humide en permanence, et l'humidité finit par créer un chemin de fuite vers la terre au niveau d'un boîtier ou d'un conducteur fatigué. Le test est simple : on isole le circuit d'éclairage de la cave et on observe si le déclenchement cesse. La réparation consiste ensuite à reprendre les points de connexion avec du matériel adapté aux locaux humides, et à séparer ce circuit du reste au tableau."
+    },
+    {
+      "q": "Intervenez-vous pour un local commercial ou artisanal ?",
+      "a": "Oui. Nous traitons l'éclairage, les prises de forte puissance, la création d'un sous-tableau, la reprise d'une installation après un changement d'occupant et le dépannage en cas de coupure qui immobilise l'activité. Pour un local recevant du public, certaines obligations complémentaires s'appliquent selon le type et la catégorie de l'établissement : nous vous disons ce qui relève de notre intervention et ce qui relève d'un contrôle par un organisme agréé."
+    },
+    {
+      "q": "Un tableau d'origine des années soixante-dix est-il encore acceptable ?",
+      "a": "Aucune obligation ne vous impose de le remplacer tant qu'il fonctionne. Trois éléments doivent cependant vous alerter : l'absence de protection différentielle à haute sensibilité, le plastique jauni ou déformé autour d'une borne, et l'impossibilité de savoir quel départ commande quoi. Ces trois signes réunis justifient une reprise, moins pour la norme que pour ce qu'ils révèlent de l'état réel des connexions."
+    }
+  ]
+}

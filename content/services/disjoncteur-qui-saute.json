@@ -1,0 +1,55 @@
+{
+  "slug": "disjoncteur-qui-saute",
+  "order": 3,
+  "icon": "disjoncteur",
+  "navTitle": "Disjoncteur qui saute",
+  "h1": "Disjoncteur qui saute à répétition à Dijon",
+  "metaTitle": "Disjoncteur qui saute à répétition à Dijon (21)",
+  "metaDescription": "Disjoncteur ou différentiel qui saute sans arrêt à Dijon : surcharge, court-circuit, fuite à la terre. Diagnostic et réparation, prix annoncé avant.",
+  "intro": "Un disjoncteur qui saute fait exactement ce pour quoi il est prévu : il coupe avant que quelque chose ne chauffe ou que quelqu'un ne soit électrisé. La vraie question n'est donc jamais comment le faire tenir, mais ce qui le fait tomber. Nous identifions la cause et nous la traitons, à Dijon et dans les communes de la métropole, avec un tarif annoncé avant l'intervention.",
+  "bullets": [
+    "Cause identifiée, pas contournée",
+    "Divisionnaire, différentiel ou général",
+    "Réparation et contrôle final"
+  ],
+  "blocks": [
+    {
+      "heading": "Ce qui est tombé vous dit déjà pourquoi",
+      "body": "Trois organes différents peuvent couper, et chacun raconte autre chose. Le disjoncteur divisionnaire, celui d'un circuit précis, indique un problème sur ce circuit seul : une surcharge, trop d'appareils de puissance sur la même ligne, ou un court-circuit franc. L'interrupteur différentiel, qui commande toute une rangée, signale une fuite de courant vers la terre : une partie du courant ne revient pas, parce qu'elle passe par la carcasse d'un appareil, une résistance percée, un conducteur humide, éventuellement par une personne. Le disjoncteur général enfin, qui coupe tout, pointe soit une surcharge globale au regard de la puissance souscrite, soit un défaut en amont du tableau. Un même symptôme apparent, la lumière qui s'éteint, recouvre donc trois pannes qui n'ont ni la même urgence ni la même réparation.",
+      "image": "/services/disjoncteur-qui-saute-rangee.jpg",
+      "imageAlt": "Rangée de disjoncteurs modulaires dont un est en position basse",
+      "imageCaption": "Divisionnaire, différentiel ou général : l'organe qui tombe oriente tout le diagnostic."
+    },
+    {
+      "heading": "Le test que vous pouvez faire vous-même",
+      "body": "Il tient en quatre étapes et il fait gagner un temps réel. 1. Coupez tous les disjoncteurs de la rangée concernée, puis relevez l'organe qui avait sauté. 2. Remontez les disjoncteurs un par un, en attendant quelques secondes entre chacun. Celui qui fait immédiatement retomber la protection désigne le circuit en défaut : laissez-le abaissé, c'est la position sûre. 3. Sur ce circuit, débranchez tous les appareils, puis réarmez une fois. Si la protection tient, le défaut est dans un appareil : rebranchez-les un par un pour l'identifier. 4. Si elle retombe alors que plus rien n'est branché, le défaut est dans l'installation, et il faut mesurer. Ce protocole ne présente pas de risque particulier tant que vous ne démontez rien et que vous n'insistez pas sur un organe qui refuse de tenir."
+    },
+    {
+      "heading": "Les causes que nous retrouvons le plus souvent",
+      "body": "Du côté des appareils : un chauffe-eau dont la résistance est entartrée puis percée, cause numéro un des déclenchements nocturnes dans un secteur où l'eau est calcaire, un lave-linge ou un lave-vaisselle qui ne fuit qu'en phase de chauffe, un four vieillissant, une plaque de cuisson dont un élément est en défaut. Du côté de l'installation : une boîte de dérivation où une borne s'est desserrée avec les cycles de chaleur, un conducteur pincé lors d'un percement, un circuit extérieur ou une cave où l'humidité a fait son travail, un appareillage de salle de bain mal placé. Du côté de l'usage enfin : une répartition devenue inadaptée, avec trop de puissance sur une seule ligne, ce qui n'est pas un défaut mais un dimensionnement à revoir, en général en créant un circuit supplémentaire."
+    }
+  ],
+  "relatedServices": [
+    "recherche-de-panne-electrique",
+    "urgence-depannage-electricien"
+  ],
+  "faq": [
+    {
+      "q": "Mon disjoncteur saute quand j'allume la lumière, pourquoi ?",
+      "a": "Le plus souvent à cause du luminaire ou de sa lampe : une ampoule qui claque provoque un appel de courant bref mais franc, suffisant pour faire couper la protection du circuit d'éclairage. Remplacez la lampe et refaites l'essai. Si la protection retombe avec un luminaire vide, le défaut est dans le point lumineux ou dans son câblage, et il faut ouvrir pour mesurer."
+    },
+    {
+      "q": "Le différentiel saute mais pas le disjoncteur du circuit, est-ce normal ?",
+      "a": "Oui, et c'est même très informatif. Le disjoncteur divisionnaire protège le fil contre la surcharge et le court-circuit ; le différentiel, lui, détecte le courant qui s'échappe vers la terre. Quand seul le différentiel coupe, il n'y a ni surcharge ni court-circuit mais une fuite d'isolement, typiquement une résistance de chauffe percée ou un circuit exposé à l'humidité. La recherche se concentre alors sur les appareils de chauffe et les zones humides."
+    },
+    {
+      "q": "Puis-je remplacer le disjoncteur par un modèle plus puissant ?",
+      "a": "Non, c'est une fausse solution et un vrai danger. Le calibre d'un disjoncteur est choisi pour protéger la section du conducteur qui est derrière : augmenter le calibre sans changer le fil revient à autoriser le fil à chauffer sans que rien ne coupe. Si un circuit est régulièrement en surcharge, la réponse est de créer un circuit supplémentaire ou de redistribuer les usages, pas de relever la protection."
+    },
+    {
+      "q": "Le disjoncteur saute la nuit alors que tout est éteint, comment est-ce possible ?",
+      "a": "Parce que quelque chose fonctionne quand même : dans un logement en tarification heures creuses, le chauffe-eau se met en chauffe la nuit, sur ordre du contacteur. Une résistance entartrée et percée laisse alors fuir du courant vers la terre, et le différentiel coupe. C'est le scénario le plus fréquent, et il se confirme en isolant le circuit du ballon puis en mesurant l'isolement de la résistance."
+    }
+  ],
+  "image": "/services/disjoncteur-qui-saute.jpg"
+}

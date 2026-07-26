@@ -1,0 +1,43 @@
+{
+  "slug": "perrigny-les-dijon",
+  "name": "Perrigny-lès-Dijon",
+  "postalCode": "21160",
+  "context": "Petite commune résidentielle du sud de la métropole, entre Marsannay-la-Côte et la plaine, à dominante pavillonnaire.",
+  "metaTitle": "Électricien à Perrigny-lès-Dijon (21)",
+  "metaDescription": "Électricien à Perrigny-lès-Dijon : dépannage 7j/7, recherche de panne, tableau électrique, mise aux normes. Prix annoncé avant intervention.",
+  "h1": "Électricien à Perrigny-lès-Dijon",
+  "intro": "Nous intervenons à Perrigny-lès-Dijon (21160) pour le dépannage électrique, la recherche de panne, la reprise de tableau et la mise aux normes. Commune résidentielle du sud de la métropole, entre le vignoble de Marsannay et la plaine, Perrigny est faite d'un petit noyau ancien et de quartiers pavillonnaires construits par étapes, chacun avec ses réflexes techniques d'époque.",
+  "blocks": [
+    {
+      "heading": "Une commune où l'âge de la maison décide de tout",
+      "body": "Sur un territoire de cette taille, les installations que nous rencontrons se lisent par tranches. Les maisons des années soixante et soixante-dix arrivent en bout de course : peu de circuits, protections d'origine sans différentiel à haute sensibilité, terre parfois limitée à quelques pièces, et des ajouts empilés depuis. Celles des décennies suivantes sont saines dans leur principe mais serrées : plus de place au tableau, pas de circuit disponible pour un nouvel usage. Les plus récentes n'appellent que des compléments. Cette lecture évite deux erreurs coûteuses : lancer une rénovation complète quand la reprise du tableau suffirait, ou au contraire greffer des circuits sur des conducteurs dont l'isolant a durci. Nous ouvrons systématiquement quelques points de connexion avant de conclure, parce que l'année de construction ne dit pas l'état réel."
+    },
+    {
+      "heading": "Chauffage électrique et eau chaude, postes sensibles du secteur",
+      "body": "Beaucoup de maisons du secteur sont chauffées à l'électricité et produisent leur eau chaude par ballon, souvent piloté en heures creuses. Cela concentre deux motifs d'appel très fréquents. Le premier est la panne d'eau chaude, dont la cause est bien plus souvent le contacteur jour et nuit ou le thermostat que la cuve elle-même : trois pièces se testent avant d'envisager un remplacement. Le second est le différentiel qui coupe la nuit, signature typique d'une résistance entartrée puis percée, l'eau du secteur étant calcaire. Ces deux situations se règlent rapidement quand on mesure avant de remplacer. Nous vérifions au passage que le ballon et le chauffage disposent bien de leurs circuits dédiés, ce qui n'est pas toujours le cas sur les installations complétées au fil du temps."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, de panne d'eau chaude ou de déclenchement répété à Perrigny-lès-Dijon, isolez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Perrigny-lès-Dijon, nous couvrons aussi Marsannay-la-Côte, Chenôve, Longvic, Fénay, Ouges et Dijon, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Marsannay-la-Côte",
+    "Chenôve",
+    "Longvic"
+  ],
+  "faq": [
+    {
+      "q": "Plus d'eau chaude, faut-il changer le ballon ?",
+      "a": "Pas avant d'avoir testé trois pièces. Le contacteur jour et nuit, qui met le ballon en chauffe pendant les heures creuses et qui se bloque parfois : son levier de marche forcée permet de le vérifier tout de suite. Le thermostat, pièce d'usure classique. La résistance ensuite, souvent entartrée dans un secteur où l'eau est calcaire. Le remplacement complet ne s'impose que si la cuve fuit ou si la corrosion est avancée."
+    },
+    {
+      "q": "Mon installation date des années soixante-dix, faut-il tout refaire ?",
+      "a": "Pas nécessairement. Trois éléments décident : l'état de l'isolant des conducteurs, la présence d'une terre sur l'ensemble des circuits et la section des fils au regard des usages actuels. Si ces trois points sont sains, reprendre le tableau et les circuits spécialisés suffit largement. S'ils ne le sont pas, une reprise par petits bouts coûte plus cher à terme qu'une rénovation menée d'un coup."
+    },
+    {
+      "q": "Intervenez-vous rapidement sur une petite commune comme Perrigny ?",
+      "a": "Oui, la commune est à quelques minutes de la sortie sud de Dijon et se trouve pleinement dans notre zone d'intervention. Le créneau exact vous est annoncé au téléphone selon le planning en cours. Pour une urgence avérée, odeur de brûlé, appareillage qui a chauffé, coupure totale, appelez sans attendre : nous vous donnons les gestes de sécurité tout de suite, avant même le déplacement."
+    }
+  ]
+}

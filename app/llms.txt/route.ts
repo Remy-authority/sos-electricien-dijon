@@ -24,10 +24,10 @@ export function GET() {
   const lines: string[] = [
     `# ${businessName}`,
     '',
-    `> ${trade} à ${city} (${departmentName}, ${department}, ${region}) et dans un rayon d'environ ${radius} km. Débouchage, curage haute pression et inspection caméra. Ligne ouverte ${availability}.`,
+    `> ${trade} à ${city} (${departmentName}, ${department}, ${region}) et dans un rayon d'environ ${radius} km. Dépannage électrique en urgence, recherche de panne, tableau électrique et mise aux normes. Ligne ouverte ${availability}.`,
     '',
     '## Activité',
-    `${businessName} intervient sur les canalisations bouchées à ${city} et dans les communes de l'agglomération : WC et toilettes, évier, lavabo, douche, colonne d'évacuation d'immeuble, canalisation enterrée et regard, bac à graisse de restauration. Le périmètre est le débouchage, le curage et l'inspection de réseau. Nous ne faisons pas de plomberie générale (ni robinetterie, ni chauffe-eau, ni recherche de fuite). Le tarif de la prestation est annoncé avant le début de l'intervention.`,
+    `${businessName} intervient sur les installations électriques des logements, des copropriétés et des locaux professionnels à ${city} et dans les communes de la métropole : dépannage en urgence, coupure de courant, disjoncteur qui saute, recherche de panne et court-circuit, rénovation de tableau électrique, mise aux normes NF C 15-100, remplacement de prises, d'interrupteurs et d'éclairage, parties communes d'immeuble. Le périmètre est l'électricité, et rien d'autre : ni plomberie, ni chauffage au gaz. Le tarif de la prestation est annoncé avant le début de l'intervention.`,
     '',
     '## Méthodes',
     ...methods.map((m) => `- ${m}`),
@@ -59,9 +59,9 @@ export function GET() {
     '## Bon à savoir',
     "- Le prix de l'intervention est annoncé avant qu'elle commence.",
     `- Ligne ouverte ${availability}, week-ends et jours fériés compris pour les urgences.`,
-    "- Le débouchage se fait par les accès existants (siphon, regard, tampon de dégorgement) : aucune ouverture du réseau sans explication préalable.",
-    "- En location, l'entretien courant des canalisations et le dégorgement sont à la charge du locataire (décret n° 87-712) ; un défaut de la canalisation elle-même reste à la charge du propriétaire.",
-    "- Quand plusieurs logements d'un immeuble refoulent en même temps, la cause est sur une partie commune : c'est au syndic de déclencher l'intervention.",
+    "- Un disjoncteur ou un différentiel qui coupe signale un défaut réel : la cause est cherchée avant tout réarmement, et rien n'est remis sous tension sans essai de contrôle.",
+    "- En location, le menu entretien de l'installation électrique (interrupteurs, prises, fusibles, réarmement) est à la charge du locataire (décret n° 87-712) ; la vétusté et la sécurité de l'installation elle-même restent à la charge du propriétaire.",
+    "- Quand toute une rue ou un quartier est privé de courant, la coupure vient du réseau de distribution et se signale au distributeur, pas à un électricien ; quand un seul logement est touché, le défaut est dans l'installation privée.",
     '',
   )
 

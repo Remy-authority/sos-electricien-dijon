@@ -1,0 +1,55 @@
+{
+  "slug": "recherche-de-panne-electrique",
+  "order": 4,
+  "icon": "recherche",
+  "navTitle": "Recherche de panne et court-circuit",
+  "h1": "Recherche de panne électrique et court-circuit à Dijon",
+  "metaTitle": "Recherche de panne électrique à Dijon (21)",
+  "metaDescription": "Recherche de panne électrique à Dijon : court-circuit, fuite à la terre, circuit qui déclenche. Diagnostic méthodique, réparation, prix annoncé avant.",
+  "intro": "Une panne électrique se cherche, elle ne se devine pas. Nous sectionnons l'installation circuit par circuit, nous mesurons, et nous remontons jusqu'au point de défaut : un conducteur abîmé, un appareil qui fuit à la terre, une borne desserrée ou un appareillage en fin de vie. Nous intervenons à Dijon et dans les communes de l'agglomération, avec un tarif annoncé avant de commencer.",
+  "bullets": [
+    "Diagnostic circuit par circuit",
+    "Cause identifiée, pas contournée",
+    "Réparation dans la foulée"
+  ],
+  "blocks": [
+    {
+      "heading": "Trois familles de pannes, trois signatures",
+      "body": "Le court-circuit est le plus brutal : phase et neutre se touchent, le disjoncteur divisionnaire coupe instantanément, et le déclenchement se reproduit dès qu'on branche l'appareil ou qu'on allume le point concerné. La fuite à la terre est plus sournoise : une partie du courant s'échappe vers la masse, l'interrupteur différentiel coupe toute une rangée, et le symptôme est souvent intermittent parce qu'il dépend de l'humidité, d'une machine en phase de chauffe ou d'un cycle de lave-linge. La surcharge, enfin, ne signale aucun défaut mais un excès de puissance sur un circuit : trois appareils de chauffe sur la même ligne, la protection coupe, et tout redevient normal quand on répartit. Savoir laquelle des trois est en cause dès l'appel change la façon de chercher, et c'est pour cela que nous vous posons autant de questions au téléphone.",
+      "image": "/services/recherche-de-panne-electrique-differentiel.jpg",
+      "imageAlt": "Interrupteur différentiel en position basse au milieu d'une rangée de disjoncteurs",
+      "imageCaption": "Un différentiel qui coupe toute une rangée pointe une fuite de courant vers la terre."
+    },
+    {
+      "heading": "Notre méthode sur place",
+      "body": "Nous commençons toujours par le tableau : lecture de l'organisation des rangées, repérage des circuits, contrôle du serrage des bornes et de l'état des protections. Vient ensuite le sectionnement, qui est le coeur du métier : tous les départs coupés, on remonte les circuits un par un jusqu'à celui qui fait retomber la protection. Le circuit fautif isolé, on le découpe encore : on démonte les points de connexion, on mesure l'isolement, on repère la portion défectueuse. La caméra thermique aide à voir un point de connexion qui chauffe anormalement sans encore avoir déclenché quoi que ce soit. Une fois le défaut trouvé, nous le montrons, nous expliquons pourquoi il est apparu, et nous réparons. Une panne dont la cause n'est pas comprise revient toujours."
+    },
+    {
+      "heading": "Les pannes intermittentes, le cas le plus courant",
+      "body": "Ce sont celles qui font perdre le plus de temps quand on les cherche seul, parce que l'installation fonctionne normalement quand l'électricien arrive. Elles ont presque toujours une explication d'usage : un lave-linge qui ne déclenche qu'en fin de cycle, quand sa résistance chauffe et laisse fuir un peu de courant, un chauffe-eau dont la résistance est entartrée et percée, un luminaire extérieur ou un boîtier de jardin qui prend l'eau les jours de pluie, une multiprise surchargée derrière un meuble, ou un ancien conducteur en aluminium dont la borne s'est desserrée avec les cycles de chaleur. Notez les circonstances exactes du déclenchement avant de nous appeler : à quelle heure, quel appareil tournait, quel temps il faisait. Ces trois informations valent souvent une heure de recherche."
+    }
+  ],
+  "relatedServices": [
+    "disjoncteur-qui-saute",
+    "urgence-depannage-electricien"
+  ],
+  "faq": [
+    {
+      "q": "Comment savoir si la panne vient d'un appareil ou de l'installation ?",
+      "a": "Le test est simple à faire vous-même. Débranchez tous les appareils du circuit concerné, puis réarmez. Si la protection tient, le défaut est dans un appareil : rebranchez-les un par un, celui qui fait couper est le coupable. Si la protection retombe alors que plus rien n'est branché, le défaut est dans l'installation elle-même, c'est-à-dire dans le câblage, une boîte de dérivation ou un appareillage encastré, et là il faut mesurer."
+    },
+    {
+      "q": "Combien de temps prend une recherche de panne ?",
+      "a": "Une panne franche, un court-circuit sur un circuit identifié par exemple, se localise généralement dans l'heure. Une fuite à la terre intermittente sur une installation ancienne, avec des circuits mal repérés et des boîtes de dérivation noyées dans les murs, demande davantage : il faut découper le circuit en tronçons et mesurer chacun. Nous vous donnons une estimation au téléphone, et nous vous prévenons si la recherche dépasse ce qui était annoncé, avant de continuer."
+    },
+    {
+      "q": "Faut-il casser les murs pour trouver une panne ?",
+      "a": "Dans la très grande majorité des cas, non. Les points de connexion accessibles, prises, interrupteurs, boîtes de dérivation, luminaires, suffisent à découper le circuit et à localiser le tronçon en défaut. On n'ouvre une saignée que si la mesure prouve que le défaut est dans une portion encastrée, et jamais sans vous avoir montré pourquoi. Sur une installation ancienne, tirer un nouveau conducteur dans une gaine existante revient souvent moins cher que d'ouvrir le mur."
+    },
+    {
+      "q": "Mon différentiel saute uniquement quand il pleut, est-ce normal ?",
+      "a": "Ce n'est pas normal, mais c'est un grand classique, et le symptôme est très parlant : il désigne un circuit exposé à l'humidité. Les suspects habituels sont un éclairage extérieur, une prise de terrasse, un boîtier de jardin, un coffret de piscine ou une gaine enterrée qui prend l'eau. Le circuit concerné est facile à isoler, et la réparation consiste le plus souvent à reprendre l'étanchéité d'un boîtier ou à remplacer une portion de câble dégradée."
+    }
+  ],
+  "image": "/services/recherche-de-panne-electrique.jpg"
+}

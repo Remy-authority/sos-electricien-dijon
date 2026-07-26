@@ -1,0 +1,43 @@
+{
+  "slug": "talant",
+  "name": "Talant",
+  "postalCode": "21240",
+  "context": "Commune du plateau ouest, qui associe un bourg ancien perché, de grands ensembles des années soixante et des secteurs pavillonnaires.",
+  "metaTitle": "Électricien à Talant (21), dépannage et travaux",
+  "metaDescription": "Électricien à Talant : dépannage en urgence, recherche de panne, tableau électrique, mise aux normes. Intervention 7j/7, prix annoncé avant.",
+  "h1": "Électricien à Talant",
+  "intro": "Nous intervenons à Talant (21240) pour le dépannage électrique, la recherche de panne, le remplacement de tableau et la mise en conformité. Perchée sur le plateau ouest au-dessus du lac Kir, la commune juxtapose un vieux bourg groupé autour de son église, de grands ensembles construits dans les années soixante et des rues pavillonnaires : trois âges d'installation, trois types de pannes.",
+  "blocks": [
+    {
+      "heading": "Les installations des grands ensembles arrivent toutes au même âge",
+      "body": "Dans les immeubles collectifs de Talant, les logements ont été livrés avec des installations conçues pour les usages de l'époque : peu de prises, un chauffage électrique direct, souvent aucune protection différentielle à haute sensibilité et une terre partielle. Ces installations vieillissent en bloc, et les symptômes se ressemblent d'un appartement à l'autre : un tableau saturé où l'on a ajouté des départs au fil des travaux, des prises qui chauffent derrière les meubles parce que tout est branché au même endroit, et une coupure qui prive le logement entier au moindre défaut faute de séparation des circuits. La reprise du tableau, avec des rangées différenciées et des différentiels adaptés, règle l'essentiel sans toucher aux murs. Reste ensuite à traiter les circuits qui le méritent, en priorité la cuisine et la salle de bain."
+    },
+    {
+      "heading": "Le vieux Talant et les pavillons : deux autres logiques",
+      "body": "Dans le bourg ancien, les logements sont en pierre et en plâtre sur lattis, avec des conducteurs souvent noyés sans gaine exploitable et une terre absente ou incomplète. Ici, la reprise passe par des chemins moins invasifs que la saignée systématique : passage en apparent soigné, micromodules dans les boîtiers de luminaires pour ajouter une commande, tirage dans les gaines existantes quand elles le permettent. Dans les rues pavillonnaires construites entre les années soixante-dix et quatre-vingt-dix, les installations sont mieux structurées mais les besoins ont changé : circuit de buanderie saturé, garage sans départ dédié, jardin à éclairer, cuisine refaite qui demande ses circuits spécialisés. Nous vérifions d'abord ce que supporte le tableau et l'abonnement avant d'ajouter quoi que ce soit."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, d'odeur de brûlé ou de disjoncteur qui retombe en boucle à Talant, coupez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Talant, nous couvrons aussi Dijon et ses quartiers ouest dont Fontaine d'Ouche et Montchapet, Fontaine-lès-Dijon, Plombières-lès-Dijon et Daix, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Dijon",
+    "Fontaine-lès-Dijon",
+    "Plombières-lès-Dijon"
+  ],
+  "faq": [
+    {
+      "q": "Intervenez-vous dans les immeubles collectifs de Talant ?",
+      "a": "Oui, pour les particuliers comme pour les bailleurs et les syndics. À l'intérieur du logement, nous traitons le tableau, les circuits et l'appareillage sans autorisation particulière. Dès que l'intervention touche aux parties communes, colonne montante, local compteur, liaison à la terre depuis les communs, il faut passer par le syndic : nous vous indiquons précisément ce qui relève de lui après le relevé sur place."
+    },
+    {
+      "q": "Mon appartement n'a qu'un seul différentiel pour tout le logement, est-ce un problème ?",
+      "a": "C'est une configuration courante dans les immeubles de cette période, et elle a deux inconvénients. Le premier est la sécurité : un différentiel unique est souvent d'une sensibilité insuffisante pour protéger correctement les personnes sur tous les usages. Le second est le confort : le moindre défaut, y compris passager, plonge tout le logement dans le noir au lieu de couper une seule zone. La reprise du tableau en plusieurs rangées corrige les deux d'un coup."
+    },
+    {
+      "q": "Mon tableau de pavillon est saturé, faut-il le remplacer ?",
+      "a": "Pas systématiquement. Quand une rangée dispose encore de place et que les protections existantes sont en bon état, un départ supplémentaire s'ajoute sans tout reprendre. Quand le coffret est réellement plein, deux options existent : le remplacer par un modèle offrant de la réserve, ou ajouter un tableau divisionnaire dédié à une zone, garage ou extension. Nous regardons la place réelle et l'état des protections avant de vous orienter."
+    }
+  ]
+}

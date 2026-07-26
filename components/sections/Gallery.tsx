@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import { AnimatedSection } from '@/components/ui/AnimatedSection'
-import { SectionHeader } from '@/components/ui/SectionHeader'
 
 /**
- * Galerie des situations traitées.
+ * Galerie des situations traitées, en mosaïque asymétrique (un grand visuel qui
+ * ouvre la grille, cinq vignettes autour) plutôt qu'en grille régulière.
  *
  * ⚠️ Cadrage éditorial : ce ne sont pas des « réalisations » revendiquées (le site
  * n'a pas encore d'historique d'intervention et le CLAUDE.md interdit d'inventer
@@ -11,40 +11,53 @@ import { SectionHeader } from '@/components/ui/SectionHeader'
  */
 const items = [
   {
-    src: '/gallery/01-furet-electrique.jpg',
-    alt: "Furet électrique déroulé devant un siphon d'évier ouvert",
-    title: 'Furet électrique',
-    caption: 'Le bouchon localisé, attaqué par le siphon ou le tampon de visite.',
+    src: '/gallery/01-tableau-repere.jpg',
+    alt: 'Tableau électrique moderne aux circuits repérés par étiquettes',
+    title: 'Tableau repris et repéré',
+    caption:
+      "Rangées séparées, différentiels adaptés, chaque départ étiqueté : une coupure devient localisée au lieu d'éteindre tout le logement.",
+    className: 'lg:col-span-2 lg:row-span-2',
+    ratio: 'aspect-[4/3] lg:aspect-auto lg:h-full lg:min-h-[30rem]',
   },
   {
-    src: '/gallery/02-hydrocurage.jpg',
-    alt: 'Flexible haute pression engagé dans un regard de visite ouvert',
-    title: 'Hydrocurage',
-    caption: 'Pour un réseau encrassé sur toute sa longueur, pas seulement bouché.',
+    src: '/gallery/02-mesure-multimetre.jpg',
+    alt: 'Mesure de tension au multimètre sur un circuit ouvert',
+    title: 'Recherche de panne',
+    caption: 'On sectionne, on mesure, on désigne le circuit fautif.',
+    className: '',
+    ratio: 'aspect-[4/3]',
   },
   {
-    src: '/gallery/03-inspection-camera.jpg',
-    alt: "Écran de contrôle d'une caméra d'inspection posé au bord d'un regard",
-    title: 'Inspection caméra',
-    caption: 'Quand la cause reste incertaine ou que le bouchon revient.',
+    src: '/gallery/03-prise-echauffement.jpg',
+    alt: 'Prise murale démontée dont les bornes ont noirci',
+    title: 'Point qui a chauffé',
+    caption: 'Une prise noircie ne se remet jamais en service sans contrôle.',
+    className: '',
+    ratio: 'aspect-[4/3]',
   },
   {
-    src: '/gallery/04-regard-exterieur.jpg',
-    alt: 'Regard de visite en béton ouvert dans une allée pavée',
-    title: 'Regard et canalisation enterrée',
-    caption: 'Racines, affaissement, mauvaise pente : ça se voit au regard.',
+    src: '/gallery/04-differentiel-test.jpg',
+    alt: 'Doigt appuyant sur le bouton test d’un interrupteur différentiel',
+    title: 'Essai des différentiels',
+    caption: 'Le test qui vérifie que la protection des personnes fonctionne.',
+    className: '',
+    ratio: 'aspect-[4/3]',
   },
   {
-    src: '/gallery/05-colonne-immeuble.jpg',
-    alt: "Colonne d'évacuation en fonte dans un local technique d'immeuble",
-    title: "Colonne d'immeuble",
-    caption: 'Plusieurs logements qui refoulent en même temps, une seule cause.',
+    src: '/gallery/05-cave-voutee.jpg',
+    alt: 'Boîtier électrique étanche fixé sur la pierre d’une cave voûtée',
+    title: 'Caves et locaux humides',
+    caption: 'Matériel étanche et circuit séparé, la règle en cave bourguignonne.',
+    className: '',
+    ratio: 'aspect-[4/3]',
   },
   {
-    src: '/gallery/06-bac-a-graisse.jpg',
-    alt: 'Bac à graisse ouvert à l’arrière d’une cuisine professionnelle',
-    title: 'Bac à graisse',
-    caption: 'Restauration et collectivités, entretien à périodicité régulière.',
+    src: '/gallery/06-communs-immeuble.jpg',
+    alt: 'Coffret électrique de parties communes dans un local technique d’immeuble',
+    title: 'Parties communes',
+    caption: 'Éclairage, colonne, coffret des communs : le périmètre du syndic.',
+    className: '',
+    ratio: 'aspect-[4/3]',
   },
 ]
 
@@ -56,36 +69,39 @@ export function Gallery() {
     >
       <div
         aria-hidden="true"
-        className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgb(var(--c-brand-600)/0.25),transparent_60%)]"
+        className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgb(var(--c-brand-600)/0.28),transparent_58%)]"
       />
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
-        <SectionHeader
-          id="gallery-title"
-          eyebrow="Sur le terrain"
-          title={
-            <>
+        <div className="grid items-end gap-8 lg:grid-cols-12">
+          <div className="lg:col-span-6">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-accent-400">
+              Sur le terrain
+            </p>
+            <h2 id="gallery-title" className="mt-5 text-[clamp(2rem,3.6vw,3rem)] leading-[1.1] text-sand-50">
               Les situations
               <span className="text-gradient-accent"> que nous traitons</span>
-            </>
-          }
-          subtitle="Six cas de figure qui reviennent tout le temps sur l'agglomération messine, et l'outil qui va avec."
-          variant="dark"
-        />
+            </h2>
+          </div>
+          <p className="leading-relaxed text-sand-300 lg:col-span-5 lg:col-start-8">
+            Six cas de figure qui reviennent sans cesse dans les logements et les immeubles
+            dijonnais, et le geste technique qui va avec.
+          </p>
+        </div>
 
-        <div className="mt-16 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((item, idx) => (
             <AnimatedSection
               key={item.src}
-              delay={(idx % 3) * 0.08}
-              className="group relative overflow-hidden rounded-card border border-ink-700/50"
+              delay={(idx % 3) * 0.07}
+              className={`group relative overflow-hidden rounded-card border border-ink-700/50 ${item.className}`}
             >
-              <div className="relative aspect-[4/3] w-full overflow-hidden bg-ink-900">
+              <div className={`relative w-full overflow-hidden bg-ink-900 ${item.ratio}`}>
                 <Image
                   src={item.src}
                   alt={item.alt}
                   fill
-                  sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw"
+                  sizes="(min-width: 1024px) 620px, (min-width: 640px) 50vw, 100vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div

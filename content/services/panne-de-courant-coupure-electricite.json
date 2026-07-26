@@ -1,0 +1,55 @@
+{
+  "slug": "panne-de-courant-coupure-electricite",
+  "order": 2,
+  "icon": "coupure",
+  "navTitle": "Panne de courant et coupure",
+  "h1": "Panne de courant et coupure d'électricité à Dijon",
+  "metaTitle": "Panne de courant et coupure d'électricité à Dijon",
+  "metaDescription": "Plus de courant à Dijon ? Coupure totale ou partielle, pièce sans électricité : diagnostic et remise en service 7j/7, prix annoncé avant.",
+  "intro": "Plus de courant du tout, ou une partie du logement dans le noir alors que le reste fonctionne : ce sont deux situations différentes, et elles n'appellent pas les mêmes vérifications. Nous intervenons à Dijon et dans les communes de la métropole pour identifier l'origine de la coupure, la réparer et remettre en service, avec un contrôle avant de partir.",
+  "bullets": [
+    "Coupure totale ou partielle",
+    "Origine identifiée avant réparation",
+    "Remise en service contrôlée"
+  ],
+  "blocks": [
+    {
+      "heading": "Coupure générale : d'abord savoir d'où elle vient",
+      "body": "Trois vérifications, dans cet ordre, situent l'origine en quelques minutes. 1. Regardez dehors : si les voisins immédiats sont aussi dans le noir et que l'éclairage public est éteint, la coupure vient du réseau de distribution, et elle se signale au service dépannage du distributeur dont le numéro figure sur votre facture d'électricité. Aucun électricien ne peut agir sur cette partie. 2. Si vous êtes le seul concerné, ouvrez le tableau et cherchez ce qui est abaissé : disjoncteur général, interrupteur différentiel ou disjoncteur divisionnaire. La position de l'organe tombé indique déjà la nature du défaut. 3. Si rien n'est abaissé et que plus rien ne fonctionne, le problème se situe entre le compteur et le tableau, sur la partie qui vous appartient, et c'est là que nous intervenons. Ce petit protocole évite le déplacement inutile quand la coupure est celle de tout le quartier.",
+      "image": "/services/panne-de-courant-coupure-electricite-tableau.jpg",
+      "imageAlt": "Tableau électrique domestique ouvert, main s'apprêtant à réarmer un disjoncteur général",
+      "imageCaption": "Ce qui est abaissé au tableau raconte déjà une partie de l'histoire."
+    },
+    {
+      "heading": "Une pièce ou une zone sans courant",
+      "body": "Une coupure partielle est en réalité une bonne nouvelle : elle désigne un circuit précis, donc une zone de recherche limitée. Les causes se répartissent en trois familles. La protection du circuit a coupé, et il faut alors comprendre pourquoi avant de la relever. Un point de connexion a lâché en amont de la zone morte : borne desserrée dans une boîte de dérivation, conducteur cassé derrière une prise, et cela se produit typiquement après un percement, un déménagement de meuble ou des travaux. Enfin, l'appareillage lui-même est en cause, un interrupteur ou une prise en fin de vie qui a fait contact jusqu'à ne plus le faire. Dans les logements anciens du centre de Dijon, s'ajoute un classique : la boîte de dérivation recouverte lors d'un ancien ravalement intérieur, qui alimente toute une pièce et qu'il faut retrouver avant de réparer."
+    },
+    {
+      "heading": "Ce que vous pouvez faire, et ce qu'il vaut mieux éviter",
+      "body": "Ce qui aide : noter l'heure exacte de la coupure, ce qui fonctionnait au même moment, si un appareil venait d'être branché, et si un orage ou une intervention sur le réseau a eu lieu peu avant. Débrancher les appareils du circuit concerné avant de tenter un unique réarmement. Vider le réfrigérateur et le congélateur le moins possible, et les garder fermés. Ce qui nuit : réarmer en boucle un organe qui retombe, ce qui use le mécanisme et laisse le défaut en place. Remplacer un fusible par un modèle de calibre supérieur ou, pire, par un conducteur de fortune : la protection disparaît et le fil chauffe librement. Ouvrir un appareillage sous tension. Et brancher un groupe électrogène sur une prise du logement, manoeuvre dangereuse pour vous comme pour les agents qui interviennent sur le réseau."
+    }
+  ],
+  "relatedServices": [
+    "urgence-depannage-electricien",
+    "disjoncteur-qui-saute"
+  ],
+  "faq": [
+    {
+      "q": "Comment savoir si la coupure vient du réseau ou de chez moi ?",
+      "a": "Regardez si vos voisins immédiats et l'éclairage public sont touchés. Si oui, la coupure vient du réseau de distribution et se signale au service dépannage du distributeur, dont le numéro figure sur votre facture d'électricité. Si vous êtes le seul concerné, ouvrez le tableau : un organe abaissé signe une panne interne à votre installation. Si rien n'est abaissé et que plus rien ne fonctionne, le défaut se situe entre le compteur et le tableau, et il relève de nous."
+    },
+    {
+      "q": "Une seule pièce n'a plus de courant, est-ce grave ?",
+      "a": "Ce n'est pas nécessairement grave, mais cela ne se répare pas en aveugle. Une zone morte alors que la protection du circuit n'a pas coupé indique presque toujours une connexion qui a lâché en amont : borne desserrée, conducteur cassé, appareillage hors service. C'est une recherche courte parce que le périmètre est petit, mais elle demande de mesurer plutôt que de démonter au hasard."
+    },
+    {
+      "q": "Mon congélateur va-t-il tenir pendant la panne ?",
+      "a": "Un congélateur plein et laissé fermé conserve sa température plusieurs heures, nettement plus longtemps qu'un appareil à moitié vide. Le bon réflexe est donc de ne pas l'ouvrir du tout, plutôt que de vérifier régulièrement. Quand nous devons couper pour intervenir, nous vous le disons à l'avance afin que vous puissiez vous organiser, et nous rétablissons les circuits prioritaires en premier."
+    },
+    {
+      "q": "Le compteur est en panne, qui dois-je appeler ?",
+      "a": "Le compteur et le branchement jusqu'à votre disjoncteur d'abonné appartiennent au réseau de distribution : leur dépannage relève du distributeur, joignable au numéro indiqué sur votre facture, et non d'un électricien. Tout ce qui se trouve après ce point, tableau, circuits, appareillage, relève de nous. Si vous avez un doute, appelez-nous : nous vous dirons en quelques questions de quel côté se situe le problème plutôt que de vous déplacer inutilement."
+    }
+  ],
+  "image": "/services/panne-de-courant-coupure-electricite.jpg"
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "quetigny",
+  "name": "Quetigny",
+  "postalCode": "21800",
+  "context": "Ville de l'est de l'agglomération, conçue d'un seul tenant dans les années soixante-dix, desservie par le tramway.",
+  "metaTitle": "Électricien à Quetigny (21), dépannage et travaux",
+  "metaDescription": "Électricien à Quetigny : dépannage 7j/7, recherche de panne, remplacement de tableau, chauffage électrique. Prix annoncé avant intervention.",
+  "h1": "Électricien à Quetigny",
+  "intro": "Nous intervenons à Quetigny (21800) pour le dépannage électrique, la recherche de panne, le remplacement de tableau et les installations de chauffage électrique. Ville conçue d'un seul tenant à partir des années soixante-dix à l'est de Dijon, Quetigny a une particularité pour notre métier : une grande partie de ses logements a été construite dans la même période, avec les mêmes choix techniques, et arrive donc au même point de vieillissement.",
+  "blocks": [
+    {
+      "heading": "Des installations du même âge, donc les mêmes pannes",
+      "body": "C'est la caractéristique du parc quetignois : maisons de lotissement et logements collectifs partagent souvent le même type d'installation d'origine, avec un chauffage électrique direct, un chauffe-eau à accumulation piloté par un contacteur en heures creuses, et un tableau qui n'avait pas prévu les usages actuels. Les pannes que nous voyons sont donc étonnamment répétitives d'une adresse à l'autre : contacteur jour et nuit bloqué qui prive d'eau chaude, résistance de chauffe-eau entartrée qui fait sauter le différentiel la nuit, convecteurs dont la commande ne répond plus, et circuit de cuisine devenu insuffisant depuis l'arrivée d'un lave-vaisselle et d'une plaque à induction. Ce sont des interventions courtes et peu coûteuses quand elles sont prises dans le bon ordre : on mesure avant de remplacer, et on remplace la pièce plutôt que l'appareil quand la cuve ou la carcasse est encore saine."
+    },
+    {
+      "heading": "Le chauffage électrique, poste principal du logement",
+      "body": "Quand le chauffage d'un logement est entièrement électrique, sa partie électrique n'est plus un détail : elle représente l'essentiel de la consommation d'hiver et la totalité du confort. Trois points méritent un contrôle avant la saison froide. D'abord la répartition : le chauffage doit disposer de ses propres circuits, séparés par zones, pour qu'un défaut sur un appareil ne prive pas tout le logement de chauffe. Ensuite le pilotage : le fil pilote, quand il existe, permet de programmer les appareils depuis une commande centrale, ce qui change la facture autant que le confort. Enfin l'état des appareils eux-mêmes, dont les thermostats sont des pièces d'usure. Un radiateur qui chauffe en permanence sans jamais s'arrêter coûte cher longtemps avant de tomber en panne."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, de panne de chauffe-eau ou de déclenchement répété à Quetigny, isolez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Quetigny, nous couvrons aussi Dijon et ses quartiers est dont l'Université et la Maladière, Chevigny-Saint-Sauveur, Saint-Apollinaire, Sennecey-lès-Dijon et Neuilly-Crimolois, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Dijon",
+    "Chevigny-Saint-Sauveur",
+    "Saint-Apollinaire"
+  ],
+  "faq": [
+    {
+      "q": "Je n'ai plus d'eau chaude, faut-il changer le chauffe-eau ?",
+      "a": "Pas avant d'avoir testé trois pièces. Le contacteur jour et nuit d'abord, qui met le ballon en chauffe pendant les heures creuses et qui se bloque parfois : il possède un levier de marche forcée qui permet de vérifier tout de suite. Le thermostat ensuite, pièce d'usure classique. La résistance enfin, dont l'entartrage est fréquent avec l'eau calcaire du secteur. Le remplacement complet ne s'impose que si la cuve fuit ou si la corrosion est avancée."
+    },
+    {
+      "q": "Mes convecteurs d'origine peuvent-ils être remplacés simplement ?",
+      "a": "Dans la plupart des cas oui, à condition de vérifier deux points : que le circuit de chauffage supporte la puissance totale des nouveaux appareils, et que le fil pilote existe si vous voulez les piloter depuis un programmateur central. Sur les installations d'origine des années soixante-dix, ce fil est souvent absent, et il faut alors choisir entre un tirage supplémentaire et des appareils communicants sans fil. Nous relevons ce point avant de vous confirmer le remplacement à l'identique."
+    },
+    {
+      "q": "Mon différentiel ne saute que la nuit, pourquoi ?",
+      "a": "Parce que quelque chose ne fonctionne que la nuit, et dans un logement chauffé à l'électricité, c'est presque toujours le chauffe-eau qui se met en chauffe en heures creuses. Une résistance entartrée puis percée laisse fuir du courant vers la terre, et le différentiel fait son travail. On isole le circuit du ballon, on mesure l'isolement de la résistance, et le remplacement de celle-ci règle le problème sans toucher au reste."
+    }
+  ]
+}

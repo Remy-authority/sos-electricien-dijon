@@ -1,0 +1,43 @@
+{
+  "slug": "longvic",
+  "name": "Longvic",
+  "postalCode": "21600",
+  "context": "Commune du sud-est de l'agglomération, mêlant quartiers pavillonnaires, logements collectifs et vastes zones d'activités.",
+  "metaTitle": "Électricien à Longvic (21), dépannage et travaux",
+  "metaDescription": "Électricien à Longvic : dépannage électrique 7j/7, recherche de panne, tableau, prises et éclairage. Devis annoncé avant intervention.",
+  "h1": "Électricien à Longvic",
+  "intro": "Nous intervenons à Longvic (21600) pour le dépannage électrique, la recherche de panne, la reprise de tableau et les travaux d'installation. Au sud-est de Dijon, la commune associe des quartiers pavillonnaires bâtis pour l'essentiel entre les années cinquante et quatre-vingt, des logements collectifs et de vastes zones d'activités qui bordent l'aérodrome.",
+  "blocks": [
+    {
+      "heading": "Le parc pavillonnaire d'après-guerre et ses points faibles",
+      "body": "Les maisons construites à Longvic dans les décennies d'après-guerre ont en commun une installation d'origine sobre : quelques circuits, une prise par pièce, une terre parfois limitée à la cuisine et à la salle de bain. Presque toutes ont été complétées depuis, et c'est là que se situent les vrais points faibles. Les ajouts se sont faits en dérivation sur des circuits existants, ce qui charge des lignes prévues pour beaucoup moins, et les points de connexion multipliés dans des boîtes exiguës finissent par chauffer. À cela s'ajoutent les extensions courantes, garage transformé, véranda, abri de jardin, souvent alimentées par un câble tiré au plus simple, sans départ dédié ni protection propre. Nous commençons toujours par cartographier ce qui existe réellement, parce que sur ce type de maison, le tableau ne dit plus la vérité de l'installation."
+    },
+    {
+      "heading": "Extensions, dépendances et alimentation extérieure",
+      "body": "Alimenter un garage détaché, un atelier au fond du jardin ou un abri, c'est une demande banale à Longvic, et c'est aussi celle qui se fait le plus souvent de travers. Trois règles évitent l'essentiel des ennuis. Un câble qui traverse un terrain doit être prévu pour l'enterré et posé à une profondeur suffisante, sous grillage avertisseur : un câble ordinaire posé dans une gaine à faible profondeur finira par être abîmé par un coup de bêche ou par l'humidité. Une dépendance mérite son propre départ depuis le tableau principal, avec sa protection, et un petit tableau divisionnaire sur place dès qu'elle comporte plusieurs points. Enfin, tout ce qui est extérieur exige du matériel étanche et une protection différentielle à haute sensibilité : c'est la première cause de déclenchement les jours de pluie."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, de prise qui chauffe ou de déclenchement répété à Longvic, coupez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Longvic, nous couvrons aussi Dijon et ses quartiers sud, Chenôve, Ouges, Fénay, Neuilly-Crimolois et Perrigny-lès-Dijon, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Dijon",
+    "Chenôve",
+    "Neuilly-Crimolois"
+  ],
+  "faq": [
+    {
+      "q": "Comment alimenter correctement un garage au fond du jardin ?",
+      "a": "Par un départ dédié depuis le tableau principal, avec sa propre protection, et un câble prévu pour l'enterré posé à profondeur suffisante sous grillage avertisseur. Sur place, un petit tableau divisionnaire permet de répartir l'éclairage et les prises et de couper localement. La section du câble se calcule à partir de la distance et de la puissance prévue : c'est ce calcul, plus que la longueur elle-même, qui détermine le coût de l'opération."
+    },
+    {
+      "q": "Mes prises de garage font sauter le disjoncteur quand j'utilise un outil, pourquoi ?",
+      "a": "Le plus souvent parce que ces prises sont raccordées en dérivation sur un circuit de la maison qui n'a pas de réserve, et qu'un outil électroportatif appelle beaucoup de courant au démarrage. La solution durable est un circuit dédié, dimensionné pour l'usage, plutôt qu'une protection plus généreuse sur le circuit existant : augmenter le calibre sans changer le fil revient à supprimer la protection du conducteur."
+    },
+    {
+      "q": "Intervenez-vous pour les entreprises des zones d'activités de Longvic ?",
+      "a": "Oui, pour l'éclairage, les prises de forte puissance, la création ou la reprise d'un sous-tableau, et le dépannage lorsqu'une coupure immobilise l'activité. Nous vous donnons le tarif avant l'intervention et, s'il s'agit d'un local recevant du public, nous vous précisons ce qui relève de notre travail et ce qui relève d'un contrôle par un organisme agréé."
+    }
+  ]
+}

@@ -10,7 +10,7 @@
  */
 import type { Metadata } from 'next'
 import { siteConfig } from '@/config/site.config'
-import { getServices } from '@/lib/content'
+import { getServices, getZones } from '@/lib/content'
 import type { Article, Service, Zone } from '@/lib/content'
 
 const BASE = siteConfig.seo.canonicalBase.replace(/\/$/, '')
@@ -75,26 +75,28 @@ const ORG_ID = `${BASE}/#business`
 /**
  * LocalBusiness du site (global, posé dans le layout).
  *
- * Choix du type (cf. docs/SEO-GEO-PLAN.md §3.5) : schema.org ne propose pas de
- * sous-type « débouchage / assainissement ». `Plumber` reste le plus proche parmi
- * les `HomeAndConstructionBusiness`, on le conserve mais on lève l'ambiguïté pour
- * les moteurs génératifs avec `additionalType` (concept Wikidata « débouchage de
- * canalisation ») et un `hasOfferCatalog` listant les prestations réelles.
+ * Choix du type : schema.org propose le sous-type natif `Electrician` (branche
+ * `HomeAndConstructionBusiness`), qui correspond exactement au métier. Aucun
+ * `additionalType` n'est donc nécessaire ; le `hasOfferCatalog` liste les
+ * prestations réellement publiées sur le site (lu depuis content/services).
  *
  * ⛔ Sans `address` par défaut, sans `aggregateRating`, sans `review`.
  */
 export function localBusinessJsonLd() {
+  // areaServed = la ville de base, ses quartiers, ET les communes qui ont une page
+  // dédiée (lues depuis content/zones, jamais écrites en dur : un site N+1 hérite
+  // du comportement en ajoutant simplement ses fichiers de communes).
   const areaServed = [
     siteConfig.serviceArea.base,
     ...siteConfig.serviceArea.districts,
+    ...getZones().map((z) => z.name),
   ]
   const node: Record<string, unknown> = {
     '@context': 'https://schema.org',
-    '@type': 'Plumber',
+    '@type': 'Electrician',
     '@id': ORG_ID,
-    additionalType: 'https://www.wikidata.org/wiki/Q5304993',
     name: siteConfig.businessName,
-    description: `${siteConfig.trade} à ${siteConfig.city} et dans l'agglomération : débouchage de WC, évier, douche, colonne d'immeuble et regard, curage haute pression et inspection caméra.`,
+    description: `${siteConfig.trade} à ${siteConfig.city} et dans l'agglomération : dépannage en urgence, recherche de panne, tableau électrique et mise aux normes, rénovation d'installation, borne de recharge, chauffage électrique et chauffe-eau.`,
     url: BASE,
     telephone: siteConfig.phone,
     email: siteConfig.email,

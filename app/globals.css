@@ -10,31 +10,31 @@
  * Format « r g b » (canaux) pour les modificateurs d'opacité Tailwind.
  */
 :root {
-  --c-ink-600: 29 83 96;
-  --c-ink-700: 22 64 74;
-  --c-ink-800: 16 49 56;
-  --c-ink-900: 11 36 41;
-  --c-ink-950: 7 26 30;
+  --c-ink-600: 87 64 95;
+  --c-ink-700: 67 48 75;
+  --c-ink-800: 50 35 58;
+  --c-ink-900: 36 24 41;
+  --c-ink-950: 23 15 27;
 
-  --c-sand-50: 251 249 244;
-  --c-sand-100: 245 241 232;
-  --c-sand-200: 233 226 212;
-  --c-sand-300: 215 205 185;
-  --c-sand-400: 179 168 146;
-  --c-sand-500: 138 128 112;
-  --c-sand-600: 100 92 80;
-  --c-sand-700: 70 64 58;
+  --c-sand-50: 251 248 246;
+  --c-sand-100: 244 238 234;
+  --c-sand-200: 232 223 217;
+  --c-sand-300: 214 201 192;
+  --c-sand-400: 179 164 153;
+  --c-sand-500: 138 123 114;
+  --c-sand-600: 99 86 80;
+  --c-sand-700: 69 58 55;
 
-  --c-brand-300: 111 203 206;
-  --c-brand-400: 49 165 172;
-  --c-brand-500: 18 131 140;
-  --c-brand-600: 12 102 110;
-  --c-brand-700: 9 78 86;
+  --c-brand-300: 232 177 131;
+  --c-brand-400: 210 140 78;
+  --c-brand-500: 185 110 44;
+  --c-brand-600: 156 86 32;
+  --c-brand-700: 123 65 26;
 
-  --c-accent-300: 245 140 122;
-  --c-accent-400: 234 92 70;
-  --c-accent-500: 217 59 40;
-  --c-accent-600: 178 43 27;
+  --c-accent-300: 249 139 160;
+  --c-accent-400: 238 78 110;
+  --c-accent-500: 216 30 74;
+  --c-accent-600: 174 19 57;
 }
 
 @layer base {
@@ -98,6 +98,29 @@
       linear-gradient(90deg, rgb(var(--c-brand-300) / 0.05) 1px, transparent 1px);
     background-size: 44px 44px;
   }
+  /* Trame « circuit imprimé » : signature de fond du site (métier électricien).
+     Grille large + noeud lumineux à chaque croisement, masquée en ellipse. */
+  .bg-circuit {
+    background-image:
+      linear-gradient(rgb(var(--c-brand-300) / 0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(var(--c-brand-400) / 0.06) 1px, transparent 1px),
+      radial-gradient(rgb(var(--c-brand-300) / 0.18) 1.4px, transparent 1.6px);
+    background-size: 96px 96px, 96px 96px, 96px 96px;
+    background-position: 0 0, 0 0, 48px 48px;
+    -webkit-mask-image: radial-gradient(ellipse at center, black 26%, transparent 72%);
+    mask-image: radial-gradient(ellipse at center, black 26%, transparent 72%);
+  }
+  /* Rail conducteur : un fin trait cuivre le long duquel court une impulsion. */
+  .wire-rail {
+    @apply relative h-px w-full overflow-hidden;
+    background-image: linear-gradient(
+      90deg,
+      transparent,
+      rgb(var(--c-brand-400) / 0.55),
+      transparent
+    );
+  }
+
   /* Filet dégradé horizontal, séparateur discret entre deux blocs sombres. */
   .rule-glow {
     @apply h-px w-full;

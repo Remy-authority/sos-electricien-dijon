@@ -1,0 +1,55 @@
+{
+  "slug": "mise-aux-normes-nfc15100",
+  "order": 6,
+  "icon": "conformite",
+  "navTitle": "Mise aux normes NF C 15-100",
+  "h1": "Mise aux normes électriques (NF C 15-100) à Dijon",
+  "metaTitle": "Mise aux normes électriques NF C 15-100 à Dijon",
+  "metaDescription": "Mise en conformité électrique à Dijon : levée des anomalies du diagnostic, mise à la terre, différentiels, salle de bain. Devis annoncé avant.",
+  "intro": "Un diagnostic électrique qui revient chargé d'anomalies, un logement à remettre en location, une vente qui approche : la mise en conformité consiste à lever les points de sécurité un par un, en commençant par ceux qui présentent un vrai risque. Nous intervenons à Dijon et dans l'agglomération, avec un devis point par point remis avant les travaux.",
+  "bullets": [
+    "Anomalies levées une par une",
+    "Priorité au risque réel",
+    "Devis détaillé point par point"
+  ],
+  "blocks": [
+    {
+      "heading": "Ce que révèle le plus souvent un diagnostic",
+      "body": "Cinq anomalies reviennent presque systématiquement dans les logements anciens de Dijon et de sa périphérie. L'absence ou l'insuffisance de protection différentielle à haute sensibilité arrive en tête : sans elle, rien ne coupe quand le courant passe par une personne. Vient ensuite l'absence de liaison à la terre, fréquente dans les immeubles du centre où l'installation d'origine n'en comportait pas, ce qui rend inopérante toute protection en aval. Le troisième point concerne la salle de bain : appareillage placé trop près de la baignoire ou de la douche, ou liaison équipotentielle absente. Le quatrième est le matériel vétuste ou inadapté, prises sans obturateur, appareillage fendu, conducteurs sous isolant durci et craquelé. Le cinquième est l'absence de dispositif de coupure d'urgence accessible. Toutes ne se valent pas : un diagnostic liste, il ne hiérarchise pas.",
+      "image": "/services/mise-aux-normes-nfc15100-diagnostic.jpg",
+      "imageAlt": "Rapport de diagnostic électrique posé sur une table devant un tableau ouvert",
+      "imageCaption": "Le rapport liste les anomalies sans les hiérarchiser : c'est le premier travail à faire."
+    },
+    {
+      "heading": "Notre façon de traiter le rapport",
+      "body": "Nous reprenons le rapport avec vous, et nous le classons en trois familles. Ce qui touche à la sécurité des personnes passe en premier : protection différentielle, terre, salle de bain, matériel présentant un risque de contact direct. Ce qui touche à la sécurité du bâti vient ensuite : protections mal calibrées par rapport aux conducteurs, points de connexion qui chauffent, circuits surchargés. Ce qui relève enfin du confort ou de l'usage, nombre de prises, éclairage, réserve dans le tableau, se traite si vous le souhaitez, ou pas. Cette lecture change tout sur le coût : un logement peut être rendu sûr sans être refait à neuf, et un rapport chargé ne signifie pas nécessairement une rénovation complète. Nous chiffrons chaque point séparément, pour que vous puissiez décider de ce que vous faites maintenant et de ce qui attendra."
+    },
+    {
+      "heading": "Conformité, attestation et cas particuliers",
+      "body": "Il faut distinguer deux choses souvent confondues. La conformité à la norme NF C 15-100 concerne les installations neuves et les rénovations importantes : après ce type de travaux, une attestation de conformité visée par l'organisme de contrôle est demandée pour la mise en service ou son rétablissement par le distributeur. Le diagnostic électrique obligatoire, lui, concerne les installations de plus de quinze ans lors d'une vente, et il ne s'agit pas d'un contrôle de conformité mais d'un état des risques : le vendeur n'est pas tenu de réaliser les travaux, l'acquéreur achète en connaissance de cause. En location, la logique est différente encore : le logement doit répondre aux critères de décence, ce qui rend la reprise des points dangereux nécessaire, indépendamment de l'âge de l'installation. Nous vous disons clairement dans quel cas vous êtes avant de chiffrer quoi que ce soit."
+    }
+  ],
+  "relatedServices": [
+    "renovation-tableau-electrique",
+    "electricien-syndic-copropriete-professionnels"
+  ],
+  "faq": [
+    {
+      "q": "Un diagnostic électrique avec des anomalies bloque-t-il une vente ?",
+      "a": "Non. Le diagnostic est un document d'information : il est annexé à la promesse de vente et l'acquéreur achète en connaissance de cause. Aucun travail n'est légalement imposé au vendeur. En pratique, un rapport chargé pèse sur la négociation, et il arrive que la banque de l'acquéreur ou l'acquéreur lui-même demande une remise en sécurité. Faire chiffrer les anomalies avant la visite du notaire vous met en position de discuter avec un montant réel plutôt qu'avec une estimation invoquée en face."
+    },
+    {
+      "q": "Combien coûte une mise en conformité ?",
+      "a": "Le coût dépend entièrement de ce qui est à reprendre, et l'écart est considérable entre l'ajout d'un différentiel sur un tableau récent et la création d'une terre dans un immeuble ancien qui n'en a jamais eu. C'est pourquoi nous chiffrons point par point plutôt que d'annoncer un forfait : vous voyez ce que coûte chaque anomalie levée, et vous arbitrez. Le devis vous est remis avant tout démarrage."
+    },
+    {
+      "q": "Mon logement n'a pas de terre, est-ce grave ?",
+      "a": "C'est l'anomalie la plus sérieuse du lot, parce qu'elle rend inefficace une grande partie des protections situées en aval : sans chemin vers la terre, un défaut ne trouve pas d'autre issue que la personne qui touche l'appareil. Dans une maison, la création d'une prise de terre est un travail courant. En appartement ancien, la solution passe souvent par la reprise de la liaison depuis les parties communes, ce qui suppose de voir avec le syndic. Nous relevons l'existant avant de vous dire ce qui est réalisable chez vous."
+    },
+    {
+      "q": "Faut-il tout refaire quand l'installation date des années soixante-dix ?",
+      "a": "Pas nécessairement. L'âge ne dit rien à lui seul : ce qui compte est la section des conducteurs, l'état de leur isolant, la présence d'une terre et la qualité des points de connexion. Une installation ancienne mais correctement dimensionnée et bien entretenue se remet en sécurité en reprenant le tableau et quelques circuits. À l'inverse, une installation plus récente mais bricolée au fil des années peut demander davantage. Le relevé sur place tranche, pas la date."
+    }
+  ],
+  "image": "/services/mise-aux-normes-nfc15100.jpg"
+}

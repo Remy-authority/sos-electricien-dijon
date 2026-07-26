@@ -1,0 +1,43 @@
+{
+  "slug": "neuilly-crimolois",
+  "name": "Neuilly-Crimolois",
+  "postalCode": "21800",
+  "context": "Commune nouvelle du sud-est de la métropole, née du rapprochement de Neuilly-lès-Dijon et de Crimolois, à dominante pavillonnaire.",
+  "metaTitle": "Électricien à Neuilly-lès-Dijon et Crimolois (21)",
+  "metaDescription": "Électricien à Neuilly-Crimolois : dépannage 7j/7, disjoncteur qui saute, recherche de panne, tableau électrique. Prix annoncé avant intervention.",
+  "h1": "Électricien à Neuilly-lès-Dijon et Crimolois",
+  "intro": "Nous intervenons à Neuilly-Crimolois (21800) pour le dépannage électrique, la recherche de panne, la reprise de tableau et les travaux d'installation. Les deux anciens villages de Neuilly-lès-Dijon et de Crimolois forment aujourd'hui une commune unique du sud-est de la métropole, où des coeurs de village anciens côtoient des lotissements bâtis pour l'essentiel dans les quarante dernières années.",
+  "blocks": [
+    {
+      "heading": "Deux coeurs de village, une même commune",
+      "body": "La particularité locale est de retrouver, sur un même territoire, deux noyaux anciens et leurs extensions résidentielles. Dans les parties villageoises, les maisons sont en pierre, souvent avec dépendances, cour et parfois cave, et l'installation électrique s'y est ajoutée par étapes : un tableau récent y alimente couramment des circuits qui, eux, datent d'une autre époque, sans terre sur une partie des points. Dans les lotissements, l'installation est structurée et la terre présente partout, mais le tableau a été posé sans réserve et les usages ont augmenté depuis. Ces deux situations demandent des réponses opposées : dans l'ancien, on commence par vérifier ce qui existe réellement derrière les plaques ; dans le récent, on regarde d'abord la place disponible au tableau et la puissance souscrite."
+    },
+    {
+      "heading": "Dépendances, garages et alimentations extérieures",
+      "body": "Sur les deux parties de la commune, une bonne part des demandes concerne ce qui se trouve autour de la maison : garage détaché, atelier, abri de jardin, portail motorisé, éclairage d'allée. Ces alimentations ont souvent été réalisées au plus simple, avec un câble non prévu pour l'enterré posé à faible profondeur, sans départ dédié ni protection propre. Les conséquences arrivent des années plus tard : un coup de bêche qui abîme la gaine, de l'humidité qui gagne un boîtier, et un différentiel qui coupe toute la maison à cause du fond du jardin. La reprise consiste à créer un vrai départ depuis le tableau, à poser un câble adapté sous grillage avertisseur et à installer un petit tableau divisionnaire dans la dépendance quand elle comporte plusieurs points."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, de déclenchement répété ou de prise qui chauffe à Neuilly-Crimolois, isolez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Neuilly-Crimolois, nous couvrons aussi Sennecey-lès-Dijon, Chevigny-Saint-Sauveur, Quetigny, Fénay, Bretenière et Dijon, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Sennecey-lès-Dijon",
+    "Chevigny-Saint-Sauveur",
+    "Fénay"
+  ],
+  "faq": [
+    {
+      "q": "Neuilly-lès-Dijon et Crimolois, faut-il préciser laquelle ?",
+      "a": "Administrativement, les deux communes n'en forment plus qu'une, Neuilly-Crimolois, avec le même code postal 21800. Pour nous, la seule chose qui compte est l'adresse exacte et l'accès : dites-nous simplement le nom de la rue et le secteur, ancien village ou lotissement, cela suffit à nous situer et à estimer le délai."
+    },
+    {
+      "q": "Comment alimenter correctement un abri ou un garage au fond du terrain ?",
+      "a": "Avec un départ dédié depuis le tableau principal, un câble prévu pour l'enterré posé sous grillage avertisseur, et un petit tableau divisionnaire sur place dès qu'il y a plusieurs points. La section se calcule à partir de la distance et de la puissance envisagée : sur une longue distance, un conducteur trop fin provoque une chute de tension qui fait mal fonctionner les appareils sans rien déclencher."
+    },
+    {
+      "q": "Mon tableau est récent, mais mes prises n'ont pas de terre, est-ce possible ?",
+      "a": "C'est un cas très courant dans les maisons de village. Le tableau a été remplacé lors de travaux, sans que les circuits situés derrière soient repris : le coffret est moderne, les conducteurs restent ceux d'origine. Un tableau neuf ne crée pas de terre là où le fil n'existe pas. Nous ouvrons quelques boîtes pour établir jusqu'où la terre arrive réellement, avant de vous proposer une reprise ciblée ou plus large."
+    }
+  ]
+}

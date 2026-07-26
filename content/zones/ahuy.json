@@ -1,0 +1,43 @@
+{
+  "slug": "ahuy",
+  "name": "Ahuy",
+  "postalCode": "21121",
+  "context": "Village résidentiel du nord de la métropole, adossé au coteau, à dominante pavillonnaire et calme.",
+  "metaTitle": "Électricien à Ahuy (21), dépannage et travaux",
+  "metaDescription": "Électricien à Ahuy : dépannage 7j/7, recherche de panne, tableau électrique, ajout de circuits. Prix annoncé avant intervention.",
+  "h1": "Électricien à Ahuy",
+  "intro": "Nous intervenons à Ahuy (21121) pour le dépannage électrique, la recherche de panne, la reprise de tableau et l'ajout de circuits. Village résidentiel du nord de la métropole adossé au coteau, Ahuy est fait d'un noyau ancien et de quartiers pavillonnaires paisibles, où les maisons ont pour la plupart un garage, un sous-sol et un terrain à équiper.",
+  "blocks": [
+    {
+      "heading": "Le sous-sol, pièce technique de la maison",
+      "body": "Dans une bonne partie des maisons d'Ahuy, le sous-sol concentre l'essentiel de ce qui compte électriquement : le tableau, le ballon d'eau chaude, la buanderie, parfois la chaudière et son régulateur, souvent un établi et des outils. C'est aussi le volume le plus exposé, parce qu'il reste frais et humide une partie de l'année. Deux réflexes évitent l'essentiel des ennuis. Le premier est de donner à la buanderie un circuit dédié : lave-linge et sèche-linge qui tournent ensemble sur une ligne partagée avec des prises de sous-sol, c'est le déclenchement assuré un jour de lessive. Le second est de séparer au tableau les circuits du sous-sol de ceux des pièces de vie, pour qu'un défaut en bas n'éteigne pas les chambres. Ce sont deux petites interventions au tableau, et elles suppriment des gênes récurrentes."
+    },
+    {
+      "heading": "Terrain, garage et circuits extérieurs",
+      "body": "Le deuxième volet des demandes concerne l'extérieur et le garage. Éclairage d'allée avec détection, portail motorisé, prise de terrasse, alimentation d'un abri : tous ces circuits exigent du matériel étanche, un câble adapté à l'enterré quand il traverse le terrain, et leur propre protection différentielle. Le garage, lui, mérite presque toujours son propre départ depuis le tableau : les outils électroportatifs appellent beaucoup de courant au démarrage, et une prise prise en dérivation sur un circuit de la maison fait couper la protection au premier usage sérieux. Nous vérifions au passage la place disponible dans le tableau et la puissance souscrite au compteur, parce que ce sont ces deux éléments, et non la longueur de câble, qui décident de ce qu'il est possible d'ajouter sans provoquer de déclenchements en soirée."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, de déclenchement répété ou de prise qui chauffe à Ahuy, isolez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Ahuy, nous couvrons aussi Fontaine-lès-Dijon, Daix, Hauteville-lès-Dijon, Saint-Apollinaire et Dijon, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Fontaine-lès-Dijon",
+    "Daix",
+    "Dijon"
+  ],
+  "faq": [
+    {
+      "q": "Ma buanderie fait sauter le disjoncteur, que faire ?",
+      "a": "C'est le cas typique d'un circuit partagé : lave-linge et sèche-linge ont chacun un appel de puissance important en phase de chauffe, et sur une ligne commune avec d'autres prises, la protection coupe. La bonne réponse est un circuit dédié depuis le tableau, dimensionné pour l'usage, et non un calibre de protection plus généreux, qui reviendrait à ne plus protéger le conducteur."
+    },
+    {
+      "q": "Peut-on ajouter un circuit pour le garage à Ahuy ?",
+      "a": "Oui, et c'est même recommandé dès qu'on y utilise des outils. Nous créons un départ dédié depuis le tableau, avec sa protection, et un point de coupure sur place quand le garage comporte plusieurs prises. Le relevé préalable porte sur la place disponible au tableau, la puissance souscrite et la distance à parcourir : ce sont ces trois points qui déterminent le prix."
+    },
+    {
+      "q": "Mon sous-sol est humide, faut-il changer l'installation ?",
+      "a": "Rarement en totalité. Il s'agit surtout d'adapter : matériel prévu pour les locaux humides aux points de connexion, conducteurs écartés du contact direct avec les murs, et surtout un circuit séparé au tableau, avec sa propre protection, pour que le sous-sol ne fasse pas tomber le reste de la maison. Nous remplaçons ensuite les portions dont l'isolant a durci, quand il y en a."
+    }
+  ]
+}

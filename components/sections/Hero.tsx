@@ -3,57 +3,52 @@
 import { useRef } from 'react'
 import Image from 'next/image'
 import { motion, useScroll, useTransform } from 'framer-motion'
-import { ArrowRight, Camera, Euro, MapPin, Phone, ShieldCheck } from 'lucide-react'
+import { ArrowRight, Euro, Phone, ShieldCheck, Zap } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { GradientBlob } from '@/components/ui/GradientBlob'
 import { LiveDot } from '@/components/ui/LiveDot'
 import { EASE } from '@/lib/motion'
 import { siteConfig } from '@/config/site.config'
 
-const badges = [
-  { icon: Euro, label: 'Prix annoncé avant' },
-  { icon: ShieldCheck, label: 'Sans casse' },
-  { icon: Camera, label: 'Inspection caméra' },
-  { icon: MapPin, label: `${siteConfig.serviceArea.radiusKm} km autour de ${siteConfig.city}` },
+/**
+ * Hero de Dijon. Composition volontairement différente de celle des autres sites
+ * du portefeuille : la photo n'est plus un fond fondu mais un panneau assumé à
+ * droite, traversé par un rail conducteur animé (signature du métier), et les
+ * arguments passent dans une barre basse pleine largeur au lieu d'une liste.
+ */
+const proofs = [
+  { icon: Zap, title: 'Mise en sécurité', desc: "On isole le circuit en cause, pas tout le logement" },
+  { icon: Euro, title: 'Prix annoncé avant', desc: 'Le tarif est donné avant de commencer' },
+  { icon: ShieldCheck, title: 'Contrôle sous tension', desc: 'Rien ne repart sans essai devant vous' },
 ]
 
 export function Hero() {
   const ref = useRef<HTMLElement>(null)
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] })
-  const y = useTransform(scrollYProgress, [0, 1], [0, 120])
-  const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0])
+  const y = useTransform(scrollYProgress, [0, 1], [0, 90])
+  const opacity = useTransform(scrollYProgress, [0, 0.85], [1, 0])
 
   return (
     <section
       ref={ref}
       id="top"
-      className="noise-overlay relative isolate flex min-h-[92vh] items-center overflow-hidden bg-ink-950 pb-20 pt-28 lg:pt-36"
+      className="noise-overlay relative isolate overflow-hidden bg-ink-950 pb-0 pt-28 lg:pt-36"
     >
       <div
         aria-hidden="true"
-        className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgb(var(--c-ink-800)/0.75),transparent_62%),radial-gradient(ellipse_at_bottom_right,rgb(var(--c-accent-500)/0.16),transparent_55%),linear-gradient(180deg,rgb(var(--c-ink-950))_0%,rgb(var(--c-ink-900))_52%,rgb(var(--c-ink-950))_100%)]"
+        className="absolute inset-0 bg-[radial-gradient(ellipse_at_15%_10%,rgb(var(--c-ink-800)/0.85),transparent_58%),radial-gradient(ellipse_at_85%_75%,rgb(var(--c-brand-600)/0.22),transparent_55%),linear-gradient(180deg,rgb(var(--c-ink-950))_0%,rgb(var(--c-ink-900))_58%,rgb(var(--c-ink-950))_100%)]"
       />
+      <div aria-hidden="true" className="bg-circuit absolute inset-0" />
 
-      {/* Photo d'ambiance, très en retrait. Fondue par le bas sur mobile (le texte
-          occupe le haut), fondue par la droite à partir du desktop. */}
-      <div
-        aria-hidden="true"
-        className="absolute inset-y-0 right-0 w-full opacity-[0.12] [mask-image:linear-gradient(180deg,transparent_35%,black)] lg:w-[54%] lg:opacity-20 lg:[mask-image:linear-gradient(90deg,transparent,black_48%)]"
-      >
-        <Image src="/hero.jpg" alt="" fill priority sizes="(min-width: 1024px) 54vw, 100vw" className="object-cover" />
-      </div>
-
-      <div aria-hidden="true" className="bg-grid absolute inset-0" />
-
-      <GradientBlob className="-left-40 top-4" color="deep" size={520} intensity="strong" duration={22} />
-      <GradientBlob className="-right-48 bottom-0" color="brand" size={620} intensity="strong" duration={18} />
-      <GradientBlob className="left-1/3 top-1/4" color="accent" size={440} intensity="strong" duration={15} />
+      <GradientBlob className="-left-52 top-10" color="deep" size={540} intensity="strong" duration={21} />
+      <GradientBlob className="-right-40 top-1/3" color="brand" size={600} intensity="strong" duration={17} />
+      <GradientBlob className="left-1/2 bottom-0" color="accent" size={420} intensity="strong" duration={14} />
 
       <motion.div
         style={{ y, opacity }}
-        className="relative mx-auto grid max-w-7xl items-center gap-16 px-6 lg:px-10 xl:grid-cols-12"
+        className="relative mx-auto grid max-w-7xl items-center gap-14 px-6 pb-16 lg:px-10 xl:grid-cols-12 xl:gap-10"
       >
-        <div className="xl:col-span-7">
+        <div className="xl:col-span-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -66,13 +61,11 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: EASE }}
-            className="mt-7 text-[clamp(2.5rem,6vw,5rem)] leading-[1.05] text-sand-50"
+            className="mt-7 text-[clamp(2.5rem,5.6vw,4.75rem)] leading-[1.06] text-sand-50"
           >
-            Canalisation
-            <br />
-            bouchée à {siteConfig.city},
-            <br />
-            <span className="text-gradient-accent">réglée sans casse.</span>
+            Panne électrique
+            <br />à {siteConfig.city},
+            <span className="text-gradient-accent"> réglée à la source.</span>
           </motion.h1>
 
           <motion.p
@@ -81,9 +74,9 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.25, ease: EASE }}
             className="mt-7 max-w-xl text-lg leading-relaxed text-sand-200 md:text-xl"
           >
-            Évier qui refoule, WC bouché, colonne d&apos;immeuble saturée, regard qui déborde.
-            Nous débouchons au furet ou à l&apos;hydrocureur, nous passons la caméra quand la cause
-            reste incertaine, et nous annonçons le prix avant de commencer.
+            Disjoncteur qui retombe, pièce sans courant, prise qui a noirci, tableau hors d&apos;âge.
+            Nous cherchons la cause circuit par circuit, nous réparons, et nous ne remettons sous
+            tension qu&apos;après contrôle.
           </motion.p>
 
           <motion.div
@@ -97,80 +90,88 @@ export function Hero() {
               {siteConfig.phoneDisplay}
             </Button>
             <Button href="/contact#formulaire" variant="ghost" size="lg">
-              Décrire mon problème
+              Décrire ma panne
               <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
             </Button>
           </motion.div>
-
-          <motion.ul
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.6 }}
-            className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3"
-          >
-            {badges.map(({ icon: Icon, label }) => (
-              <li key={label} className="flex items-center gap-2 text-sm text-sand-300">
-                <Icon size={16} className="shrink-0 text-brand-300" strokeWidth={2.4} />
-                {label}
-              </li>
-            ))}
-          </motion.ul>
         </div>
 
+        {/* Panneau photo assumé : la vraie image, cadrée, et non un fond fondu. */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.4, ease: EASE }}
-          className="relative hidden xl:col-span-5 xl:block"
+          initial={{ opacity: 0, x: 40 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.9, delay: 0.3, ease: EASE }}
+          className="relative xl:col-span-6"
         >
-          <div className="relative mx-auto max-w-md">
+          <div className="relative mx-auto max-w-xl xl:max-w-none">
             <div
               aria-hidden="true"
-              className="absolute -inset-8 -z-10 rounded-[3rem] bg-gradient-to-br from-brand-500/25 via-accent-500/10 to-transparent blur-3xl"
+              className="absolute -inset-6 -z-10 rounded-[3rem] bg-gradient-to-br from-brand-500/25 via-accent-500/10 to-transparent blur-3xl"
             />
 
-            <div className="relative overflow-hidden rounded-hero border border-brand-400/25 bg-gradient-to-br from-ink-800/70 to-ink-950/85 p-8 backdrop-blur-xl">
-              <span className="inline-flex rounded-full border border-brand-400/40 bg-brand-500/10 px-3 py-1 text-xs uppercase tracking-wider text-brand-300">
-                Comment on travaille
-              </span>
+            <div className="relative aspect-[5/4] w-full overflow-hidden rounded-hero border border-brand-400/25 sm:aspect-[16/10]">
+              <Image
+                src="/hero.jpg"
+                alt="Électricien contrôlant un tableau électrique à l'aide d'une pince ampèremétrique"
+                fill
+                priority
+                sizes="(min-width: 1280px) 640px, 100vw"
+                className="object-cover"
+              />
+              <div
+                aria-hidden="true"
+                className="absolute inset-0 bg-gradient-to-tr from-ink-950/85 via-ink-950/25 to-transparent"
+              />
 
-              <p className="mt-7 font-display text-2xl font-medium leading-snug text-sand-50">
-                Le prix est annoncé avant qu&apos;on ouvre la mallette.
-              </p>
-              <p className="mt-3 text-sm leading-relaxed text-sand-300">
-                Vous décrivez le symptôme, nous annonçons la prestation et son tarif. Si ce qu&apos;on
-                trouve sur place change la donne, vous le savez avant, pas après.
-              </p>
-
-              <div className="mt-8 grid grid-cols-2 gap-4">
-                <div className="rounded-2xl bg-ink-900/70 p-4">
-                  <p className="font-display text-3xl font-medium text-accent-400">24h/24</p>
-                  <p className="mt-1 text-xs text-sand-400">Ligne urgence</p>
-                </div>
-                <div className="rounded-2xl bg-ink-900/70 p-4">
-                  <p className="font-display text-3xl font-medium text-accent-400">
-                    {siteConfig.serviceArea.radiusKm} km
-                  </p>
-                  <p className="mt-1 text-xs text-sand-400">Autour de {siteConfig.city}</p>
-                </div>
+              {/* Rail conducteur : une impulsion parcourt le bas de l'image. */}
+              <div aria-hidden="true" className="wire-rail absolute inset-x-8 bottom-10">
+                <span className="absolute inset-y-0 left-0 w-16 animate-current-run bg-gradient-to-r from-transparent via-accent-400 to-transparent" />
               </div>
 
-              <p className="mt-6 flex items-start gap-2 text-xs leading-relaxed text-sand-400">
-                <ShieldCheck size={14} className="mt-0.5 shrink-0 text-brand-300" />
-                Furet électrique, hydrocureur haute pression et caméra d&apos;inspection dans le camion.
+              <p className="absolute bottom-5 left-8 text-xs uppercase tracking-[0.22em] text-sand-300">
+                {siteConfig.city} · {siteConfig.departmentName}
               </p>
             </div>
 
-            {/* Signature du métier : un filet qui descend dans un tube. */}
-            <div
-              aria-hidden="true"
-              className="absolute -right-5 -top-7 h-24 w-11 overflow-hidden rounded-full border border-brand-400/30 bg-ink-950/70 backdrop-blur"
-            >
-              <span className="absolute left-1/2 top-0 h-8 w-1.5 -translate-x-1/2 animate-flow-down rounded-full bg-gradient-to-b from-transparent via-accent-400 to-transparent" />
+            {/* Carte flottante : l'engagement de méthode, en débord du panneau. */}
+            <div className="relative z-10 mx-4 -mt-10 rounded-card border border-brand-400/25 bg-ink-900/85 p-6 backdrop-blur-xl sm:mx-8 sm:-mt-12 sm:p-7">
+              <span className="inline-flex rounded-full border border-brand-400/40 bg-brand-500/10 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-brand-300">
+                Notre règle
+              </span>
+              <p className="mt-4 font-display text-xl font-medium leading-snug text-sand-50 sm:text-2xl">
+                Un disjoncteur qui saute n&apos;est pas le problème. C&apos;est le message.
+              </p>
+              <p className="mt-3 text-sm leading-relaxed text-sand-300">
+                Nous cherchons ce qui l&apos;a fait tomber avant de le relever. Réarmer sans chercher,
+                c&apos;est désactiver une sécurité qui vient de faire son travail.
+              </p>
             </div>
           </div>
         </motion.div>
       </motion.div>
+
+      {/* Barre basse pleine largeur : remplace la liste de badges de nos autres sites. */}
+      <div className="relative border-t border-ink-700/60 bg-ink-950/60 backdrop-blur">
+        <ul className="mx-auto grid max-w-7xl gap-px px-6 py-8 sm:grid-cols-3 lg:px-10">
+          {proofs.map(({ icon: Icon, title, desc }, i) => (
+            <motion.li
+              key={title}
+              initial={{ opacity: 0, y: 14 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.55 + i * 0.1, ease: EASE }}
+              className="flex items-start gap-3 sm:px-4 sm:first:pl-0 sm:last:pr-0"
+            >
+              <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-brand-500/12 text-brand-300 ring-1 ring-brand-400/25">
+                <Icon size={17} strokeWidth={2.2} />
+              </span>
+              <span>
+                <span className="block text-sm font-semibold text-sand-50">{title}</span>
+                <span className="mt-0.5 block text-xs leading-relaxed text-sand-400">{desc}</span>
+              </span>
+            </motion.li>
+          ))}
+        </ul>
+      </div>
     </section>
   )
 }

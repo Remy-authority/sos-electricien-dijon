@@ -46,8 +46,8 @@ const config: Config = {
         hero: '2.5rem',
       },
       boxShadow: {
-        card: '0 1px 2px rgb(7 26 30 / 0.05), 0 8px 24px -8px rgb(7 26 30 / 0.12)',
-        'card-hover': '0 4px 12px rgb(7 26 30 / 0.08), 0 24px 48px -12px rgb(7 26 30 / 0.2)',
+        card: '0 1px 2px rgb(23 15 27 / 0.05), 0 8px 24px -8px rgb(23 15 27 / 0.12)',
+        'card-hover': '0 4px 12px rgb(23 15 27 / 0.08), 0 24px 48px -12px rgb(23 15 27 / 0.2)',
         glow: '0 0 40px -10px rgb(var(--c-accent-500) / 0.55)',
         'glow-brand': '0 0 44px -12px rgb(var(--c-brand-400) / 0.5)',
       },
@@ -61,18 +61,24 @@ const config: Config = {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-12px)' },
         },
-        /* Filet lumineux qui « descend » dans un tube : signature visuelle du métier. */
-        'flow-down': {
-          '0%': { transform: 'translateY(-120%)', opacity: '0' },
-          '18%': { opacity: '1' },
-          '82%': { opacity: '1' },
-          '100%': { transform: 'translateY(340%)', opacity: '0' },
+        /* Impulsion qui parcourt un conducteur : signature visuelle du métier. */
+        'current-run': {
+          '0%': { transform: 'translateX(-160%)', opacity: '0' },
+          '14%': { opacity: '1' },
+          '86%': { opacity: '1' },
+          '100%': { transform: 'translateX(460%)', opacity: '0' },
+        },
+        /* Noeud sous tension : respiration lente d'un point de contact. */
+        'arc-pulse': {
+          '0%, 100%': { opacity: '0.35', transform: 'scale(0.92)' },
+          '50%': { opacity: '1', transform: 'scale(1.08)' },
         },
       },
       animation: {
         shimmer: 'shimmer 8s linear infinite',
         float: 'float 6s ease-in-out infinite',
-        'flow-down': 'flow-down 3.6s ease-in-out infinite',
+        'current-run': 'current-run 3.4s ease-in-out infinite',
+        'arc-pulse': 'arc-pulse 2.8s ease-in-out infinite',
       },
     },
   },

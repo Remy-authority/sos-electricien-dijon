@@ -1,0 +1,43 @@
+{
+  "slug": "daix",
+  "name": "Daix",
+  "postalCode": "21121",
+  "context": "Village du coteau nord-ouest, résidentiel, entre bâti ancien de village et maisons implantées à flanc de pente.",
+  "metaTitle": "Électricien à Daix (21), dépannage et travaux",
+  "metaDescription": "Électricien à Daix : dépannage 7j/7, recherche de panne, tableau électrique, mise aux normes en bâti ancien. Prix annoncé avant intervention.",
+  "h1": "Électricien à Daix",
+  "intro": "Nous intervenons à Daix (21121) pour le dépannage électrique, la recherche de panne, la reprise de tableau et la mise aux normes. Village du coteau nord-ouest de la métropole, Daix associe un centre ancien aux maisons de pierre et des constructions plus récentes implantées à flanc de pente, deux situations qui n'appellent pas les mêmes chemins de câble ni les mêmes priorités.",
+  "blocks": [
+    {
+      "heading": "Bâti ancien de village : le cheminement avant le matériel",
+      "body": "Dans le centre du village, les maisons ont des murs épais, des cloisons en plâtre sur lattis et des planchers bois, et l'électricité y a été ajoutée puis complétée sur plusieurs décennies. Ce qui décide du coût d'une reprise, ce n'est presque jamais le nombre de prises, c'est le chemin que peuvent emprunter les conducteurs. Quatre solutions se combinent selon les pièces : réutiliser une gaine existante quand elle est dégagée, passer par les combles ou sous un plancher, poser en apparent de façon soignée quand la saignée abîmerait un mur ancien, ou ajouter une commande sans nouveau fil grâce à un micromodule logé dans le boîtier d'un luminaire. Nous testons la faisabilité de ces chemins avant de chiffrer, ce qui évite de prévoir des ouvertures qui ne serviront pas."
+    },
+    {
+      "heading": "Maisons de coteau : extérieurs et longueurs",
+      "body": "Sur les constructions implantées à flanc de pente, l'installation déborde largement de la maison : éclairage d'escaliers extérieurs et d'allée en pente, portail en haut ou en bas du terrain, garage parfois éloigné du logement, terrasses sur plusieurs niveaux. Trois points reviennent systématiquement. Le matériel extérieur doit être réellement étanche, entrées de câble comprises, sous peine de voir un différentiel couper après chaque épisode pluvieux. Les liaisons vers un portail ou un garage éloigné demandent un câble prévu pour l'enterré et une section calculée sur la distance. Enfin, tous ces circuits gagnent à disposer de leur propre protection différentielle : c'est ce qui évite qu'un défaut au fond du terrain plonge le logement entier dans le noir."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, de déclenchement répété ou de prise qui chauffe à Daix, isolez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Daix, nous couvrons aussi Talant, Fontaine-lès-Dijon, Ahuy, Hauteville-lès-Dijon, Plombières-lès-Dijon et Dijon, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Talant",
+    "Ahuy",
+    "Fontaine-lès-Dijon"
+  ],
+  "faq": [
+    {
+      "q": "Peut-on refaire l'électricité d'une maison de village sans saigner les murs ?",
+      "a": "En grande partie, oui. Les gaines existantes, les combles, les planchers bois et une pose en apparent soignée couvrent la majorité des besoins dans un bâti ancien. La saignée ne devient nécessaire que lorsqu'aucun chemin ne mène à un point imposé, et elle se limite alors à cette portion. Nous vérifions la faisabilité du tirage pièce par pièce avant d'établir le devis."
+    },
+    {
+      "q": "Mon portail est en bas du terrain, comment l'alimenter ?",
+      "a": "Par un départ dédié depuis le tableau, avec un câble prévu pour l'enterré posé sous grillage avertisseur, et une section calculée en fonction de la distance : sur une longue liaison, un conducteur trop fin fait peiner la motorisation sans que rien ne déclenche. Nous prévoyons également une protection différentielle propre à ce circuit extérieur, pour qu'un défaut au portail n'affecte pas la maison."
+    },
+    {
+      "q": "Mon différentiel coupe après chaque pluie, d'où cela vient-il ?",
+      "a": "Presque toujours d'un circuit extérieur : boîtier de jardin dont l'entrée de câble n'est plus étanche, éclairage d'allée, prise de terrasse, ou gaine abîmée par un coup d'outil. Le circuit se repère facilement en isolant les départs un par un. La réparation consiste à reprendre les points de connexion avec du matériel adapté et, si nécessaire, à remplacer la portion de câble dégradée."
+    }
+  ]
+}

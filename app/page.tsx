@@ -3,7 +3,7 @@ import { siteConfig } from '@/config/site.config'
 import { getServices, getZones } from '@/lib/content'
 import { buildMetadata } from '@/lib/seo'
 import { Hero } from '@/components/sections/Hero'
-import { TrustBar } from '@/components/sections/TrustBar'
+import { Symptoms } from '@/components/sections/Symptoms'
 import { About } from '@/components/sections/About'
 import { Services } from '@/components/sections/Services'
 import { Process } from '@/components/sections/Process'
@@ -16,8 +16,8 @@ import { LeadForm } from '@/components/ui/LeadForm'
 import { Faq } from '@/components/ui/Faq'
 import { CtaBanner } from '@/components/ui/CtaBanner'
 
-const TITLE = `Débouchage de canalisations à ${siteConfig.city}, intervention rapide`
-const DESC = `Débouchage et curage de canalisations à ${siteConfig.city} et dans l'agglomération : WC, évier, douche, colonne d'immeuble, regard, bac à graisse. Urgence 7j/7, prix annoncé avant intervention.`
+const TITLE = `Électricien à ${siteConfig.city}, dépannage et urgence 7j/7`
+const DESC = `Électricien à ${siteConfig.city} et dans la métropole : dépannage en urgence, disjoncteur qui saute, recherche de panne, tableau électrique, mise aux normes. Prix annoncé avant intervention.`
 
 export const metadata: Metadata = buildMetadata({ title: TITLE, description: DESC, path: '/' })
 
@@ -28,13 +28,13 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <TrustBar />
-      <About />
+      <Symptoms />
       <Services services={services} />
+      <About />
       <Process />
       <Stats />
-      <WhyUs />
       {siteConfig.features.gallery && <Gallery />}
+      <WhyUs />
       <ServiceArea zones={zones} />
 
       <section id="devis" className="bg-sand-100 py-24 lg:py-32" aria-labelledby="devis-title">
@@ -48,7 +48,7 @@ export default function HomePage() {
                 <span className="text-gradient-ink italic"> et on vous rappelle</span>
               </>
             }
-            subtitle="Plus vous êtes précis sur ce qui refoule et depuis quand, plus notre estimation au téléphone sera juste."
+            subtitle="Plus vous êtes précis sur ce qui a coupé et depuis quand, plus notre estimation au téléphone sera juste."
           />
           <div className="mt-12">
             <LeadForm />
@@ -58,7 +58,7 @@ export default function HomePage() {
 
       <Faq
         items={siteConfig.homeFaq as unknown as { q: string; a: string }[]}
-        subtitle={`Prix, urgence, produits déboucheurs, responsabilité locataire ou propriétaire : ce qu'on nous demande le plus souvent à ${siteConfig.city}.`}
+        subtitle={`Prix, urgence, disjoncteur qui saute, mise aux normes, responsabilité locataire ou propriétaire : ce qu'on nous demande le plus souvent à ${siteConfig.city}.`}
       />
 
       <CtaBanner />

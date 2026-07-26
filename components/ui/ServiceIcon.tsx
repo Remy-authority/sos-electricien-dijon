@@ -1,21 +1,26 @@
 import {
   BadgeCheck,
+  BatteryCharging,
   Building2,
-  Camera,
+  Cable,
+  ClipboardCheck,
   Clock,
   Euro,
   Gauge,
+  House,
+  LampCeiling,
+  LayoutPanelTop,
   Phone,
+  Plug,
   Search,
   ShieldCheck,
-  ShowerHead,
-  Shovel,
+  Siren,
   Star,
-  Toilet,
-  TriangleAlert,
-  UtensilsCrossed,
-  Waves,
+  Thermometer,
+  ToggleRight,
   Wrench,
+  Zap,
+  ZapOff,
   type LucideIcon,
 } from 'lucide-react'
 
@@ -25,15 +30,22 @@ import {
  * de métier en changeant cette table, pas les fichiers de contenu.
  */
 const ICONS: Record<string, LucideIcon> = {
-  // Services
-  alert: TriangleAlert,
-  wc: Toilet,
-  shower: ShowerHead,
-  pressure: Gauge,
-  camera: Camera,
-  buried: Shovel,
-  grease: UtensilsCrossed,
-  building: Building2,
+  // Prestations électricité (clés utilisées par content/services/*.json)
+  urgence: Siren,
+  coupure: ZapOff,
+  disjoncteur: ToggleRight,
+  recherche: Search,
+  tableau: LayoutPanelTop,
+  conformite: ClipboardCheck,
+  prises: Plug,
+  pro: Building2,
+  // Divers métier
+  cable: Cable,
+  eclairage: LampCeiling,
+  mesure: Gauge,
+  renovation: House,
+  borne: BatteryCharging,
+  chauffage: Thermometer,
   // Étapes et arguments
   phone: Phone,
   search: Search,
@@ -46,7 +58,7 @@ const ICONS: Record<string, LucideIcon> = {
 }
 
 export function resolveIcon(icon: string): LucideIcon {
-  return ICONS[icon] ?? Waves
+  return ICONS[icon] ?? Zap
 }
 
 export function ServiceIcon({

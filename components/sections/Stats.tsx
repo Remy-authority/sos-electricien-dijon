@@ -47,13 +47,21 @@ export function Stats() {
       <div className="rule-glow absolute inset-x-0 bottom-0" aria-hidden="true" />
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
-        <dl className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        {/* Alignement à gauche et filets verticaux en cuivre : la bande se lit comme
+            un bornier, pas comme une rangée de chiffres centrés. */}
+        <dl className="grid gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
           {siteConfig.stats.map((stat) => (
-            <div key={stat.label} className="text-center">
-              <dd className="font-display text-5xl font-medium tracking-tight text-accent-400 lg:text-6xl">
+            <div
+              key={stat.label}
+              className="border-brand-400/25 px-0 sm:px-8 sm:first:pl-0 lg:border-l lg:first:border-l-0"
+            >
+              <dd className="font-display text-5xl font-medium tracking-tight text-brand-300 lg:text-6xl">
                 <Counter value={stat.value} suffix={stat.suffix} />
               </dd>
-              <dt className="mt-3 text-sm uppercase tracking-[0.18em] text-sand-300">{stat.label}</dt>
+              <dt className="mt-3 flex items-center gap-2 text-sm uppercase tracking-[0.18em] text-sand-300">
+                <span className="h-1 w-1 rounded-full bg-accent-400" aria-hidden="true" />
+                {stat.label}
+              </dt>
             </div>
           ))}
         </dl>

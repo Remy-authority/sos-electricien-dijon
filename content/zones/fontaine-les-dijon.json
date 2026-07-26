@@ -1,0 +1,43 @@
+{
+  "slug": "fontaine-les-dijon",
+  "name": "Fontaine-lès-Dijon",
+  "postalCode": "21121",
+  "context": "Commune limitrophe au nord, avec un bourg historique perché et des quartiers résidentiels descendant vers la zone commerciale.",
+  "metaTitle": "Électricien à Fontaine-lès-Dijon (21)",
+  "metaDescription": "Électricien à Fontaine-lès-Dijon : dépannage 7j/7, recherche de panne, tableau électrique, rénovation. Prix annoncé avant intervention.",
+  "h1": "Électricien à Fontaine-lès-Dijon",
+  "intro": "Nous intervenons à Fontaine-lès-Dijon (21121) pour le dépannage électrique, la recherche de panne, la reprise de tableau et la rénovation d'installation. Adossée à la butte qui domine Dijon au nord, la commune associe un bourg historique aux maisons anciennes en pierre et des quartiers résidentiels plus récents étalés vers la plaine, deux mondes qui ne posent pas les mêmes questions électriques.",
+  "blocks": [
+    {
+      "heading": "Le bourg ancien : pierre, plâtre et absence de gaines",
+      "body": "Dans les maisons du vieux Fontaine, les murs sont épais, les cloisons souvent en plâtre sur lattis, et l'électricité a été ajoutée par couches successives au fil du vingtième siècle. Le résultat typique se lit vite : des conducteurs noyés directement dans le plâtre sans gaine, des boîtes de dérivation recouvertes lors d'un ancien ravalement intérieur, une terre présente sur une partie du logement seulement, et un tableau récent alimentant des circuits qui, eux, ne l'ont jamais été. Sur ce type d'installation, refaire à l'identique n'a pas de sens : on remplace les tronçons dont l'isolant a durci, on rétablit la terre là où elle manque, et on privilégie les cheminements praticables plutôt que d'ouvrir des saignées dans des murs difficiles. Le diagnostic commence toujours par l'ouverture de quelques boîtes, qui en disent plus qu'une visite complète."
+    },
+    {
+      "heading": "Quartiers résidentiels : des besoins qui ont changé",
+      "body": "Dans les rues pavillonnaires plus récentes, l'installation est structurée et la terre présente partout, mais elle a été dimensionnée pour des usages d'une autre décennie. Les demandes qui reviennent portent presque toujours sur l'ajout : un circuit dédié pour la buanderie, une prise de forte puissance au garage, un éclairage extérieur avec détection, une extension ou un abri de jardin à alimenter. Deux vérifications précèdent systématiquement le devis : la place réellement disponible dans le tableau, et la puissance souscrite au compteur au regard de ce qui fonctionnera en même temps. Ajouter un usage lourd sans regarder ces deux points, c'est programmer des déclenchements en soirée d'hiver, exactement au moment où l'on a besoin de tout."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, de prise qui a noirci ou de différentiel qui retombe en boucle à Fontaine-lès-Dijon, isolez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Fontaine-lès-Dijon, nous couvrons aussi Dijon et ses quartiers nord dont Montchapet et la Toison d'Or, Talant, Ahuy, Daix et Saint-Apollinaire, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Dijon",
+    "Talant",
+    "Ahuy"
+  ],
+  "faq": [
+    {
+      "q": "Ma maison ancienne n'a pas de terre partout, que faire ?",
+      "a": "C'est fréquent dans le bourg historique, où la terre a été ajoutée au moment de travaux successifs, pièce par pièce. La première étape est de savoir jusqu'où elle va réellement : nous ouvrons quelques boîtes et nous contrôlons circuit par circuit. Ensuite, deux chemins existent selon le cas, tirer un conducteur de terre dans une gaine exploitable, ou reprendre le circuit complet. En maison individuelle, la création ou la reprise de la prise de terre elle-même est un travail courant."
+    },
+    {
+      "q": "Peut-on passer des câbles sans faire de saignées ?",
+      "a": "Souvent, oui. Quand une gaine existe et reste dégagée, un conducteur neuf s'y tire sans ouvrir le mur. Quand ce n'est pas possible, plusieurs solutions évitent la saignée : cheminement en plinthe ou en moulure, passage par les combles ou le vide sanitaire, micromodule dans le boîtier d'un luminaire pour ajouter une commande sans nouveau fil. Nous testons la faisabilité du tirage avant de chiffrer, plutôt que de prévoir des saignées par défaut."
+    },
+    {
+      "q": "Intervenez-vous rapidement à Fontaine-lès-Dijon ?",
+      "a": "La commune est limitrophe de Dijon, à moins de deux kilomètres du centre : c'est l'une des zones les plus rapidement accessibles de notre secteur. Le créneau exact vous est annoncé au téléphone en fonction du planning en cours, et nous préférons donner une heure réaliste plutôt qu'une promesse générique que le trafic dément."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "chevigny-saint-sauveur",
+  "name": "Chevigny-Saint-Sauveur",
+  "postalCode": "21800",
+  "context": "Commune de l'est dijonnais, très pavillonnaire, développée par vagues successives de lotissements en lisière de forêt.",
+  "metaTitle": "Électricien à Chevigny-Saint-Sauveur (21)",
+  "metaDescription": "Électricien à Chevigny-Saint-Sauveur : dépannage 7j/7, recherche de panne, tableau électrique, circuits d'extension. Prix annoncé avant.",
+  "h1": "Électricien à Chevigny-Saint-Sauveur",
+  "intro": "Nous intervenons à Chevigny-Saint-Sauveur (21800) pour le dépannage électrique, la recherche de panne, la reprise de tableau et les travaux d'extension. Commune très pavillonnaire de l'est dijonnais, bâtie par vagues successives de lotissements en lisière de forêt, elle présente un parc où l'âge de l'installation se lit directement dans la rue où l'on se trouve.",
+  "blocks": [
+    {
+      "heading": "Trois générations de lotissements, trois états d'installation",
+      "body": "Les premières vagues, les plus anciennes, ont des installations qui ont dépassé leur durée de vie utile : tableau d'origine sans protection différentielle moderne, circuits peu nombreux, terre parfois partielle, et surtout des ajouts empilés au fil des décennies. Les vagues intermédiaires présentent des installations correctes mais sans réserve, où chaque nouvel usage vient charger une ligne existante. Les plus récentes sont saines et n'appellent que des ajouts maîtrisés. Cette lecture par génération est utile parce qu'elle évite deux erreurs de sens contraire : entreprendre une rénovation complète là où reprendre le tableau suffirait, ou au contraire ajouter des circuits sur une installation dont les conducteurs sont en fin de vie. Nous relevons systématiquement l'état réel avant de proposer, plutôt que de conclure à partir de l'année de construction."
+    },
+    {
+      "heading": "Les travaux qui reviennent le plus dans les pavillons",
+      "body": "Quatre chantiers occupent l'essentiel de nos interventions à Chevigny. L'aménagement de combles ou d'un sous-sol en pièce de vie, qui demande de créer de vrais circuits plutôt que de prolonger ceux du niveau inférieur. La reprise de la cuisine, où plaque à induction, four et lave-vaisselle imposent des circuits spécialisés dimensionnés en conséquence. L'équipement du garage et du jardin : prises de forte puissance, éclairage extérieur avec détection, portail motorisé, prise de terrasse. Enfin le remplacement de tableau, qui accompagne souvent l'un des trois précédents parce qu'il n'y a plus de place pour les nouveaux départs. Regrouper ces travaux quand ils sont proches dans le temps évite de payer deux fois la même préparation."
+    },
+    {
+      "heading": "Urgence et communes voisines",
+      "body": "En cas de coupure, de déclenchement répété ou de prise qui chauffe à Chevigny-Saint-Sauveur, isolez le circuit concerné et appelez-nous. Notre ligne est ouverte 7j/7, week-ends et jours fériés compris. Depuis Chevigny-Saint-Sauveur, nous couvrons aussi Quetigny, Sennecey-lès-Dijon, Neuilly-Crimolois, Couternon, Bressey-sur-Tille et Dijon, dans un rayon d'environ 30 km autour de Dijon."
+    }
+  ],
+  "neighbours": [
+    "Quetigny",
+    "Sennecey-lès-Dijon",
+    "Neuilly-Crimolois"
+  ],
+  "faq": [
+    {
+      "q": "J'aménage mes combles, faut-il tirer de nouveaux circuits ?",
+      "a": "Oui. Prolonger un circuit de l'étage inférieur donne une pièce sous-alimentée et une protection qui coupe dès que plusieurs appareils fonctionnent. Une pièce de vie a besoin de ses propres circuits, prises et éclairage séparés, avec leurs protections au tableau. C'est aussi le bon moment pour prévoir un point de commande en haut et en bas de l'escalier et une réserve pour un usage futur, tant que les cloisons sont ouvertes."
+    },
+    {
+      "q": "Faut-il refaire toute l'électricité d'une maison des années soixante-dix ?",
+      "a": "Pas nécessairement. Trois éléments décident : l'état de l'isolant des conducteurs, la présence d'une terre sur l'ensemble des circuits, et la section des fils par rapport aux usages actuels. Si ces trois points sont sains, reprendre le tableau et les circuits spécialisés suffit. S'ils ne le sont pas, une reprise partielle coûte plus cher à terme qu'une rénovation menée d'un coup. Le relevé sur place tranche, pas la date de construction."
+    },
+    {
+      "q": "Peut-on regrouper plusieurs travaux en une seule intervention ?",
+      "a": "C'est même préférable. Remplacement du tableau, création de circuits pour une pièce aménagée et reprise des prises d'une cuisine partagent la même préparation et les mêmes coupures. Les regrouper évite de payer deux fois le déplacement et la mise en sécurité, et cela permet de dimensionner le tableau une seule fois pour l'ensemble des besoins, plutôt que de le saturer à la première étape."
+    }
+  ]
+}
