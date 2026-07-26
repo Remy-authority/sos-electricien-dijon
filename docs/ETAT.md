@@ -155,6 +155,18 @@ un numéro par site).
   portrait persona DE FACE (40-50 ans, visage sympathique), prénom/nom à consonance
   bourguignonne (persona toujours DEMO). Le verrou noindex reste actif : brancher le DNS
   n'expose rien à l'indexation.
+- **27/07/2026 (CEO, re-contrôle passe n°3 + DNS)** : correction CEO sur l'email (OVH
+  n'inclut plus de redirections gratuites) : zone refaite sur le modèle ForwardEmail des
+  3 autres sites, collée par Rémy, propagation CONSTATÉE (A @ → 76.76.21.21, www →
+  cname.vercel-dns.com, MX forwardemail ; https://www.sos-electricien-dijon.fr répond et
+  sert `Disallow: /`). Re-contrôle passe n°3 du Builder (commit `25d4039`, diff 8 fichiers
+  conforme) : logo recoloré dans la charte (pastille prune, liseré carmin, piste crème,
+  zéro orange), lisible sur header sombre, header clair et footer ; portrait persona DE
+  FACE conforme (≈45 ans, sympathique, ceinture porte-outils, aucun texte/logo lisible) ;
+  persona renommé `Vincent Bonnardot` (DEMO), citation à la première personne. TOUT EST
+  PRÊT : en attente de la validation finale de Rémy pour merger `builder/identite-dijon`
+  sur `main` (le domaine réel affichera alors le site Dijon, toujours en noindex).
+  Resteront avant l'Étape 6 : numéro 09 dédié, identité artisan réelle, assurance.
 - **27/07/2026 (Autoblog)** : Tranche 1 des drafts blog conseils écrite, 6 articles dans
   `content/drafts/` (`001-` à `006-`), sujets pris dans `docs/CALENDRIER-EDITORIAL.md` en
   commençant par juillet (orages d'été, 4 sujets) puis août (2 sujets), pas par janvier.

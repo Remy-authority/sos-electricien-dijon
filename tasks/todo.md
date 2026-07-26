@@ -133,6 +133,14 @@ Metz non illustrés) : seul `cover` est renseigné, avec dégradation propre dé
 - [ ] Réapprovisionner le calendrier avant épuisement de la file (reste 42 sujets pour
       l'année 1 après cette tranche)
 
+## ✅ RE-CONTRÔLE CEO passe n°3 (27/07/2026) : CONFORME, en attente validation finale Rémy
+
+- Diff `25d4039` vérifié (8 fichiers, rien d'autre). Logo dans la charte sur les 3 fonds,
+  portrait de face conforme à la demande, `Vincent Bonnardot` en config (DEMO conservé).
+- DNS propagé : www.sos-electricien-dijon.fr répond (noindex actif), MX ForwardEmail posés.
+- Prochain jalon : GO de Rémy → merge `builder/identite-dijon` → `main` (site réel visible
+  sur le domaine, toujours noindex) → puis 09 + identité artisan + assurance → Étape 6.
+
 ## PASSE BUILDER n°3 demandée par Rémy le 27/07/2026 (logo + persona), 2 points
 
 1. **Logo : recolorer, design conservé.** Rémy valide le tracé de circuit mais le pavé
