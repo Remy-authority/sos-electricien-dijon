@@ -220,3 +220,14 @@ un numéro par site).
   Répartition finale équilibrée : 10 articles par page service, sauf le syndic/copro à 8.
   Vérifié par script : 78 positions sans trou ni doublon, zéro titre dupliqué. En attente :
   audit CEO avant que l'Autoblog convertisse la section 3 en drafts `016-` à `078-`.
+- **27/07/2026 (Autoblog)** : Vague 2 du blog écrite, 15 drafts (`016-` à `030-`, sujets 16 à
+  30 de la section 3 du calendrier vague 2, ordre exact, non réordonné). Texte uniquement,
+  conformément à la règle de circuit (Autoblog=texte, Builder=images) : chaque article
+  référence sa cover et 2 images de corps avec légende, aucun fichier image produit. Zéro
+  tiret cadratin, zéro chiffre/certification inventés, contenu prudent et conditionnel sur
+  les 2 sujets sensibles (assurance habitation, éclairage de secours ERP). Auto-contrôles
+  scriptés : frontmatter YAML complet sur les 15 fichiers, `relatedServices` vérifiés contre
+  les 8 slugs réels, 2 images en corps partout, aucun doublon exact de question FAQ contre
+  les 8 pages service et les 15 articles déjà écrits (45 nouvelles questions comparées à 77
+  existantes). Commit LOCAL sur `main`, PAS de push (le CEO audite puis pousse). En attente :
+  audit CEO du contenu, puis transmission au Builder pour les 30 visuels correspondants.

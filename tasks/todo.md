@@ -172,6 +172,58 @@ Metz non illustrés) : seul `cover` est renseigné, avec dégradation propre dé
       de Next servait encore l'ancien portrait (même nom de fichier), purge de
       `.next/cache/images` nécessaire pour le contrôle visuel local.
 
+## Session du 27/07/2026 (Autoblog), VAGUE 2 du blog conseils, TEXTE UNIQUEMENT — TERMINÉE
+
+15 drafts écrits dans `content/drafts/` (`016-` à `030-`), sujets n°16 à n°30 de la section 3
+de `docs/CALENDRIER-EDITORIAL.md` (réécrit vague 2), dans l'ordre exact de la file, aucun
+réordonnancement ni substitution :
+
+- [x] `016-combien-de-temps-electricien-urgence-dijon.mdx` → `urgence-depannage-electricien` (I)
+- [x] `017-electricien-garde-nuit-dijon-intervention.mdx` → `urgence-depannage-electricien` (I)
+- [x] `018-que-dire-telephone-electricien-urgence.mdx` → `urgence-depannage-electricien` (I)
+- [x] `019-tempete-annoncee-debrancher-appareils-precaution.mdx` → `panne-de-courant-coupure-electricite` (S)
+- [x] `020-eclairage-secours-commerce-commission-securite.mdx` → `electricien-syndic-copropriete-professionnels` (I)
+- [x] `021-tableau-commerce-coupe-pendant-ouverture.mdx` → `electricien-syndic-copropriete-professionnels` (I)
+- [x] `022-renover-electricite-maison-ancienne-dijon.mdx` → `renovation-tableau-electrique` (I)
+- [x] `023-differentiel-saute-apres-tempete-reflexe-normal.mdx` → `disjoncteur-qui-saute` (S)
+- [x] `024-reperer-tableau-electrique-vetuste-signes.mdx` → `renovation-tableau-electrique` (I)
+- [x] `025-percer-mur-ajouter-prise-cable-cache.mdx` → `remplacement-prises-interrupteurs-eclairage` (I)
+- [x] `026-installer-prise-exterieure-jardin-securite.mdx` → `remplacement-prises-interrupteurs-eclairage` (I)
+- [x] `027-mise-aux-normes-assurance-habitation-lien.mdx` → `mise-aux-normes-nfc15100` (I)
+- [x] `028-prise-de-terre-absente-ajouter-sans-tout-refaire.mdx` → `mise-aux-normes-nfc15100` (I)
+- [x] `029-ventilateur-climatiseur-mobile-circuit-disjoncte.mdx` → `disjoncteur-qui-saute` (I)
+- [x] `030-chauffe-eau-electrique-disjoncte-automne.mdx` → `disjoncteur-qui-saute` (S)
+
+Format : frontmatter complet (`title`, `slug`, `description`, `date` estimée depuis la
+section 1 du calendrier, `category`, `cover`, `relatedServices`), corps avec 2 appels
+d'image + légende chacun (`/conseils/<slug>-1.jpg` et `-2.jpg`, fichiers à produire par le
+Builder, AUCUNE image générée par l'Autoblog), FAQ de 3 questions par article.
+
+Auto-contrôles faits (scripts, pas seulement visuel) :
+- `grep "—"` sur les 15 fichiers : aucune occurrence de tiret cadratin.
+- `grep -c '!\['` sur les 15 fichiers : exactement 2 images en corps partout (aucun 0,
+  leçon du 27/07/2026 sur les pages 100% texte).
+- Frontmatter YAML validé par script Node (`gray-matter`) : 8 champs requis présents,
+  `slug` cohérent avec le nom de fichier, `relatedServices` vérifiés un par un contre les
+  8 slugs réels de `content/services/` (aucun slug inventé).
+- FAQ : script de comparaison des 45 nouvelles questions contre les FAQ des 8 pages
+  service, les 15 drafts/article déjà écrits (`002-015` + l'article publié) : aucun
+  doublon exact détecté. Vérification sémantique manuelle en plus (ex. l'angle de
+  `024-reperer-tableau-electrique-vetuste-signes` volontairement différent de la section
+  « tableau vétuste » déjà présente dans `010-verifier-tableau-electrique-avant-hiver`).
+- Ordre et service lié de chaque draft recoupés un par un avec la section 3 du calendrier :
+  conformes, aucun écart.
+- Zéro chiffre d'activité inventé, zéro certification. Sujets sensibles (assurance
+  habitation art. 27, éclairage de secours ERP art. 20) rédigés en restant volontairement
+  générique/conditionnel plutôt que de citer une règle ou un texte réglementaire précis
+  non vérifié.
+
+Commit **local sur `main`, SANS push** (le CEO audite puis pousse lui-même).
+
+- [ ] Audit CEO du contenu (doctrine + qualité + diff réel du commit)
+- [ ] Transmettre au Builder pour production des visuels (30 images : 15 cover + 2×15 corps)
+- [ ] Vague 3 à prévoir avant épuisement de la file (reste 48 sujets, positions 31-78)
+
 ## En attente de Rémy
 
 - Achat du domaine `sos-electricien-dijon.fr` (vérifié disponible le 26/07/2026)
