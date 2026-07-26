@@ -98,6 +98,10 @@ un numéro par site).
 
 ## 3. DÉCISIONS RÉMY
 
+- 27/07/2026 : AU LANCEMENT, 11 articles publiés d'un coup (rattrapage exécuté par le CEO le
+  jour même via le script officiel, articles 1 à 11, datés du jour), et la TOTALITÉ des 78
+  articles doit être PRODUITE d'avance (vagues 3 à 5 lancées immédiatement, pas au fil de
+  l'eau). La cadence 3/semaine (cron lun/mer/ven) déroule ensuite la réserve.
 - 27/07/2026 : GO FINAL pour l'Étape 6, en attente uniquement du numéro de téléphone.
 - 27/07/2026 : PAS d'assurance affichée sur les sites du portefeuille (décision définitive).
 - 27/07/2026 : recettes infra standardisées pour tout site N+1 (DNS OVH + ForwardEmail +
