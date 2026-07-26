@@ -71,9 +71,15 @@ un numéro par site).
       `public/conseils`, les drafts Dijon n'ayant pas de covers), 1ère publication déclenchée
       à la main : article `coupure-courant-orage-ete-dijon` publié. Cadence auto : lun/mer/ven
       ~7h, 5 drafts restants en file.
-- [ ] Prochaine passe Builder (avec l'injection du 09) : générer les 6 images de couverture
-      des articles (`public/conseils/<slug>.jpg`) et réapprovisionner les drafts au fil de
-      l'eau (calendrier éditorial : 42 sujets restants)
+- [x] Builder : 6 covers d'articles livrées le 27/07/2026 (commit `2c76cfc`, diff limité aux
+      images) et VALIDÉES au re-contrôle CEO : noms alignés 6/6 sur les champs `cover`,
+      empreintes uniques, aucune marque/texte/visage, direction artistique cohérente
+      (prune/carmin), sujets tous différents et raccord avec les articles, cover du 1er
+      article vérifiée en prod (200)
+- [ ] Autoblog (session future) : réapprovisionner les drafts au fil de l'eau
+      (calendrier éditorial : 42 sujets restants)
+- [ ] Builder (dès achat du 09 par la surveillance Twilio) : injection du numéro réel +
+      retrait de `phoneIsDemo` (message à coller fourni par le CEO à ce moment-là)
 - [ ] Numéro : le site affiche ENCORE le numéro fiction ARCEP (03 53 01 21 21, phoneIsDemo) ; surveillance d'achat automatique d'un 09 Twilio en cours (recherche CEO du 27/07 : les 09 ne sont PAS retirés du catalogue Twilio, stock intermittent). Dès achat : Builder injecte → re-déploiement.
 
 ## 2bis. POINTS OUVERTS POUR RÉMY (relevés par le Builder)
