@@ -66,7 +66,14 @@ un numéro par site).
 - [x] Contrôle visuel CEO (identité distincte de Metz confirmée) → GO Rémy le 27/07/2026 → MERGE sur `main` fait (ff jusqu'à `7880377`), production vérifiée : www.sos-electricien-dijon.fr sert le site Dijon, apex en 308, sitemap 28 URLs, noindex toujours actif
 - [x] Rémy : propriété GSC créée, TXT `google-site-verification` posé en DNS (propagation vérifiée par le CEO le 27/07/2026)
 - [x] ÉTAPE 6 FAITE le 27/07/2026 sur go explicite de Rémy : `SEO_NOINDEX` retiré de Vercel, production redéployée, vérifié : robots.txt en `Allow` (crawlers IA explicitement autorisés), `Sitemap:` référencé, sitemap 200 avec 28 URLs, meta robots `index, follow`. LE SITE EST EN LIGNE : https://www.sos-electricien-dijon.fr
-- [ ] Rémy : soumettre `sitemap.xml` dans Search Console (Sitemaps)
+- [x] Rémy : sitemap soumis dans Search Console le 27/07/2026
+- [x] Autoblog EN ROUTE : workflow corrigé par le CEO (`git add` tolérant à l'absence de
+      `public/conseils`, les drafts Dijon n'ayant pas de covers), 1ère publication déclenchée
+      à la main : article `coupure-courant-orage-ete-dijon` publié. Cadence auto : lun/mer/ven
+      ~7h, 5 drafts restants en file.
+- [ ] Prochaine passe Builder (avec l'injection du 09) : générer les 6 images de couverture
+      des articles (`public/conseils/<slug>.jpg`) et réapprovisionner les drafts au fil de
+      l'eau (calendrier éditorial : 42 sujets restants)
 - [ ] Numéro : le site affiche ENCORE le numéro fiction ARCEP (03 53 01 21 21, phoneIsDemo) ; surveillance d'achat automatique d'un 09 Twilio en cours (recherche CEO du 27/07 : les 09 ne sont PAS retirés du catalogue Twilio, stock intermittent). Dès achat : Builder injecte → re-déploiement.
 
 ## 2bis. POINTS OUVERTS POUR RÉMY (relevés par le Builder)
