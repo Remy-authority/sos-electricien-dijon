@@ -63,7 +63,9 @@ un numéro par site).
 - [x] Builder : logo, favicon, portrait persona, 42 visuels dont 1 image UNIQUE par commune
 - [ ] Builder : injecter les vraies valeurs de Rémy (domaine, 09 dédié, email, identité artisan, assurance) quand elles arrivent
 - [ ] Autoblog : drafts T1 (préfixes 001-…)
-- [ ] Contrôle visuel CEO (comparer aussi côte à côte avec Metz : assez distinct ?) → validation Rémy → mise en ligne (Étape 6)
+- [x] Contrôle visuel CEO (identité distincte de Metz confirmée) → GO Rémy le 27/07/2026 → MERGE sur `main` fait (ff jusqu'à `7880377`), production vérifiée : www.sos-electricien-dijon.fr sert le site Dijon, apex en 308, sitemap 28 URLs, noindex toujours actif
+- [ ] Rémy : créer la propriété Google Search Console (type Domaine, TXT DNS chez OVH, instructions fournies par le CEO le 27/07/2026)
+- [ ] Étape 6 (le jour du go réel) : retirer `SEO_NOINDEX` sur Vercel + redéployer + vérifier robots/sitemap + soumettre le sitemap dans GSC
 
 ## 2bis. POINTS OUVERTS POUR RÉMY (relevés par le Builder)
 
@@ -77,6 +79,14 @@ un numéro par site).
 
 ## 3. DÉCISIONS RÉMY
 
+- 27/07/2026 : GO FINAL pour l'Étape 6, en attente uniquement du numéro de téléphone.
+- 27/07/2026 : PAS d'assurance affichée sur les sites du portefeuille (décision définitive).
+- 27/07/2026 : recettes infra standardisées pour tout site N+1 (DNS OVH + ForwardEmail +
+  GSC type Domaine + numéro Twilio) : voir `docs/INFRA-PORTEFEUILLE.md` (nouveau, voyage
+  avec le template).
+- 27/07/2026 : faute de 09 en stock chez Twilio, Rémy a accepté un 03 39, mais l'achat est
+  bloqué par le type de dossier réglementaire (Local absent du compte) → retour au 09,
+  surveillance d'achat automatique posée par le CEO (achète dès retour en stock).
 - 25/07/2026 : top 5 vague 2 validé ; Dijon (électricien) est le n°3 de la file de lancement.
 - 26/07/2026 : un numéro 09 dédié par site du portefeuille (preuve des appels pour la location).
 - 26/07/2026 : les sites N+1 se dupliquent désormais depuis Metz (porteur du design PROTEC-DARD),
@@ -167,6 +177,12 @@ un numéro par site).
   PRÊT : en attente de la validation finale de Rémy pour merger `builder/identite-dijon`
   sur `main` (le domaine réel affichera alors le site Dijon, toujours en noindex).
   Resteront avant l'Étape 6 : numéro 09 dédié, identité artisan réelle, assurance.
+- **27/07/2026 (CEO, MERGE)** : GO de Rémy → merge fast-forward de `builder/identite-dijon`
+  dans `main` (`f373b5d..7880377`), poussé, production Vercel vérifiée sur le domaine réel :
+  titre Dijon servi, apex 308 → www, robots `Disallow: /` (verrou intact), sitemap 200 avec
+  28 URLs canoniques www. Instructions Google Search Console données à Rémy (propriété type
+  Domaine + TXT DNS maintenant ; soumission du sitemap réservée à l'Étape 6, au retrait du
+  noindex, pour éviter des URLs signalées « bloquées par robots.txt » en attendant).
 - **27/07/2026 (Autoblog)** : Tranche 1 des drafts blog conseils écrite, 6 articles dans
   `content/drafts/` (`001-` à `006-`), sujets pris dans `docs/CALENDRIER-EDITORIAL.md` en
   commençant par juillet (orages d'été, 4 sujets) puis août (2 sujets), pas par janvier.
