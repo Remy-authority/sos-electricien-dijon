@@ -76,8 +76,12 @@ un numéro par site).
       empreintes uniques, aucune marque/texte/visage, direction artistique cohérente
       (prune/carmin), sujets tous différents et raccord avec les articles, cover du 1er
       article vérifiée en prod (200)
-- [ ] Autoblog (session future) : réapprovisionner les drafts au fil de l'eau
-      (calendrier éditorial : 42 sujets restants)
+- [x] VAGUE 2 complète (27/07/2026) : calendrier SEO 78 sujets audité (`a1cae83`), 15 drafts
+      texte Autoblog audités (`21169da`), 45 images Builder aux nouvelles specs 1200px/q75
+      auditées (`c0c37b8`, hash `4d0e2a4` annoncé par le Builder erroné). Réserve : 29 drafts,
+      jusqu'à mi-octobre. Circuit propre respecté : texte=Autoblog, images=Builder, audit+push=CEO.
+- [ ] Vagues 3 à 5 (48 articles restants, sujets 31 à 78) : même circuit, à lancer quand la
+      réserve descend sous ~3 semaines
 - [ ] Builder (dès achat du 09 par la surveillance Twilio) : injection du numéro réel +
       retrait de `phoneIsDemo` (message à coller fourni par le CEO à ce moment-là)
 - [ ] Numéro : le site affiche ENCORE le numéro fiction ARCEP (03 53 01 21 21, phoneIsDemo) ; surveillance d'achat automatique d'un 09 Twilio en cours (recherche CEO du 27/07 : les 09 ne sont PAS retirés du catalogue Twilio, stock intermittent). Dès achat : Builder injecte → re-déploiement.
