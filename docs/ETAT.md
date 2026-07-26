@@ -142,6 +142,19 @@ un numéro par site).
   LA VALIDATION RÉMY (avec valeurs DEMO : téléphone fiction ARCEP, persona, email). Message
   Autoblog T1 préparé. Prochaines étapes : drafts Autoblog, validation Rémy, injection des
   vraies valeurs (domaine validé AFNIC, 09, email, artisan), merge `main`, Étape 6.
+- **27/07/2026 (CEO, domaine + audit Autoblog)** : domaine `sos-electricien-dijon.fr` VALIDÉ
+  à l'AFNIC (acheté chez OVH). CEO : audit des 6 drafts Autoblog conforme (zéro tiret, zéro
+  chiffre inventé, tous les `relatedServices` valides, FAQ sans redite) et push du commit
+  `1625751` sur `builder/identite-dijon`. Domaine rattaché au projet Vercel par le CEO :
+  `www.sos-electricien-dijon.fr` en principal (= `canonicalBase` du site), apex en
+  redirection 308 vers www, les deux vérifiés côté Vercel. Reste côté Rémy : coller la zone
+  DNS chez OVH (A @ → 76.76.21.21, CNAME www → cname.vercel-dns.com, et redirection email
+  via ForwardEmail comme sur les 3 autres sites du portefeuille : MX mx1/mx2.forwardemail.net
+  + TXT `forward-email=contact:remy@remyzaoui.com`, zone fournie par le CEO). Demandes
+  Rémy transmises au Builder : logo à recolorer dans la palette du site (design conservé),
+  portrait persona DE FACE (40-50 ans, visage sympathique), prénom/nom à consonance
+  bourguignonne (persona toujours DEMO). Le verrou noindex reste actif : brancher le DNS
+  n'expose rien à l'indexation.
 - **27/07/2026 (Autoblog)** : Tranche 1 des drafts blog conseils écrite, 6 articles dans
   `content/drafts/` (`001-` à `006-`), sujets pris dans `docs/CALENDRIER-EDITORIAL.md` en
   commençant par juillet (orages d'été, 4 sujets) puis août (2 sujets), pas par janvier.

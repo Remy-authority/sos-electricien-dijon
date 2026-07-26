@@ -133,6 +133,37 @@ Metz non illustrés) : seul `cover` est renseigné, avec dégradation propre dé
 - [ ] Réapprovisionner le calendrier avant épuisement de la file (reste 42 sujets pour
       l'année 1 après cette tranche)
 
+## PASSE BUILDER n°3 demandée par Rémy le 27/07/2026 (logo + persona), 2 points
+
+1. **Logo : recolorer, design conservé.** Rémy valide le tracé de circuit mais le pavé
+   orange/cuivre du logo jure avec la DA prune/carmin. Le recolorer dans la palette du
+   site (logo.svg, favicon/icon.svg, composant Logo), cohérent sur fond clair ET sombre.
+2. **Portrait persona : DE FACE.** L'actuel montre l'homme de dos. Nouveau portrait :
+   homme de 40-50 ans, visage sympathique (pas forcément beau), de face ou trois quarts,
+   crédible artisan électricien, décor cohérent. Remplacer `public/persona.jpg` partout où
+   il apparaît. Bonus : renommer le persona DEMO avec un prénom/nom à consonance
+   bourguignonne (rester marqué DEMO). Vérifier la cohérence config/citation/légendes.
+
+**Fait par le Builder le 27/07/2026 :**
+
+- [x] 1. Logo recoloré dans la charte : pastille prune profond (`ink-800`), liseré carmin
+      (`accent-500`), piste crème, noeuds carmin. Design du tracé de circuit inchangé.
+      Répercuté sur les trois déclinaisons : `components/ui/Logo.tsx`, `app/icon.svg`
+      (favicon) et `public/logo.svg`. Plus aucune couleur cuivre dans la marque.
+      Lisibilité contrôlée sur les quatre fonds : header transparent au-dessus du hero
+      sombre, header solide clair, footer prune, mobile.
+- [x] 2. Nouveau portrait persona de face (homme d'environ 45 ans, veste d'artisan,
+      tableau électrique en arrière-plan, décor cohérent avec la série). Passe d'édition
+      supplémentaire pour retirer un badge de marque sur la veste et le texte des
+      étiquettes du tableau (règle « aucun texte ni logo lisible »).
+      Persona DEMO renommé **Vincent Bonnardot** (consonance bourguignonne), citation
+      ajustée à la première personne, `title` inchangé. L'alternative textuelle de
+      l'image est générée depuis le nom et la fonction : elle suit automatiquement.
+- [x] Vérifié : `tsc` propre, `npm run build` vert (40 pages), captures des écrans
+      concernés en desktop et mobile. Piège rencontré et contourné : le cache d'images
+      de Next servait encore l'ancien portrait (même nom de fichier), purge de
+      `.next/cache/images` nécessaire pour le contrôle visuel local.
+
 ## En attente de Rémy
 
 - Achat du domaine `sos-electricien-dijon.fr` (vérifié disponible le 26/07/2026)

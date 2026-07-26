@@ -2,9 +2,14 @@ import { siteConfig } from '@/config/site.config'
 
 /**
  * Identité visuelle du site : un tracé de circuit imprimé, une piste qui descend
- * puis repart en angle droit, ponctuée d'un noeud de connexion carmin. Le bloc
- * cuivre reste lisible sur le crème clair comme sur le prune sombre : un seul jeu
- * de couleurs pour tous les fonds.
+ * puis repart en angle droit, ponctuée de deux noeuds de connexion carmin.
+ *
+ * Couleurs alignées sur la direction artistique du site (décision Rémy 27/07/2026,
+ * le pavé cuivre jurait avec la charte prune/carmin) : pastille prune profond,
+ * liseré carmin, piste crème. Ce jeu tient sur les trois fonds où la marque
+ * apparaît : header transparent au-dessus du hero sombre, header solide clair,
+ * footer prune. Le liseré carmin est ce qui détache la pastille du fond sombre,
+ * la piste crème ce qui la détache du fond clair.
  *
  * Le pictogramme est en SVG, le nom en HTML : la typographie Fraunces du site
  * s'applique donc réellement au mot-symbole (pas de police système figée).
@@ -12,8 +17,16 @@ import { siteConfig } from '@/config/site.config'
 export function LogoMark({ className = 'h-11 w-11' }: { className?: string }) {
   return (
     <svg viewBox="0 0 48 48" className={className} aria-hidden="true" focusable="false">
-      <rect width="48" height="48" rx="14" className="fill-brand-600" />
-      {/* Piste principale : entrée à gauche, coude, sortie en haut à droite. */}
+      <rect
+        x="1"
+        y="1"
+        width="46"
+        height="46"
+        rx="13.2"
+        strokeWidth="2"
+        className="fill-ink-800 stroke-accent-500"
+      />
+      {/* Piste principale : entrée à gauche, coude, sortie en bas à droite. */}
       <path
         d="M11 15 H21 a4 4 0 0 1 4 4 V29 a4 4 0 0 0 4 4 H37"
         fill="none"

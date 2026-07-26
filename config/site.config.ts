@@ -138,15 +138,15 @@ export const siteConfig = {
 
   /* ── Persona artisan (DEMO, à remplacer par les infos du loueur) ── */
   persona: {
-    // DEMO – à remplacer par les infos du loueur
-    name: 'Damien Lachaux',
-    // DEMO – portrait généré, remplaçable par une photo réelle
+    // DEMO – nom à consonance bourguignonne, à remplacer par l'artisan réel
+    name: 'Vincent Bonnardot',
+    // DEMO – portrait généré (de face), remplaçable par une photo réelle
     photo: '/persona.jpg',
     // DEMO – à remplacer par les infos du loueur
     title: 'Responsable des interventions électriques',
     // DEMO – à remplacer par les infos du loueur
     quote:
-      "Une panne se cherche circuit par circuit, jamais au jugé. On coupe, on teste, on répare, et on ne remet sous tension qu'une fois la cause trouvée.",
+      "Je cherche toujours la panne circuit par circuit, jamais au jugé. On coupe, on teste, on répare, et on ne remet sous tension qu'une fois la cause trouvée.",
   },
 
   /* ── Bloc « à propos » ── */
