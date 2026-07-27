@@ -95,7 +95,18 @@ jamais une donnée non confirmée ; l'artisan locataire affichera la sienne s'il
     (silhouette intégrale, hors champ, main d'adulte). Règle absolue, arbitrée le
     27/07/2026 sur l'article « panne avec un enfant en bas âge ».
   - Personnes : cadrer DE DOS dès le prompt de génération (les modèles réintroduisent
-    des visages dès qu'une personne est en scène, défaut dominant constaté vagues 2-3).
+    des visages dès qu'une personne est en scène, défaut dominant constaté vagues 2-3),
+    et préciser « AUCUNE personne au second plan » (les figurants non demandés ramènent
+    des visages : open space, tablées, rues).
+  - **Crédibilité technique du matériel FRANÇAIS** : dès qu'une prise, fiche ou du
+    petit appareillage est le SUJET de l'image, préciser au prompt « prise de type
+    français, broche de terre au centre » (les modèles produisent par défaut du
+    matériel allemand sans broche, contresens visible par tout artisan : c'est le
+    genre de détail qui décrédibilise le site auprès d'un locataire potentiel).
+    Vaut pour tous les métiers du portefeuille : le matériel montré doit être celui
+    qu'on trouve réellement en France (tableaux, compteurs, robinetterie...).
+  - Personnes vulnérables (enfants, personnes âgées) : jamais identifiables ; mains,
+    silhouettes intégrales ou hors champ. La dignité prime sur la légende.
 
 ## 5. Étape 6 (mise en ligne réelle), déroulé CEO
 
