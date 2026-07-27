@@ -255,3 +255,17 @@ un numéro par site).
   service). Commit LOCAL sur `main`, PAS de push. En attente : audit CEO, puis Builder pour
   les 30 visuels correspondants. Réserve restante après cette vague : 33 sujets (positions
   46 à 78).
+- **27/07/2026 (Autoblog)** : Vague 4 du blog écrite, 15 drafts (`046-` à `060-`, sujets 46 à
+  60 de la section 3 du calendrier, ordre exact). `git pull` fait en début de session (déjà à
+  jour, HEAD `4e7208f`). Ce lot couvre la fin novembre et le début décembre : les 2 sujets de
+  fêtes (056 guirlandes de Noël, 059 décorations extérieures) assument Noël pleinement comme
+  demandé. Commit de contenu isolé (`git add content/drafts` uniquement, consigne CEO pour ne
+  pas interférer avec le travail parallèle du Builder dans `public/`) : hash exact `55b792d`.
+  Point corrigé en rédigeant : l'article 048 (personne âgée) mentionnait initialement
+  « hiver » alors qu'il est marqué intemporel dans le calendrier, reformulé en « températures
+  extrêmes » pour rester valable toute l'année. Auto-contrôles scriptés : zéro tiret cadratin,
+  2 images en corps partout, frontmatter YAML complet, `relatedServices` vérifiés contre les
+  8 slugs réels, ordre et service recoupés avec le calendrier, aucun doublon exact de question
+  FAQ sur 45 nouvelles questions comparées à 167 existantes. Commit LOCAL sur `main`, PAS de
+  push. En attente : audit CEO, puis Builder pour les 30 visuels correspondants. Réserve
+  restante après cette vague : 18 sujets (positions 61 à 78).

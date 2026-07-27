@@ -266,9 +266,56 @@ Auto-contrôles scriptés :
 
 Commit **local sur `main`, SANS push** (le CEO audite puis pousse lui-même).
 
-- [ ] Audit CEO du contenu (doctrine + qualité + diff réel du commit)
+- [x] Audit CEO du contenu (doctrine + qualité + diff réel du commit)
+- [x] Transmis au Builder pour production des visuels (30 images : 15 cover + 2×15 corps,
+      commit `1469ece`, règles images consolidées ensuite dans `4e7208f`)
+
+## Session du 27/07/2026 (Autoblog), VAGUE 4 du blog conseils, TEXTE UNIQUEMENT — TERMINÉE
+
+15 drafts écrits dans `content/drafts/` (`046-` à `060-`), sujets n°46 à n°60 de la section 3
+du calendrier, ordre exact respecté. `git pull` fait en début de session (déjà à jour avec
+`origin/main`, HEAD `4e7208f`) :
+
+- [x] `046-tableau-coupe-tout-premiers-froids-diagnostic.mdx` → `recherche-de-panne-electrique` (S)
+- [x] `047-locataire-proprietaire-qui-appelle-electricien-panne.mdx` → `urgence-depannage-electricien` (I)
+- [x] `048-panne-electrique-personne-agee-ne-pas-attendre.mdx` → `urgence-depannage-electricien` (I)
+- [x] `049-seche-serviette-panne-verifier-avant-appeler.mdx` → `recherche-de-panne-electrique` (S)
+- [x] `050-difference-electricien-urgence-travaux-planifies.mdx` → `urgence-depannage-electricien` (I)
+- [x] `051-bureaux-open-space-multiprises-tension-electrique.mdx` → `electricien-syndic-copropriete-professionnels` (I)
+- [x] `052-local-technique-chaufferie-immeuble-points-verifier.mdx` → `electricien-syndic-copropriete-professionnels` (I)
+- [x] `053-tableau-general-immeuble-panne-touche-tout-le-monde.mdx` → `electricien-syndic-copropriete-professionnels` (S)
+- [x] `054-prise-ne-tient-plus-fiche-signe-usure.mdx` → `remplacement-prises-interrupteurs-eclairage` (I)
+- [x] `055-interrupteur-variateur-lequel-choisir-piece-par-piece.mdx` → `remplacement-prises-interrupteurs-eclairage` (I)
+- [x] `056-guirlandes-illuminations-noel-branchements-disjoncter.mdx` → `disjoncteur-qui-saute` (S, Noël assumé)
+- [x] `057-prise-qui-chauffe-faut-il-inquieter.mdx` → `recherche-de-panne-electrique` (I)
+- [x] `058-odeur-fumee-panne-electrique-pompiers-electricien.mdx` → `urgence-depannage-electricien` (I)
+- [x] `059-decorations-lumineuses-exterieures-verifier-avant-brancher.mdx` → `remplacement-prises-interrupteurs-eclairage` (S, Noël assumé)
+- [x] `060-panne-electrique-preparation-repas-evenement-reagir.mdx` → `urgence-depannage-electricien` (I)
+
+Texte uniquement, aucune image générée. `git add content/drafts` UNIQUEMENT dans le commit
+de contenu (consigne CEO, travail en parallèle avec le Builder dans le même dossier) :
+`public/` jamais touché, ce journal committé séparément.
+
+Auto-contrôles scriptés :
+- `grep "—"` sur les 15 fichiers : zéro tiret cadratin.
+- `grep -c '!\['` : exactement 2 images en corps partout.
+- Frontmatter YAML validé par script (`gray-matter`) : 8 champs requis, `slug` cohérent,
+  `relatedServices` vérifiés contre les 8 slugs réels.
+- Ordre et service lié recoupés un par un avec la section 3 du calendrier : conformes.
+- FAQ : 45 nouvelles questions comparées par script à 167 questions existantes (drafts +
+  articles publiés + pages service) : aucun doublon exact.
+- Point corrigé en cours de rédaction : l'article 048 (personne âgée) mentionnait
+  initialement « hiver » alors qu'il est marqué intemporel (I) dans le calendrier ;
+  reformulé en « températures extrêmes » (froid et chaleur) pour rester valable toute
+  l'année, conformément à la consigne « intemporels sans marqueur de saison ».
+- Sujets Noël (056, 059) assument pleinement les fêtes, comme demandé.
+
+Commit **local sur `main`, SANS push** (le CEO audite puis pousse lui-même). Hash exact du
+commit de contenu : `55b792d` (`content(autoblog): vague 4 des drafts blog conseils`).
+
+- [ ] Audit CEO du contenu (doctrine + qualité + diff réel du commit `55b792d`)
 - [ ] Transmettre au Builder pour production des visuels (30 images : 15 cover + 2×15 corps)
-- [ ] Vague 4 à enchaîner (reste 33 sujets, positions 46-78) selon la décision Rémy de
+- [ ] Vague 5 à enchaîner (reste 18 sujets, positions 61-78) selon la décision Rémy de
       produire les 78 articles d'avance sans attendre
 
 ## En attente de Rémy
