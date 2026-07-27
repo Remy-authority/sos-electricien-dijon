@@ -87,6 +87,15 @@ jamais une donnée non confirmée ; l'artisan locataire affichera la sienne s'il
     dû être repris).
   - Décor régional : exigé seulement quand l'article l'évoque naturellement (comme le
     texte) ; un décor français crédible suffit ailleurs, ne pas sur-« dijoniser ».
+  - Une LÉGENDE ne doit jamais décrire un texte lisible à l'image (« étiquette marquée
+    X », « écran affichant Y ») : l'Autoblog formule ses appels d'image sans texte à
+    lire (porte-étiquette présent, affichage visible, sans contenu). Si ça arrive quand
+    même, le Builder rend le support présent mais illisible (étiquette vierge, reflet).
+  - ENFANTS : jamais identifiables à l'image, quel que soit ce que dit la légende
+    (silhouette intégrale, hors champ, main d'adulte). Règle absolue, arbitrée le
+    27/07/2026 sur l'article « panne avec un enfant en bas âge ».
+  - Personnes : cadrer DE DOS dès le prompt de génération (les modèles réintroduisent
+    des visages dès qu'une personne est en scène, défaut dominant constaté vagues 2-3).
 
 ## 5. Étape 6 (mise en ligne réelle), déroulé CEO
 
