@@ -269,3 +269,19 @@ un numéro par site).
   FAQ sur 45 nouvelles questions comparées à 167 existantes. Commit LOCAL sur `main`, PAS de
   push. En attente : audit CEO, puis Builder pour les 30 visuels correspondants. Réserve
   restante après cette vague : 18 sujets (positions 61 à 78).
+- **27/07/2026 (Autoblog)** : Vague 5 du blog écrite, DERNIÈRE vague, 18 drafts (`061-` à
+  `078-`, sujets 61 à 78 de la section 3 du calendrier, ordre exact). **Les 78 articles du
+  calendrier sont désormais intégralement rédigés** (11 publiés + 67 en drafts). `git pull`
+  fait en début de session (déjà à jour, HEAD `24f7068`). Dates estimées calculées sur la
+  cadence réelle lun/mer/ven depuis le 27/07/2026 : position 78 tombe le 22/01/2027, exactement
+  la fin de fenêtre annoncée par le calendrier, ce qui valide la méthode de calcul utilisée
+  sur les 5 vagues. Règle formelle du 4bis (légendes sans texte lisible décrit) appliquée avec
+  un balayage lexical dédié : 1 cas trouvé et corrigé (073, légendes de l'écran du compteur
+  communicant reformulées). Commit de contenu isolé (`git add content/drafts` uniquement) :
+  hash exact `a8c466d`. Auto-contrôles scriptés : zéro tiret cadratin, 2 images en corps
+  partout, frontmatter YAML complet, `relatedServices` vérifiés contre les 8 slugs réels,
+  aucun doublon exact de question FAQ sur 54 nouvelles questions comparées à 212 existantes
+  (compte exact annoncé par le CEO). Commit LOCAL sur `main`, PAS de push. En attente : audit
+  CEO, puis Builder pour les 36 derniers visuels (18 cover + 2×18 corps). Le portefeuille de
+  contenu du calendrier éditorial est complet ; seul un réapprovisionnement futur (au-delà de
+  janvier 2027) redonnera du travail de rédaction à l'Autoblog.

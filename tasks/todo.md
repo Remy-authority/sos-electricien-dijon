@@ -313,10 +313,63 @@ Auto-contrôles scriptés :
 Commit **local sur `main`, SANS push** (le CEO audite puis pousse lui-même). Hash exact du
 commit de contenu : `55b792d` (`content(autoblog): vague 4 des drafts blog conseils`).
 
-- [ ] Audit CEO du contenu (doctrine + qualité + diff réel du commit `55b792d`)
-- [ ] Transmettre au Builder pour production des visuels (30 images : 15 cover + 2×15 corps)
-- [ ] Vague 5 à enchaîner (reste 18 sujets, positions 61-78) selon la décision Rémy de
-      produire les 78 articles d'avance sans attendre
+- [x] Audit CEO du contenu (doctrine + qualité + diff réel du commit `55b792d`)
+- [x] Transmis au Builder pour production des visuels (30 images : 15 cover + 2×15 corps,
+      commit `feeb43b`, règles images enrichies ensuite dans `24f7068`)
+
+## Session du 27/07/2026 (Autoblog), VAGUE 5 du blog conseils, LA DERNIÈRE — TERMINÉE
+
+18 drafts écrits dans `content/drafts/` (`061-` à `078-`), sujets n°61 à n°78 de la section 3
+du calendrier, ordre exact respecté. **Les 78 articles du calendrier sont désormais tous
+rédigés** (11 publiés + 67 en drafts, préfixes `012-` à `078-`). `git pull` fait en début de
+session (déjà à jour, HEAD `24f7068`) :
+
+- [x] `061-eclairage-parties-communes-eteint-marche-suivre-syndic.mdx` → `electricien-syndic-copropriete-professionnels` (I)
+- [x] `062-restaurant-commerce-alimentaire-obligations-chambres-froides.mdx` → `electricien-syndic-copropriete-professionnels` (I)
+- [x] `063-multiprises-fetes-fin-annee-limite-ne-pas-depasser.mdx` → `panne-de-courant-coupure-electricite` (S)
+- [x] `064-norme-electrique-achat-maison-ancienne-campagne-dijon.mdx` → `mise-aux-normes-nfc15100` (I)
+- [x] `065-mise-aux-normes-partielle-totale-quoi-necessaire.mdx` → `mise-aux-normes-nfc15100` (I)
+- [x] `066-remplacer-prise-courant-prise-usb-integre.mdx` → `remplacement-prises-interrupteurs-eclairage` (I)
+- [x] `067-coupure-courant-repas-fete-marche-suivre-avant-appeler.mdx` → `panne-de-courant-coupure-electricite` (S)
+- [x] `068-disjoncteur-saute-demarrage-appareil-identifier-coupable.mdx` → `disjoncteur-qui-saute` (I)
+- [x] `069-disjoncteur-saute-allumage-radiateur-electrique.mdx` → `disjoncteur-qui-saute` (S)
+- [x] `070-multiprise-surchargee-risque-reel-geste-courant.mdx` → `panne-de-courant-coupure-electricite` (I)
+- [x] `071-coupure-courant-voisin-mais-pas-chez-moi.mdx` → `panne-de-courant-coupure-electricite` (I)
+- [x] `072-chauffage-appoint-tableau-erreurs-provoquent-coupure.mdx` → `panne-de-courant-coupure-electricite` (S)
+- [x] `073-compteur-linky-anomalie-panne-reelle-simple-message.mdx` → `panne-de-courant-coupure-electricite` (I)
+- [x] `074-disjoncteur-saute-plusieurs-appareils-meme-temps.mdx` → `disjoncteur-qui-saute` (I)
+- [x] `075-convecteur-ne-chauffe-plus-panne-electrique-ou-appareil.mdx` → `recherche-de-panne-electrique` (S)
+- [x] `076-tableau-electrique-deux-rangees-pourquoi-necessaire.mdx` → `renovation-tableau-electrique` (I)
+- [x] `077-logement-ancien-dijon-plusieurs-radiateurs-electriques.mdx` → `renovation-tableau-electrique` (S)
+- [x] `078-renovation-tableau-electrique-etre-present-intervention.mdx` → `renovation-tableau-electrique` (I)
+
+Texte uniquement. `git add content/drafts` UNIQUEMENT dans le commit de contenu (consigne
+CEO), `public/` jamais touché, ce journal committé séparément.
+
+Auto-contrôles scriptés :
+- Zéro tiret cadratin, 2 images en corps partout, frontmatter YAML complet (8 champs),
+  `slug` cohérent, `relatedServices` vérifiés contre les 8 slugs réels.
+- Ordre, titre, service et date estimée recoupés un par un avec la section 3 et la
+  section 1 (correspondance position → date) du calendrier : conformes. Dates calculées
+  sur la cadence réelle lun/mer/ven depuis le 27/07/2026 (position 78 = 22/01/2027,
+  coïncide exactement avec la fin de fenêtre indiquée par le calendrier).
+- FAQ : 54 nouvelles questions comparées par script à 212 questions existantes (le compte
+  exact annoncé par le CEO) : aucun doublon exact.
+- Règle formelle du 4bis (aucune légende ne décrit de texte lisible) : script de balayage
+  lexical (« affiche », « écran », « étiquette », « marqué »...) sur les 18 fichiers, 1 cas
+  trouvé et corrigé (073, légendes reformulées pour ne plus mentionner l'écran du compteur
+  communicant, sujet de l'article).
+- Sujets sensibles traités en générique/conditionnel, sécurité d'abord : 062 (chambre
+  froide, aucune obligation légale précise citée), 058 déjà en référence de ton pour 073
+  et 075 (diagnostic calme, pas de dramatisation).
+
+Commit **local sur `main`, SANS push**. Hash exact du commit de contenu : `a8c466d`
+(`content(autoblog): vague 5 des drafts blog conseils`).
+
+- [ ] Audit CEO du contenu (doctrine + qualité + diff réel du commit `a8c466d`)
+- [ ] Transmettre au Builder pour production des visuels (36 images : 18 cover + 2×18 corps)
+- [ ] Portefeuille de contenu du calendrier COMPLET : plus aucune vague de texte à prévoir
+      sauf réapprovisionnement futur du calendrier lui-même (au-delà de janvier 2027)
 
 ## En attente de Rémy
 
