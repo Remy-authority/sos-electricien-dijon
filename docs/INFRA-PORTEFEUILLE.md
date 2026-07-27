@@ -105,6 +105,9 @@ jamais une donnée non confirmée ; l'artisan locataire affichera la sienne s'il
     genre de détail qui décrédibilise le site auprès d'un locataire potentiel).
     Vaut pour tous les métiers du portefeuille : le matériel montré doit être celui
     qu'on trouve réellement en France (tableaux, compteurs, robinetterie...).
+    Objet le plus rétif constaté (vague 5 Dijon) : la MULTIPRISE, biais allemand
+    persistant même après régénération + retouche ciblée ; prévoir plusieurs
+    tentatives ou un cadrage qui masque les alvéoles libres.
   - Personnes vulnérables (enfants, personnes âgées) : jamais identifiables ; mains,
     silhouettes intégrales ou hors champ. La dignité prime sur la légende.
 

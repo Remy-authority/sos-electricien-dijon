@@ -5,25 +5,25 @@
 
 ---
 
-## 🔖🔖 POINT DE REPRISE ACTUEL (fin de session du 27/07/2026, PRIME sur tout le reste)
+## 🔖🔖 POINT DE REPRISE ACTUEL (fin de session CEO du 27/07/2026 soir, PRIME sur tout le reste)
 
-**LE SITE EST EN LIGNE ET INDEXABLE : https://www.sos-electricien-dijon.fr** (Étape 6 faite,
-sitemap soumis dans GSC, propriété GSC vérifiée, DNS + email ForwardEmail opérationnels).
+**LE SITE EST EN LIGNE, INDEXABLE ET COMPLET : https://www.sos-electricien-dijon.fr** (Étape 6
+faite, sitemap soumis dans GSC, DNS + email ForwardEmail opérationnels).
 
-**Blog : les 78 articles du calendrier sont TOUS rédigés.** 11 publiés le jour du lancement,
-67 en drafts (`012-` à `078-`), publication auto lun/mer/ven ~7h jusqu'au 22/01/2027.
-Images : vagues 1 à 4 faites (180 fichiers). **RESTE UNE SEULE PRODUCTION : les 54 images
-de la vague 5 (drafts 061 à 078)**, message Builder à fournir par le CEO (règles : section
-4bis de `docs/INFRA-PORTEFEUILLE.md`, lot hiver/fêtes janvier, staging public/conseils
-uniquement, commit local sans push, audit CEO avant push).
+**Numéro RÉEL en production : 09 48 19 40 23** (+33948194023, Twilio SID
+`PN2cee8ec00115f1f8fdaca4127c332c2f`, étiquette « SOS Electricien Dijon - NE PAS REATTRIBUER
+(rank&rent) »). Acheté le 27/07/2026 à 17h49 par la surveillance automatique du CEO (10 min
+après ré-armement), injecté par le Builder (commit `488e9a6`), vérifié en prod (tel: + affichage
++ mentions légales, zéro trace du fiction ARCEP). La surveillance Twilio est TERMINÉE, ne plus
+la ré-armer.
 
-**Numéro de téléphone : TOUJOURS le fiction ARCEP (03 53 01 21 21, phoneIsDemo).** Aucun 09
-en stock chez Twilio (les 09 ne sont PAS retirés du catalogue, stock intermittent, recette
-d'achat en section 3 de INFRA-PORTEFEUILLE). ⚠️ La surveillance d'achat automatique du CEO
-meurt avec chaque session : LA RE-ARMER en début de session (filtrer
-AvailablePhoneNumbers/FR/Local.json sur +339, achat auto avec le bundle National, étiquette
-« SOS Electricien Dijon - NE PAS REATTRIBUER (rank&rent) »). Dès achat : message Builder
-d'injection (config + retrait phoneIsDemo) puis redéploiement.
+**Blog TERMINÉ côté production : 78 articles rédigés, 234 images.** Publiés au fil du cron
+lun/mer/ven ~7h jusqu'au 22/01/2027 (drafts restants en file). Vague 5 des images (54 fichiers,
+commit `684abfb`) auditée et poussée. PLUS RIEN À PRODUIRE (texte comme images) avant le
+réapprovisionnement éditorial au-delà de janvier 2027.
+
+**Prochaine phase : exploitation** (suivi indexation GSC, trafic, puis démarchage de locataires).
+Points ouverts mineurs en section 2ter.
 
 Circuit des rôles STRICT (leçon majeure du 27/07) : texte articles = Autoblog (Sonnet),
 images = Builder (Opus), sujets/file = SEO, audit de CHAQUE commit + push = CEO. Toute
@@ -106,11 +106,26 @@ un numéro par site).
       texte Autoblog audités (`21169da`), 45 images Builder aux nouvelles specs 1200px/q75
       auditées (`c0c37b8`, hash `4d0e2a4` annoncé par le Builder erroné). Réserve : 29 drafts,
       jusqu'à mi-octobre. Circuit propre respecté : texte=Autoblog, images=Builder, audit+push=CEO.
-- [ ] Vagues 3 à 5 (48 articles restants, sujets 31 à 78) : même circuit, à lancer quand la
-      réserve descend sous ~3 semaines
-- [ ] Builder (dès achat du 09 par la surveillance Twilio) : injection du numéro réel +
-      retrait de `phoneIsDemo` (message à coller fourni par le CEO à ce moment-là)
-- [ ] Numéro : le site affiche ENCORE le numéro fiction ARCEP (03 53 01 21 21, phoneIsDemo) ; surveillance d'achat automatique d'un 09 Twilio en cours (recherche CEO du 27/07 : les 09 ne sont PAS retirés du catalogue Twilio, stock intermittent). Dès achat : Builder injecte → re-déploiement.
+- [x] Vagues 3 à 5 : FAIT, les 78 articles sont rédigés et toutes les images produites
+      (vague 5 : 54 images, commit `684abfb`, auditées et poussées le 27/07/2026)
+- [x] Builder : injection du numéro réel 09 48 19 40 23 + `phoneIsDemo: false`
+      (commit `488e9a6`, audité, poussé, vérifié en production le 27/07/2026)
+- [x] Numéro : 09 dédié ACHETÉ le 27/07/2026 (surveillance automatique CEO, 09 48 19 40 23,
+      bundle National, étiquette anti-réattribution) et EN LIGNE. Dossier numéro clos.
+
+## 2ter. POINTS OUVERTS MINEURS (relevés à l'audit CEO du 27/07 soir)
+
+- **Multiprises 063-1 et 070-1** : alvéoles libres encore partiellement de type allemand
+  malgré 2 passes Builder (biais fort du modèle sur cet objet précis ; les prises murales
+  sont toutes françaises, la 070-2 clé de l'article est parfaitement française). Jugé NON
+  bloquant par le CEO à la taille d'affichage ; Rémy peut demander une reprise.
+- **Commentaires DEMO obsolètes** (invisibles pour le visiteur) : `site.config.ts` marque
+  encore l'email « DEMO – domaine pas encore acheté » et `legal.json` dit que la boîte n'est
+  pas ouverte, alors que `contact@sos-electricien-dijon.fr` fonctionne déjà via la
+  redirection ForwardEmail du DNS. À nettoyer à la prochaine passe Builder.
+- **`phoneIsDemo` ne pilote RIEN à l'écran** (constat Builder) : simple marqueur documentaire,
+  aucun garde-fou visuel n'a jamais existé pour un numéro fictif. À construire sur les sites
+  N+1 si on en veut un (à ajouter au playbook au prochain lancement).
 
 ## 2bis. POINTS OUVERTS POUR RÉMY (relevés par le Builder)
 
@@ -311,3 +326,18 @@ un numéro par site).
   CEO, puis Builder pour les 36 derniers visuels (18 cover + 2×18 corps). Le portefeuille de
   contenu du calendrier éditorial est complet ; seul un réapprovisionnement futur (au-delà de
   janvier 2027) redonnera du travail de rédaction à l'Autoblog.
+- **27/07/2026 (CEO, soir : 09 + vague 5, clôture de la production)** : surveillance Twilio
+  ré-armée à 17h39 (boucle de fond, contrôle 5 min), 09 trouvé et ACHETÉ automatiquement à
+  17h49 : **09 48 19 40 23**, bundle National, étiquette anti-réattribution. Deux livraisons
+  Builder auditées sur diff réel puis poussées : `684abfb` (54 images vague 5 : 54/54
+  fichiers strictement alignés sur les chemins référencés par les drafts 061-078, tous en
+  1200x669 q75, zéro doublon sur les 234 images du blog, contrôle visuel CEO des 9 images à
+  risque : compteur 073 sans marque ni afficheur lisible, Schneider effacé sur 076-1,
+  personnes de dos sur 067/077/078, matériel français conforme sauf réserve multiprises,
+  voir 2ter) et `488e9a6` (numéro réel : diff limité aux 2 fichiers attendus, grep fiction
+  = zéro dans le code produit). Build local vert vérifié par le CEO avant push. Production
+  vérifiée après redéploiement : tel:+33948194023 et 09 48 19 40 23 servis (accueil +
+  mentions légales), image vague 5 en 200. Incident de méthode consigné dans lessons.md :
+  une retouche intermédiaire du Builder avait RÉINTRODUIT une marque Schneider sur 076-1
+  (rattrapée par son propre re-contrôle). Constat Builder : `phoneIsDemo` n'a jamais rien
+  piloté à l'écran (voir 2ter). LA PRODUCTION DU SITE EST TERMINÉE : place à l'exploitation.
