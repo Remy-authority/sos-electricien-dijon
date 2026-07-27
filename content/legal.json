@@ -1,5 +1,5 @@
 {
-  "_comment": "Mentions légales. Éditeur = société propriétaire du site (DYONISOS LTD, droit UK), données réelles fournies par Rémy. L'éditeur du site n'est PAS le prestataire des interventions : les infos de l'artisan (assurance RC pro / décennale, qualification électricien) seront ajoutées à la location. Ne jamais inventer de valeurs. Hébergeur (Vercel) pré-rempli. emailContact et telephone sont en DEMO tant que Rémy n'a pas fourni la ligne dédiée du site.",
+  "_comment": "Mentions légales. Éditeur = société propriétaire du site (DYONISOS LTD, droit UK), données réelles fournies par Rémy. L'éditeur du site n'est PAS le prestataire des interventions : les infos de l'artisan (assurance RC pro / décennale, qualification électricien) seront ajoutées à la location. Ne jamais inventer de valeurs. Hébergeur (Vercel) pré-rempli. telephone est la ligne dédiée réelle du site ; emailContact reste en DEMO tant que la boîte n'est pas ouverte.",
   "editeur": {
     "raisonSociale": "DYONISOS LTD",
     "formeJuridique": "Private Limited Company (société à responsabilité limitée de droit anglais)",
@@ -8,7 +8,7 @@
     "adresse": "67 Eastover Road, High Littleton, Bristol, BS39 6HZ, Royaume-Uni",
     "directeurPublication": "Remy Zaoui",
     "emailContact": "contact@sos-electricien-dijon.fr",
-    "telephone": "03 53 01 21 21"
+    "telephone": "09 48 19 40 23"
   },
   "assurance": {
     "assureur": "",

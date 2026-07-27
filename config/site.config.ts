@@ -30,11 +30,9 @@ export const siteConfig = {
   department: '21',
 
   /* ── Contact ── */
-  // DEMO – numéro de la plage ARCEP réservée à la fiction (03 53 01 XX XX,
-  // zone Bourgogne). À remplacer par le 09 dédié dès que Rémy l'a ouvert.
-  phone: '+33353012121',
-  phoneDisplay: '03 53 01 21 21',
-  phoneIsDemo: true,
+  phone: '+33948194023',
+  phoneDisplay: '09 48 19 40 23',
+  phoneIsDemo: false,
   // DEMO – domaine pas encore acheté.
   email: 'contact@sos-electricien-dijon.fr',
 
