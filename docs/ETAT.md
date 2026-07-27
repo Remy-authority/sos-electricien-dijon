@@ -5,7 +5,33 @@
 
 ---
 
-## 🔖 POINT DE REPRISE (état exact au 26/07/2026 — à lire en premier)
+## 🔖🔖 POINT DE REPRISE ACTUEL (fin de session du 27/07/2026, PRIME sur tout le reste)
+
+**LE SITE EST EN LIGNE ET INDEXABLE : https://www.sos-electricien-dijon.fr** (Étape 6 faite,
+sitemap soumis dans GSC, propriété GSC vérifiée, DNS + email ForwardEmail opérationnels).
+
+**Blog : les 78 articles du calendrier sont TOUS rédigés.** 11 publiés le jour du lancement,
+67 en drafts (`012-` à `078-`), publication auto lun/mer/ven ~7h jusqu'au 22/01/2027.
+Images : vagues 1 à 4 faites (180 fichiers). **RESTE UNE SEULE PRODUCTION : les 54 images
+de la vague 5 (drafts 061 à 078)**, message Builder à fournir par le CEO (règles : section
+4bis de `docs/INFRA-PORTEFEUILLE.md`, lot hiver/fêtes janvier, staging public/conseils
+uniquement, commit local sans push, audit CEO avant push).
+
+**Numéro de téléphone : TOUJOURS le fiction ARCEP (03 53 01 21 21, phoneIsDemo).** Aucun 09
+en stock chez Twilio (les 09 ne sont PAS retirés du catalogue, stock intermittent, recette
+d'achat en section 3 de INFRA-PORTEFEUILLE). ⚠️ La surveillance d'achat automatique du CEO
+meurt avec chaque session : LA RE-ARMER en début de session (filtrer
+AvailablePhoneNumbers/FR/Local.json sur +339, achat auto avec le bundle National, étiquette
+« SOS Electricien Dijon - NE PAS REATTRIBUER (rank&rent) »). Dès achat : message Builder
+d'injection (config + retrait phoneIsDemo) puis redéploiement.
+
+Circuit des rôles STRICT (leçon majeure du 27/07) : texte articles = Autoblog (Sonnet),
+images = Builder (Opus), sujets/file = SEO, audit de CHAQUE commit + push = CEO. Toute
+tâche agent = message prêt à coller fourni à Rémy, jamais de « file d'attente » interne.
+
+---
+
+## 🔖 POINT DE REPRISE INITIAL (26/07/2026, contexte de création, périmé sur l'état)
 
 **Site n°4 du portefeuille** (métier : électricien d'urgence, ville : Dijon, 21). Rien n'est en
 ligne : dossier créé par duplication de **`sos-debouchage-metz.fr`** (site n°3, validé par Rémy),
