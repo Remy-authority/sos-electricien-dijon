@@ -1,0 +1,6 @@
+{
+  "_role": "Ancrage visuel du site, lu par scripts/generate-article-images.mjs. Il fixe l'identite des images generees a la publication des articles. Deux sites du portefeuille ne doivent JAMAIS partager le meme ancrage (regle anti-footprint, docs/RECETTE-VISUELS-ARTICLES.md).",
+  "contexte": "Dijon et la Cote-d'Or, France : toits de tuiles vernissees bourguignonnes, pierre calcaire doree, maisons a pans de bois",
+  "metier": "electricite generale et depannage electrique",
+  "ambiance": "photographie contrastee, palette prune et cuivre, appareillages et mesures nets, jamais de geste dangereux"
+}
