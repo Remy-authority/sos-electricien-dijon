@@ -30,8 +30,8 @@ export const siteConfig = {
   department: '21',
 
   /* ── Contact ── */
-  phone: '+33948194023',
-  phoneDisplay: '09 48 19 40 23',
+  phone: '+33353010021',
+  phoneDisplay: '03 53 01 00 21',
   phoneIsDemo: false,
   // DEMO – domaine pas encore acheté.
   email: 'contact@sos-electricien-dijon.fr',
