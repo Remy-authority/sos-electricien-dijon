@@ -1,5 +1,10 @@
 # ETAT.md — Journal de bord SOS Électricien Dijon
 
+## 17/09/2026 : numéro 09 Twilio posé
+- Faux numéro d'attente 03 53 01 00 21 retiré, remplacé partout par le vrai numéro 09 48 19 40 23 (décision Rémy, site avec clics).
+- Ce numéro sonne sur le téléphone de Rémy via le renvoi Twilio déjà en service.
+- Commit : 1aea8d9
+
 > Mémoire du projet. Chaque session lit ce fichier en arrivant et le met à jour avant de finir.
 > Dernière mise à jour : 2026-07-27 (session SEO, plan mots-clés + calendrier éditorial).
 
