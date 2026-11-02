@@ -17,7 +17,7 @@ import { Faq } from '@/components/ui/Faq'
 import { CtaBanner } from '@/components/ui/CtaBanner'
 
 const TITLE = `Électricien à ${siteConfig.city}, dépannage et urgence 7j/7`
-const DESC = `Électricien à ${siteConfig.city} et dans la métropole : dépannage en urgence, disjoncteur qui saute, recherche de panne, tableau électrique, mise aux normes. Prix annoncé avant intervention.`
+const DESC = `Électricien à ${siteConfig.city} et dans la métropole : dépannage, coupure de courant, disjoncteur qui saute, tableau, mise aux normes. Prix annoncé avant intervention.`
 
 export const metadata: Metadata = buildMetadata({ title: TITLE, description: DESC, path: '/' })
 

@@ -63,9 +63,9 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.1, ease: EASE }}
             className="mt-7 text-[clamp(2.5rem,5.6vw,4.75rem)] leading-[1.06] text-sand-50"
           >
-            Panne électrique
+            Électricien
             <br />à {siteConfig.city},
-            <span className="text-gradient-accent"> réglée à la source.</span>
+            <span className="text-gradient-accent"> panne réglée à la source.</span>
           </motion.h1>
 
           <motion.p
