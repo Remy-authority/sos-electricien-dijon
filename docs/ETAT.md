@@ -1,5 +1,14 @@
 # ETAT.md — Journal de bord SOS Électricien Dijon
 
+## 02/11/2026 : articles à 7 par semaine (#R82, demandé par Rémy)
+- 91 brouillons relus, un par jour du 03/11/2026 au 31/01/2027, sujets de travaux en premier (Elec Energies ne prend que les travaux), aucun article de ville, aucun prix.
+- Publication quotidienne (`.github/workflows`, 05 h 31 UTC) ; `scripts/verifier-brouillon.mjs` refuse un brouillon hors limites (title 30-60, description 120-160). 53 titres d'articles publiés réécrits ; 1 doublon redirigé en 301.
+- Relecture à froid : 12 affirmations recorrigées sur leur source (Promotelec, DCL 27/11/2015, garanties, BOFiP).
+- Style d'images : aucune personne, tableau électrique décrit en anglais (7 essais sur la couverture parafoudre).
+- Commits : f984691, 21c02be (robot : 94d6fa7). Rank OS : e04a246 (7/semaine, fin de réserve 31/01/2027, tâche A7 cochée).
+- Contrôles au commit 21c02be : audit-visuels-articles CODE 0 ; check-footprint CODE 1 ECHEC, 104 titres et descriptions des pages de communes (antérieurs, articles à 0 copie) ; check-fin-de-site CODE 1, 5 défauts antérieurs hors périmètre (accueil 308, Resend jamais testé, IndexNow, description 177 caractères et H1 de l'accueil).
+- À décider par Rémy : réécrire les titres des pages de communes (pages indexées, garde-fous #R68).
+
 ## 17/09/2026 : numéro 09 Twilio posé
 - Faux numéro d'attente 03 53 01 00 21 retiré, remplacé partout par le vrai numéro 09 48 19 40 23 (décision Rémy, site avec clics).
 - Ce numéro sonne sur le téléphone de Rémy via le renvoi Twilio déjà en service.
