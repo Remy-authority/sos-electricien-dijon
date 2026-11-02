@@ -7,7 +7,7 @@
 - Style d'images : aucune personne, tableau électrique décrit en anglais (7 essais sur la couverture parafoudre).
 - Commits : f984691, 21c02be (robot : 94d6fa7). Rank OS : e04a246 (7/semaine, fin de réserve 31/01/2027, tâche A7 cochée).
 - Contrôles au commit 21c02be : audit-visuels-articles CODE 0 ; check-footprint CODE 1 ECHEC, 104 titres et descriptions des pages de communes (antérieurs, articles à 0 copie) ; check-fin-de-site CODE 1, 5 défauts antérieurs hors périmètre (accueil 308, Resend jamais testé, IndexNow, description 177 caractères et H1 de l'accueil).
-- À décider par Rémy : réécrire les titres des pages de communes (pages indexées, garde-fous #R68).
+- 03/11 (GO Rémy « Fais au mieux ») : titres et descriptions des 15 pages de communes réécrits (6025f70), recherches Search Console gardées (électricien Longvic, Quetigny, Saint-Apollinaire, Talant) ; titre de la rénovation de tableau changé, trop proche de la recherche de panne (6d614c9) ; 18 phrases d'articles trop proches d'Annecy réécrites (6673dad). check-footprint CODE 0 « OK : aucun copier-coller ni paraphrase proche détectés » au commit 6673dad. Pages déjà indexées : rien ajouté aux tâches d'indexation (#R47). Rank OS 242116f.
 
 ## 17/09/2026 : numéro 09 Twilio posé
 - Faux numéro d'attente 03 53 01 00 21 retiré, remplacé partout par le vrai numéro 09 48 19 40 23 (décision Rémy, site avec clics).
