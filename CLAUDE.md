@@ -97,3 +97,8 @@
   `lib/`, `content/`, `config/`) → ça part au Builder.
 - **Builder** : code (design + intégration). Reçoit des consignes précises du CEO.
 - **SEO** (plus tard) : contenu et optimisation, dans le respect de la doctrine SEO ci-dessus.
+
+## REQUÊTE D'ARGENT (mesurée le 02/11/2026, Planificateur de mots-clés Google, France)
+
+- Requête d'argent : « électricien dijon »
+  260 recherches/mois (format lu par `../tasks/check-fin-de-site.py`).

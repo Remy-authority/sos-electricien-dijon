@@ -1,7 +1,7 @@
 /**
  * publish-next-draft.mjs — publie le plus ancien article en attente.
  *
- * Appelé par .github/workflows/publish-article.yml (lun/mer/ven).
+ * Appelé par .github/workflows/publish-article.yml (chaque jour, 7 articles par semaine, Rémy 02/11/2026).
  * Logique :
  *  1. Liste content/drafts/*.mdx, tri alphabétique (préfixes 001-, 002-… => le plus petit d'abord).
  *  2. Si vide : log un avertissement clair et sort en succès (exit 0), sans rien publier.
@@ -12,6 +12,7 @@
  *
  * Ne fait AUCUN commit/push : c'est le workflow qui s'en charge (traçabilité + secrets).
  */
+import { verifierBrouillon } from './verifier-brouillon.mjs'
 import fs from 'node:fs'
 import path from 'node:path'
 
@@ -43,7 +44,16 @@ if (drafts.length === 0) {
   process.exit(0)
 }
 
-const draftFile = drafts[0]
+const draftFile = drafts.find((f) => {
+  const defauts = verifierBrouillon(fs.readFileSync(path.join(DRAFTS, f), 'utf8'))
+  if (defauts.length) console.error(`::error::${f} refusé : ${defauts.join(' ; ')}`)
+  return defauts.length === 0
+})
+if (!draftFile) {
+  console.error('::error::Aucun brouillon conforme dans content/drafts/. Publication annulée.')
+  setOutput('published', 'false')
+  process.exit(1)
+}
 const draftBase = draftFile.replace(/\.mdx$/, '')
 const targetFile = draftFile.replace(/^\d+[-_]/, '') // retire le préfixe 001- / 002_
 const srcPath = path.join(DRAFTS, draftFile)

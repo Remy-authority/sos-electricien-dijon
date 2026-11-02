@@ -74,6 +74,8 @@ export interface Zone {
 export interface Article {
   slug: string
   title: string
+  /** Title servi dans <title> s'il est présent (30 à 60 caractères) ; le H1 garde `title`. */
+  seoTitle?: string
   description: string
   date: string
   category: string
@@ -161,6 +163,7 @@ export function getArticles(): Article[] {
       return {
         slug: (data.slug as string) || f.replace(/\.mdx$/, ''),
         title: (data.title as string) || '',
+        seoTitle: (data.seoTitle as string) || undefined,
         description: (data.description as string) || '',
         date: (data.date as string) || '1970-01-01',
         category: (data.category as string) || 'Conseils',
