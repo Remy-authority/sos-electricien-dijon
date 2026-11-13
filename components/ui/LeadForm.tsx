@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import {
   ArrowLeft,
@@ -74,6 +74,10 @@ const stepVariants = {
 
 export function LeadForm() {
   const [step, setStep] = useState<Step>(1)
+  // Étape atteinte, comptée par `SuiviVisite` (Rémy 13/11/2026 : savoir à quelle étape on abandonne).
+  useEffect(() => {
+    if (step > 1) window.dispatchEvent(new CustomEvent('rr-etape', { detail: step }))
+  }, [step])
   const [fields, setFields] = useState<Fields>({
     probleme: '',
     ville: '',
@@ -106,6 +110,7 @@ export function LeadForm() {
 
   return (
     <div
+      data-clic-formulaire
       className="noise-overlay relative overflow-hidden rounded-panel border border-brand-400/20 bg-gradient-to-br from-ink-900 to-ink-950 p-6 md:p-9"
       role="region"
       aria-label="Formulaire de demande"
